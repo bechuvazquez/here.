@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.demand.title">here. | Demand</title>
+    <meta
+      data-i18n-attr="content:meta.demand.description"
+      name="description"
+      content="Work where people are. here. helps freelancers and remote workers choose where to work today based on who is there."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brandmark" href="./index.html" aria-label="here. home">here.</a>
+      <div class="header-actions">
+        <div class="language-switcher" aria-label="Language switcher">
+          <button type="button" class="lang-button" data-lang="en">EN</button>
+          <button type="button" class="lang-button" data-lang="es">ES</button>
+        </div>
+        <nav class="site-nav">
+        <a href="./demand.html" aria-current="page" data-i18n="nav.demand">Demand</a>
+        <a href="./supply.html" data-i18n="nav.supply">Supply</a>
+        <a href="./enterprise.html" data-i18n="nav.enterprise">Enterprise</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero hero-demand">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="demand.hero.eyebrow">Demand landing page</p>
+          <h1 data-i18n="demand.hero.title">Work where people are.</h1>
+          <p class="hero-text" data-i18n="demand.hero.text">
+            here. helps freelancers and remote workers decide where to work
+            today based on who is already there. No more random coworkings. No
+            more forced networking. Just the right people, in the right place,
+            at the right time.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-solid" href="#waitlist" data-i18n="demand.hero.ctaPrimary">Join the waitlist</a>
+            <a class="button button-ghost" href="#how-it-works" data-i18n="demand.hero.ctaSecondary">See how it works</a>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="presence-card">
+            <div class="presence-top">
+              <span>08:42</span>
+              <span>Madrid</span>
+            </div>
+            <div class="presence-brand">here.</div>
+            <p class="presence-question" data-i18n="demand.card.title">Where should I work today?</p>
+            <ul class="presence-list">
+              <li>
+                <span class="presence-place" data-i18n="demand.card.placeOne">Lavapiés</span>
+                <span class="presence-meta" data-i18n="demand.card.metaOne">6 people here now</span>
+              </li>
+              <li>
+                <span class="presence-place" data-i18n="demand.card.placeTwo">Malasaña</span>
+                <span class="presence-meta" data-i18n="demand.card.metaTwo">4 designers + 2 builders</span>
+              </li>
+              <li>
+                <span class="presence-place" data-i18n="demand.card.placeThree">Salamanca</span>
+                <span class="presence-meta" data-i18n="demand.card.metaThree">Quiet room, strong focus energy</span>
+              </li>
+            </ul>
+            <p class="presence-foot" data-i18n="demand.card.foot">
+              Choose a place for the people, not just the desk.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="statement-strip reveal">
+        <p data-i18n="demand.statement.one">Stop picking your day blindly.</p>
+        <p data-i18n="demand.statement.two">Start choosing it with context.</p>
+      </section>
+
+      <section class="content-grid" id="problem">
+        <div class="section-intro reveal">
+          <p class="eyebrow" data-i18n="demand.why.eyebrow">Why people join</p>
+          <h2 data-i18n="demand.why.title">A better workday starts with the right room.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-index">01</span>
+            <h3 data-i18n="demand.why.one.title">See real presence before you leave home</h3>
+            <p data-i18n="demand.why.one.text">
+              Open the app and instantly understand where the energy is, who is
+              around, and which place feels worth your time.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index">02</span>
+            <h3 data-i18n="demand.why.two.title">Work near people you actually relate to</h3>
+            <p data-i18n="demand.why.two.text">
+              Choose spaces because relevant people are there, not because the
+              desk is technically available.
+            </p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-index">03</span>
+            <h3 data-i18n="demand.why.three.title">Make solo days less frequent</h3>
+            <p data-i18n="demand.why.three.text">
+              Build a rhythm around focus, energy, and ambient community instead
+              of defaulting to isolation.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="how-it-works">
+        <div class="split-copy reveal">
+          <p class="eyebrow" data-i18n="demand.product.eyebrow">The product</p>
+          <h2 data-i18n="demand.product.title">The daily habit for people who do not want to work alone.</h2>
+          <ol class="steps">
+            <li data-i18n="demand.product.stepOne">Open here. before you start.</li>
+            <li data-i18n="demand.product.stepTwo">See who is working and where.</li>
+            <li data-i18n="demand.product.stepThree">Choose the place that fits your people and your mood.</li>
+          </ol>
+        </div>
+        <div class="split-visual reveal">
+          <div class="quote-card">
+            <p class="quote-text" data-i18n="demand.product.quote">
+              “Decide where to work today based on who’s there.”
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <div class="section-intro reveal">
+          <p class="eyebrow" data-i18n="demand.benefits.eyebrow">What you get</p>
+          <h2 data-i18n="demand.benefits.title">Everything good about working with others, without the forced part.</h2>
+        </div>
+        <div class="benefit-stack">
+          <article class="benefit-row reveal">
+            <h3 data-i18n="demand.benefits.one.title">No more working alone</h3>
+            <p data-i18n="demand.benefits.one.text">
+              Ambient community without the pressure of formal networking.
+            </p>
+          </article>
+          <article class="benefit-row reveal">
+            <h3 data-i18n="demand.benefits.two.title">Better focus and energy</h3>
+            <p data-i18n="demand.benefits.two.text">
+              Shared momentum changes how the day feels and how much you get
+              done.
+            </p>
+          </article>
+          <article class="benefit-row reveal">
+            <h3 data-i18n="demand.benefits.three.title">Relevant people around you</h3>
+            <p data-i18n="demand.benefits.three.text">
+              Designers, builders, creators, and independent professionals in a
+              context that already makes sense.
+            </p>
+          </article>
+          <article class="benefit-row reveal">
+            <h3 data-i18n="demand.benefits.four.title">Serendipity without randomness</h3>
+            <p data-i18n="demand.benefits.four.text">
+              Better conversations happen when the environment is right and the
+              timing is natural.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="audience-band reveal">
+        <p class="eyebrow" data-i18n="demand.audience.eyebrow">Initial audience</p>
+        <div class="audience-tags">
+          <span>Product</span>
+          <span>Design</span>
+          <span>Tech</span>
+          <span>Marketing</span>
+          <span>Content</span>
+          <span>Creators</span>
+        </div>
+      </section>
+
+      <section class="waitlist-section" id="waitlist">
+        <div class="waitlist-copy reveal">
+          <p class="eyebrow" data-i18n="demand.waitlist.eyebrow">Join early</p>
+          <h2 data-i18n="demand.waitlist.title">Find your people, every day.</h2>
+          <p data-i18n="demand.waitlist.text">
+            Join the first group of users shaping a more social, more relevant,
+            more intentional way to work.
+          </p>
+        </div>
+        <form class="waitlist-form reveal">
+          <label>
+            <span data-i18n="demand.form.emailLabel">Email</span>
+            <input type="email" placeholder="name@email.com" />
+          </label>
+          <label>
+            <span data-i18n="demand.form.roleLabel">What best describes you?</span>
+            <select>
+              <option data-i18n="demand.form.roleOne">Designer</option>
+              <option data-i18n="demand.form.roleTwo">Builder</option>
+              <option data-i18n="demand.form.roleThree">Marketer</option>
+              <option data-i18n="demand.form.roleFour">Creator</option>
+              <option data-i18n="demand.form.roleFive">Other independent professional</option>
+            </select>
+          </label>
+          <button class="button button-solid" type="submit" data-i18n="demand.form.button">
+            Request access
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
