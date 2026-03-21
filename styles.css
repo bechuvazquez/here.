@@ -3,6 +3,8 @@
   --paper: #ffffff;
   --ink: #050505;
   --muted: #6b6b6b;
+  --signal: #1d8f63;
+  --warm: #bc7e41;
   --line: rgba(5, 5, 5, 0.12);
   --line-strong: rgba(5, 5, 5, 0.24);
   --shadow: 0 20px 60px rgba(5, 5, 5, 0.08);
@@ -267,6 +269,11 @@ strong {
   font-weight: 800;
 }
 
+.metric-row strong,
+.price-cards article strong {
+  color: var(--signal);
+}
+
 .presence-meta,
 .metrics-note {
   color: var(--muted);
@@ -418,6 +425,10 @@ strong {
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
   letter-spacing: -0.06em;
+}
+
+.price-cards article {
+  border-color: rgba(29, 143, 99, 0.18);
 }
 
 .price-cards article span {
