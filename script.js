@@ -702,7 +702,9 @@ const setupLanguageSwitcher = () => {
 
 const setupOpeningSound = () => {
   const audio = new Audio("./opening-sound.mp3");
+  const clipDurationMs = 1000;
   let hasPlayed = false;
+  let stopTimer = null;
 
   audio.preload = "auto";
   audio.volume = 0.32;
@@ -711,6 +713,20 @@ const setupOpeningSound = () => {
     window.removeEventListener("pointerdown", handleFirstInteraction);
     window.removeEventListener("keydown", handleFirstInteraction);
     window.removeEventListener("touchstart", handleFirstInteraction);
+  };
+
+  const stopClip = () => {
+    audio.pause();
+    audio.currentTime = 0;
+    stopTimer = null;
+  };
+
+  const scheduleStop = () => {
+    if (stopTimer !== null) {
+      window.clearTimeout(stopTimer);
+    }
+
+    stopTimer = window.setTimeout(stopClip, clipDurationMs);
   };
 
   const playSound = () => {
@@ -725,7 +741,16 @@ const setupOpeningSound = () => {
     if (playAttempt && typeof playAttempt.catch === "function") {
       playAttempt.catch(() => {
         hasPlayed = false;
+        if (stopTimer !== null) {
+          window.clearTimeout(stopTimer);
+          stopTimer = null;
+        }
       });
+      playAttempt.then(() => {
+        scheduleStop();
+      });
+    } else {
+      scheduleStop();
     }
   };
 
@@ -739,10 +764,10 @@ const setupOpeningSound = () => {
     initialAttempt
       .then(() => {
         hasPlayed = true;
+        scheduleStop();
       })
       .catch(() => {
-        audio.pause();
-        audio.currentTime = 0;
+        stopClip();
         window.addEventListener("pointerdown", handleFirstInteraction, {
           once: true,
         });
