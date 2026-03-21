@@ -110,7 +110,7 @@ const translations = {
     "demand.hero.subOne": "Access great coworkings.",
     "demand.hero.subTwo": "Know who's there.",
     "demand.hero.subThree": "Choose better.",
-    "demand.hero.ctaPrimary": "Move between coworkings. Find your people.",
+    "demand.hero.ctaPrimary": "Join waitlist",
     "demand.hero.ctaSecondary": "Your office is the city. Choose better.",
     "demand.card.title": "Spaces near you",
     "demand.card.today": "Today",
@@ -161,6 +161,7 @@ const translations = {
     "demand.solution.three.text":
       "Make the decision based on people, not just on space.",
     "demand.how.eyebrow": "How it works",
+    "demand.how.title": "How it works",
     "demand.how.one.title": "See who's working",
     "demand.how.one.text":
       "Check real-time activity at spaces near you.",
@@ -171,6 +172,7 @@ const translations = {
     "demand.how.three.text":
       "Walk in and start working with your people.",
     "demand.social.eyebrow": "What people say",
+    "demand.social.title": "What people say",
     "demand.social.one.quote":
       "“I went because I knew who was there. Best work day in months.”",
     "demand.social.one.meta": "Alex M. · Product Designer",
@@ -428,7 +430,7 @@ const translations = {
     "demand.hero.subOne": "Accede a great coworkings.",
     "demand.hero.subTwo": "Sabe quién está allí.",
     "demand.hero.subThree": "Elige mejor.",
-    "demand.hero.ctaPrimary": "Muévete entre coworkings. Encuentra a tu gente.",
+    "demand.hero.ctaPrimary": "Únete a la lista",
     "demand.hero.ctaSecondary": "Tu oficina es la ciudad. Elige mejor.",
     "demand.card.title": "Espacios cerca de ti",
     "demand.card.today": "Hoy",
@@ -479,6 +481,7 @@ const translations = {
     "demand.solution.three.text":
       "Toma la decisión por las personas, no solo por el espacio.",
     "demand.how.eyebrow": "Cómo funciona",
+    "demand.how.title": "Cómo funciona",
     "demand.how.one.title": "Mira quién trabaja",
     "demand.how.one.text":
       "Consulta la actividad en tiempo real en espacios cerca de ti.",
@@ -489,6 +492,7 @@ const translations = {
     "demand.how.three.text":
       "Llega y ponte a trabajar con tu gente.",
     "demand.social.eyebrow": "Lo que dice la gente",
+    "demand.social.title": "Lo que dice la gente",
     "demand.social.one.quote":
       "“Fui porque sabía quién estaba allí. El mejor día de trabajo en meses.”",
     "demand.social.one.meta": "Alex M. · Product Designer",
