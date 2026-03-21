@@ -18,15 +18,15 @@ document.querySelectorAll(".reveal").forEach((element) => {
 
 const translations = {
   en: {
-    "nav.demand": "Demand",
+    "nav.demand": "Workers",
     "nav.supply": "Supply",
     "nav.enterprise": "Enterprise",
     "meta.index.title": "here. | Coordinate Presence",
     "meta.index.description":
       "here. is the people-first coordination layer that turns flexible work into repeatable, high-density in-person sessions.",
-    "meta.demand.title": "here. | Demand",
+    "meta.demand.title": "here. | Workers",
     "meta.demand.description":
-      "here. helps independent professionals join repeatable high-density work sessions through scheduled presence and lightweight RSVP.",
+      "here. shows workers who is at each coworking so they can choose where to go based on people, not guesswork.",
     "meta.supply.title": "here. | Supply",
     "meta.supply.description":
       "here. partners with workspace venues to turn flexible supply into recurring, high-density sessions with lightweight commitments.",
@@ -91,7 +91,7 @@ const translations = {
       "Watch attendees per session, repeat rate, and RSVP-to-arrival.",
     "index.split.eyebrow": "Audience paths",
     "index.split.title": "Three entry points into the same coordination engine.",
-    "index.split.demand.label": "Demand",
+    "index.split.demand.label": "Workers",
     "index.split.demand.title": "Sell repeatable work sessions",
     "index.split.demand.text":
       "For independent professionals who want to stop choosing workdays blindly.",
@@ -103,77 +103,93 @@ const translations = {
     "index.split.enterprise.title": "Sell sponsored presence",
     "index.split.enterprise.text":
       "For companies that want visibility inside high-signal role communities.",
-    "demand.hero.eyebrow": "Demand landing page",
-    "demand.hero.title": "See who's Here. Join them.",
+    "demand.hero.eyebrow": "Workers page",
+    "demand.hero.title": "Work from different coworkings — with the right people.",
     "demand.hero.text":
-      "here. helps independent professionals stop choosing a workspace blindly. Join weekly Here Sessions, commit to a room, and work around the right people in the same place, same time.",
-    "demand.hero.ctaPrimary": "Join the waitlist",
-    "demand.hero.ctaSecondary": "See how it works",
-    "demand.card.title": "This week's sessions",
-    "demand.card.placeOne": "Lavapiés",
-    "demand.card.metaOne": "Thursday product session · 6 RSVPs",
-    "demand.card.placeTwo": "Malasaña",
-    "demand.card.metaTwo": "Design + builder drop-in · host confirmed",
-    "demand.card.placeThree": "Tomorrow",
-    "demand.card.metaThree": "Commitment list opens at 18:00",
-    "demand.card.foot": "Commit first. Show up. Repeat.",
-    "demand.statement.one": "Don't work alone.",
-    "demand.statement.two": "Be Here.",
-    "demand.why.eyebrow": "Why it works",
-    "demand.why.title": "Density gets better when commitment comes before real time.",
-    "demand.why.one.title": "See who plans to show up",
-    "demand.why.one.text":
-      "Start with scheduled presence and RSVP so every session has intent before it has noise.",
-    "demand.why.two.title": "Join role-based cohorts",
-    "demand.why.two.text":
-      "Launch around one community at a time and create relevance before scale.",
-    "demand.why.three.title": "Return to recurring rituals",
-    "demand.why.three.text":
-      "Weekly sessions, hosts, and familiar rooms turn flexible work into habit.",
-    "demand.product.eyebrow": "MVP flow",
-    "demand.product.title":
-      "Commitment-first product, real-world payoff.",
-    "demand.product.stepOne": "Pick a Here Session or create your planned presence.",
-    "demand.product.stepTwo": "RSVP to the room, time, and people that fit.",
-    "demand.product.stepThree":
-      "Arrive, work, and help the session reach critical mass.",
-    "demand.product.quote":
-      "“Work isn't about where. It's about who.”",
-    "demand.benefits.eyebrow": "What users get",
-    "demand.benefits.title":
-      "Repeatable high-signal work sessions instead of random solo days.",
-    "demand.benefits.one.title": "A higher chance the room actually feels alive",
-    "demand.benefits.one.text":
-      "RSVP and hosting make attendance feel more reliable from the start.",
-    "demand.benefits.two.title": "Better focus through role-relevant density",
-    "demand.benefits.two.text":
-      "The room gets better when the cohort already makes sense.",
-    "demand.benefits.three.title": "Low-friction connection without event energy",
-    "demand.benefits.three.text":
-      "Sessions are built around real work, not performative networking.",
-    "demand.benefits.four.title": "A weekly ritual worth repeating",
-    "demand.benefits.four.text":
-      "The goal is not one good day. It is consistent sessions every week.",
-    "demand.audience.eyebrow": "First wedge",
-    "demand.audience.tagOne": "Product",
-    "demand.audience.tagTwo": "Design",
-    "demand.audience.tagThree": "Tech",
-    "demand.audience.tagFour": "Marketing",
-    "demand.audience.tagFive": "Content",
-    "demand.audience.tagSix": "Creators",
+      "See who's working, where and move freely.",
+    "demand.hero.subOne": "Access great coworkings.",
+    "demand.hero.subTwo": "Know who's there.",
+    "demand.hero.subThree": "Choose better.",
+    "demand.hero.ctaPrimary": "Move between coworkings. Find your people.",
+    "demand.hero.ctaSecondary": "Your office is the city. Choose better.",
+    "demand.card.title": "Spaces near you",
+    "demand.card.today": "Today",
+    "demand.card.placeOne": "The Workshop",
+    "demand.card.metaOne": "Kreuzberg",
+    "demand.card.countOne": "7",
+    "demand.card.tagOne": "5 designers",
+    "demand.card.tagTwo": "2 developers",
+    "demand.card.placeTwo": "Cafe Desk",
+    "demand.card.metaTwo": "Mitte",
+    "demand.card.countTwo": "1",
+    "demand.card.tagThree": "1 person",
+    "demand.card.placeThree": "CoBase",
+    "demand.card.metaThree": "Friedrichshain",
+    "demand.card.countThree": "3",
+    "demand.card.tagFour": "3 marketers",
+    "demand.flex.eyebrow": "A better default",
+    "demand.flex.title": "Stop going to the same place every day",
+    "demand.flex.oldLabel": "You don't need",
+    "demand.flex.oldOne": "one coworking",
+    "demand.flex.oldTwo": "one routine",
+    "demand.flex.newLabel": "You need",
+    "demand.flex.newOne": "flexibility",
+    "demand.flex.newTwo": "variety",
+    "demand.flex.newThree": "the right people",
+    "demand.flex.foot": "Here gives you all three.",
+    "demand.problem.eyebrow": "Product narrative",
+    "demand.problem.title": "From habit to intentional choice.",
+    "demand.problem.oldLabel": "Without Here",
+    "demand.problem.one.title": "you pick a coworking",
+    "demand.problem.two.title": "you hope it's good",
+    "demand.problem.newLabel": "With Here",
+    "demand.problem.newOne": "you see where interesting people are",
+    "demand.problem.newTwo": "you choose",
+    "demand.problem.newThree": "you go",
+    "demand.problem.foot": "Big shift: from habit to intentional choice.",
+    "demand.insight.one": "Your office is the city.",
+    "demand.insight.two": "Choose better.",
+    "demand.solution.eyebrow": "The solution",
+    "demand.solution.title": "With Here you can:",
+    "demand.solution.one.title": "See who's working in each space",
+    "demand.solution.one.text":
+      "Real-time visibility into who is checked in at coworkings near you.",
+    "demand.solution.two.title": "Find people doing similar work",
+    "demand.solution.two.text":
+      "Look for designers, developers, creators, and freelancers before you decide.",
+    "demand.solution.three.title": "Choose where to go based on that",
+    "demand.solution.three.text":
+      "Make the decision based on people, not just on space.",
+    "demand.how.eyebrow": "How it works",
+    "demand.how.one.title": "See who's working",
+    "demand.how.one.text":
+      "Check real-time activity at spaces near you.",
+    "demand.how.two.title": "Choose where to go",
+    "demand.how.two.text":
+      "Pick the space with the right people today.",
+    "demand.how.three.title": "Show up",
+    "demand.how.three.text":
+      "Walk in and start working with your people.",
+    "demand.social.eyebrow": "What people say",
+    "demand.social.one.quote":
+      "“I went because I knew who was there. Best work day in months.”",
+    "demand.social.one.meta": "Alex M. · Product Designer",
+    "demand.social.two.quote":
+      "“Completely different energy from a normal coworking day.”",
+    "demand.social.two.meta": "Sara K. · Frontend Developer",
     "demand.waitlist.eyebrow": "Join early",
-    "demand.waitlist.title": "Join the first role cohort.",
+    "demand.waitlist.title": "Different place. Better people. Better day.",
     "demand.waitlist.text":
-      "We are starting with small high-signal communities and recurring sessions in Madrid.",
+      "Work from anywhere. Not with anyone.",
     "demand.form.emailLabel": "Email",
-    "demand.form.roleLabel": "What best describes you?",
+    "demand.form.roleLabel": "What best describes your work?",
     "demand.form.roleOne": "Designer",
-    "demand.form.roleTwo": "Builder",
-    "demand.form.roleThree": "Marketer",
-    "demand.form.roleFour": "Creator",
-    "demand.form.roleFive": "Other independent professional",
+    "demand.form.roleTwo": "Developer",
+    "demand.form.roleThree": "Creator",
+    "demand.form.roleFour": "Remote worker",
+    "demand.form.roleFive": "Freelancer",
     "demand.form.emailPlaceholder": "name@email.com",
-    "demand.form.button": "Request an invite",
+    "demand.form.button": "Join the waitlist",
     "supply.hero.eyebrow": "Supply landing page",
     "supply.hero.title": "Turn flexible space into repeatable density.",
     "supply.hero.text":
@@ -320,15 +336,15 @@ const translations = {
     "enterprise.form.button": "Talk to us",
   },
   es: {
-    "nav.demand": "Demanda",
+    "nav.demand": "Workers",
     "nav.supply": "Oferta",
     "nav.enterprise": "Enterprise",
     "meta.index.title": "here. | Coordina presencia",
     "meta.index.description":
       "here. es la capa de coordinación centrada en personas que convierte el trabajo flexible en sesiones presenciales repetibles y densas.",
-    "meta.demand.title": "here. | Demanda",
+    "meta.demand.title": "here. | Workers",
     "meta.demand.description":
-      "here. ayuda a profesionales independientes a sumarse a sesiones de trabajo repetibles y de alta densidad mediante presencia programada y RSVP ligero.",
+      "here. muestra a los workers quién está en cada coworking para que puedan decidir adónde ir según las personas, no a ciegas.",
     "meta.supply.title": "here. | Oferta",
     "meta.supply.description":
       "here. se asocia con venues y coworkings para convertir oferta flexible en sesiones recurrentes de alta densidad con compromisos ligeros.",
@@ -393,7 +409,7 @@ const translations = {
       "Observa asistentes por sesión, repetición y conversión de RSVP a llegada.",
     "index.split.eyebrow": "Entradas por audiencia",
     "index.split.title": "Tres puertas de entrada al mismo motor de coordinación.",
-    "index.split.demand.label": "Demanda",
+    "index.split.demand.label": "Workers",
     "index.split.demand.title": "Vender sesiones de trabajo repetibles",
     "index.split.demand.text":
       "Para profesionales independientes que quieren dejar de elegir sus días a ciegas.",
@@ -405,76 +421,93 @@ const translations = {
     "index.split.enterprise.title": "Vender presencia patrocinada",
     "index.split.enterprise.text":
       "Para empresas que quieren visibilidad dentro de comunidades de rol de alta señal.",
-    "demand.hero.eyebrow": "Landing de demanda",
-    "demand.hero.title": "Mira quién está Here. Súmate.",
+    "demand.hero.eyebrow": "Página Workers",
+    "demand.hero.title": "Trabaja desde distintos coworkings, con la gente correcta.",
     "demand.hero.text":
-      "here. ayuda a profesionales independientes a dejar de elegir workspace a ciegas. Súmate a Here Sessions semanales, comprométete con una sala y trabaja con la gente correcta en el mismo lugar y al mismo tiempo.",
-    "demand.hero.ctaPrimary": "Únete a la lista",
-    "demand.hero.ctaSecondary": "Ver cómo funciona",
-    "demand.card.title": "Sesiones de esta semana",
-    "demand.card.placeOne": "Lavapiés",
-    "demand.card.metaOne": "Sesión de producto del jueves · 6 RSVPs",
-    "demand.card.placeTwo": "Malasaña",
-    "demand.card.metaTwo": "Drop-in de diseño + builders · host confirmado",
-    "demand.card.placeThree": "Mañana",
-    "demand.card.metaThree": "La lista de compromisos abre a las 18:00",
-    "demand.card.foot": "Comprométete primero. Aparece. Repite.",
-    "demand.statement.one": "No trabajes sola.",
-    "demand.statement.two": "Be Here.",
-    "demand.why.eyebrow": "Por qué funciona",
-    "demand.why.title": "La densidad mejora cuando el compromiso llega antes que el tiempo real.",
-    "demand.why.one.title": "Ve quién planea aparecer",
-    "demand.why.one.text":
-      "Empieza con presencia programada y RSVP para que cada sesión tenga intención antes que ruido.",
-    "demand.why.two.title": "Únete a cohortes por rol",
-    "demand.why.two.text":
-      "Lanza una comunidad a la vez y crea relevancia antes que escala.",
-    "demand.why.three.title": "Vuelve a rituales recurrentes",
-    "demand.why.three.text":
-      "Sesiones semanales, hosts y rooms familiares convierten trabajo flexible en hábito.",
-    "demand.product.eyebrow": "Flujo MVP",
-    "demand.product.title":
-      "Producto commitment-first, payoff real en el mundo físico.",
-    "demand.product.stepOne": "Elige una Here Session o crea tu presencia planificada.",
-    "demand.product.stepTwo": "Haz RSVP al room, el horario y la gente que encajan.",
-    "demand.product.stepThree": "Llega, trabaja y ayuda a que la sesión alcance masa crítica.",
-    "demand.product.quote":
-      "“El trabajo no va de dónde. Va de quién.”",
-    "demand.benefits.eyebrow": "Lo que ganas",
-    "demand.benefits.title":
-      "Sesiones de trabajo de alta señal y repetibles en lugar de días solitarios al azar.",
-    "demand.benefits.one.title": "Más probabilidad de que la sala realmente se sienta viva",
-    "demand.benefits.one.text":
-      "El RSVP y los hosts hacen que la asistencia se sienta más fiable desde el principio.",
-    "demand.benefits.two.title": "Mejor foco gracias a densidad relevante por rol",
-    "demand.benefits.two.text":
-      "La sala mejora cuando la cohorte ya tiene sentido.",
-    "demand.benefits.three.title": "Conexión low-friction sin energía de evento",
-    "demand.benefits.three.text":
-      "Las sesiones están construidas alrededor de trabajo real, no networking performativo.",
-    "demand.benefits.four.title": "Un ritual semanal que merece repetirse",
-    "demand.benefits.four.text":
-      "La meta no es un buen día aislado. Es consistencia semanal.",
-    "demand.audience.eyebrow": "Primera cuña",
-    "demand.audience.tagOne": "Producto",
-    "demand.audience.tagTwo": "Diseño",
-    "demand.audience.tagThree": "Tech",
-    "demand.audience.tagFour": "Marketing",
-    "demand.audience.tagFive": "Contenido",
-    "demand.audience.tagSix": "Creators",
+      "Mira quién está trabajando, dónde, y muévete con libertad.",
+    "demand.hero.subOne": "Accede a great coworkings.",
+    "demand.hero.subTwo": "Sabe quién está allí.",
+    "demand.hero.subThree": "Elige mejor.",
+    "demand.hero.ctaPrimary": "Muévete entre coworkings. Encuentra a tu gente.",
+    "demand.hero.ctaSecondary": "Tu oficina es la ciudad. Elige mejor.",
+    "demand.card.title": "Espacios cerca de ti",
+    "demand.card.today": "Hoy",
+    "demand.card.placeOne": "The Workshop",
+    "demand.card.metaOne": "Kreuzberg",
+    "demand.card.countOne": "7",
+    "demand.card.tagOne": "5 diseñadores",
+    "demand.card.tagTwo": "2 developers",
+    "demand.card.placeTwo": "Cafe Desk",
+    "demand.card.metaTwo": "Mitte",
+    "demand.card.countTwo": "1",
+    "demand.card.tagThree": "1 persona",
+    "demand.card.placeThree": "CoBase",
+    "demand.card.metaThree": "Friedrichshain",
+    "demand.card.countThree": "3",
+    "demand.card.tagFour": "3 marketers",
+    "demand.flex.eyebrow": "Un mejor default",
+    "demand.flex.title": "Deja de ir al mismo sitio todos los días",
+    "demand.flex.oldLabel": "No necesitas",
+    "demand.flex.oldOne": "un coworking",
+    "demand.flex.oldTwo": "una rutina",
+    "demand.flex.newLabel": "Necesitas",
+    "demand.flex.newOne": "flexibilidad",
+    "demand.flex.newTwo": "variedad",
+    "demand.flex.newThree": "la gente correcta",
+    "demand.flex.foot": "Here te da las tres.",
+    "demand.problem.eyebrow": "Narrativa de producto",
+    "demand.problem.title": "Del hábito a una elección intencional.",
+    "demand.problem.oldLabel": "Sin Here",
+    "demand.problem.one.title": "eliges un coworking",
+    "demand.problem.two.title": "esperas que esté bien",
+    "demand.problem.newLabel": "Con Here",
+    "demand.problem.newOne": "ves dónde está la gente interesante",
+    "demand.problem.newTwo": "eliges",
+    "demand.problem.newThree": "vas",
+    "demand.problem.foot": "Gran cambio: del hábito a la elección intencional.",
+    "demand.insight.one": "Tu oficina es la ciudad.",
+    "demand.insight.two": "Elige mejor.",
+    "demand.solution.eyebrow": "La solución",
+    "demand.solution.title": "Con Here puedes:",
+    "demand.solution.one.title": "Ver quién está trabajando en cada espacio",
+    "demand.solution.one.text":
+      "Visibilidad en tiempo real de quién está en coworkings cerca de ti.",
+    "demand.solution.two.title": "Encontrar gente que hace un trabajo parecido",
+    "demand.solution.two.text":
+      "Busca diseñadores, developers, creators y freelancers antes de decidir.",
+    "demand.solution.three.title": "Elegir adónde ir en función de eso",
+    "demand.solution.three.text":
+      "Toma la decisión por las personas, no solo por el espacio.",
+    "demand.how.eyebrow": "Cómo funciona",
+    "demand.how.one.title": "Mira quién trabaja",
+    "demand.how.one.text":
+      "Consulta la actividad en tiempo real en espacios cerca de ti.",
+    "demand.how.two.title": "Elige adónde ir",
+    "demand.how.two.text":
+      "Escoge el espacio con la gente correcta para hoy.",
+    "demand.how.three.title": "Aparece",
+    "demand.how.three.text":
+      "Llega y ponte a trabajar con tu gente.",
+    "demand.social.eyebrow": "Lo que dice la gente",
+    "demand.social.one.quote":
+      "“Fui porque sabía quién estaba allí. El mejor día de trabajo en meses.”",
+    "demand.social.one.meta": "Alex M. · Product Designer",
+    "demand.social.two.quote":
+      "“Una energía completamente distinta a un día normal de coworking.”",
+    "demand.social.two.meta": "Sara K. · Frontend Developer",
     "demand.waitlist.eyebrow": "Únete pronto",
-    "demand.waitlist.title": "Únete a la primera cohorte por rol.",
+    "demand.waitlist.title": "Sitio distinto. Mejor gente. Mejor día.",
     "demand.waitlist.text":
-      "Empezamos con comunidades pequeñas, de alta señal, y sesiones recurrentes en Madrid.",
+      "Trabaja desde cualquier lugar. No con cualquiera.",
     "demand.form.emailLabel": "Email",
-    "demand.form.roleLabel": "¿Qué te describe mejor?",
+    "demand.form.roleLabel": "¿Qué describe mejor tu trabajo?",
     "demand.form.roleOne": "Diseñador/a",
-    "demand.form.roleTwo": "Builder",
-    "demand.form.roleThree": "Marketer",
-    "demand.form.roleFour": "Creator",
-    "demand.form.roleFive": "Otro profesional independiente",
+    "demand.form.roleTwo": "Developer",
+    "demand.form.roleThree": "Creator",
+    "demand.form.roleFour": "Remote worker",
+    "demand.form.roleFive": "Freelancer",
     "demand.form.emailPlaceholder": "nombre@email.com",
-    "demand.form.button": "Solicitar invitación",
+    "demand.form.button": "Únete a la lista",
     "supply.hero.eyebrow": "Landing de oferta",
     "supply.hero.title": "Convierte espacio flexible en densidad repetible.",
     "supply.hero.text":
@@ -661,53 +694,81 @@ const setupLanguageSwitcher = () => {
   });
 };
 
-const playIndexSound = () => {
-  if (!document.body.classList.contains("index-page")) {
-    return;
+const setupOpeningSound = () => {
+  const audio = new Audio("./opening-sound.mp3");
+  let hasPlayed = false;
+
+  audio.preload = "auto";
+  audio.volume = 0.32;
+
+  const detachListeners = () => {
+    window.removeEventListener("pointerdown", handleFirstInteraction);
+    window.removeEventListener("keydown", handleFirstInteraction);
+    window.removeEventListener("touchstart", handleFirstInteraction);
+  };
+
+  const playSound = () => {
+    if (hasPlayed) {
+      return;
+    }
+
+    hasPlayed = true;
+    audio.currentTime = 0;
+
+    const playAttempt = audio.play();
+    if (playAttempt && typeof playAttempt.catch === "function") {
+      playAttempt.catch(() => {
+        hasPlayed = false;
+      });
+    }
+  };
+
+  const handleFirstInteraction = () => {
+    detachListeners();
+    playSound();
+  };
+
+  const initialAttempt = audio.play();
+  if (initialAttempt && typeof initialAttempt.then === "function") {
+    initialAttempt
+      .then(() => {
+        hasPlayed = true;
+      })
+      .catch(() => {
+        audio.pause();
+        audio.currentTime = 0;
+        window.addEventListener("pointerdown", handleFirstInteraction, {
+          once: true,
+        });
+        window.addEventListener("keydown", handleFirstInteraction, {
+          once: true,
+        });
+        window.addEventListener("touchstart", handleFirstInteraction, {
+          once: true,
+        });
+      });
+  } else {
+    window.addEventListener("pointerdown", handleFirstInteraction, {
+      once: true,
+    });
+    window.addEventListener("keydown", handleFirstInteraction, {
+      once: true,
+    });
+    window.addEventListener("touchstart", handleFirstInteraction, {
+      once: true,
+    });
   }
-
-  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-  if (!AudioContextClass) {
-    return;
-  }
-
-  const context = new AudioContextClass();
-  const now = context.currentTime;
-
-  const master = context.createGain();
-  master.gain.setValueAtTime(0.0001, now);
-  master.gain.exponentialRampToValueAtTime(0.18, now + 0.03);
-  master.gain.exponentialRampToValueAtTime(0.0001, now + 0.55);
-  master.connect(context.destination);
-
-  const oscA = context.createOscillator();
-  oscA.type = "triangle";
-  oscA.frequency.setValueAtTime(392, now);
-  oscA.frequency.exponentialRampToValueAtTime(523.25, now + 0.22);
-
-  const oscB = context.createOscillator();
-  oscB.type = "sine";
-  oscB.frequency.setValueAtTime(523.25, now + 0.08);
-  oscB.frequency.exponentialRampToValueAtTime(659.25, now + 0.3);
-
-  oscA.connect(master);
-  oscB.connect(master);
-
-  oscA.start(now);
-  oscB.start(now + 0.08);
-  oscA.stop(now + 0.55);
-  oscB.stop(now + 0.55);
 };
 
 if (document.readyState === "complete") {
   setupLanguageSwitcher();
-  playIndexSound();
+  setupOpeningSound();
 } else {
   window.addEventListener(
     "load",
     () => {
       setupLanguageSwitcher();
-      playIndexSound();
+      setupOpeningSound();
     },
     { once: true }
   );

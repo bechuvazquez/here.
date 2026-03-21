@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="meta.demand.title">here. | Demand</title>
+    <title data-i18n="meta.demand.title">here. | Workers</title>
     <meta
       data-i18n-attr="content:meta.demand.description"
       name="description"
-      content="here. helps independent professionals join repeatable high-density work sessions through scheduled presence and lightweight RSVP."
+      content="here. shows workers who is at each coworking so they can choose where to go based on people, not guesswork."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./script.js"></script>
   </head>
-  <body>
+  <body class="demand-workers-page">
     <div class="page-noise" aria-hidden="true"></div>
     <header class="site-header">
       <a class="brandmark" href="./index.html" aria-label="here. home">here.</a>
@@ -28,7 +28,7 @@
           <button type="button" class="lang-button" data-lang="es">ES</button>
         </div>
         <nav class="site-nav">
-        <a href="./demand.html" aria-current="page" data-i18n="nav.demand">Demand</a>
+        <a href="./demand.html" aria-current="page" data-i18n="nav.demand">Workers</a>
         <a href="./supply.html" data-i18n="nav.supply">Supply</a>
         <a href="./enterprise.html" data-i18n="nav.enterprise">Enterprise</a>
         </nav>
@@ -36,176 +36,266 @@
     </header>
 
     <main>
-      <section class="hero hero-demand">
+      <section class="hero hero-demand hero-demand-workers">
         <div class="hero-copy reveal">
-          <p class="eyebrow" data-i18n="demand.hero.eyebrow">Demand landing page</p>
-          <h1 data-i18n="demand.hero.title">See who&apos;s Here. Join them.</h1>
+          <p class="eyebrow" data-i18n="demand.hero.eyebrow">Workers page</p>
+          <h1 data-i18n="demand.hero.title">Work from different coworkings — with the right people.</h1>
           <p class="hero-text" data-i18n="demand.hero.text">
-            here. helps independent professionals stop choosing a workspace
-            blindly. Join weekly Here Sessions, commit to a room, and work
-            around the right people in the same place, same time.
+            See who&apos;s working, where and move freely.
           </p>
+          <div class="demand-hero-sub reveal">
+            <span data-i18n="demand.hero.subOne">Access great coworkings.</span>
+            <span data-i18n="demand.hero.subTwo">Know who&apos;s there.</span>
+            <span data-i18n="demand.hero.subThree">Choose better.</span>
+          </div>
           <div class="hero-actions">
-            <a class="button button-solid" href="#waitlist" data-i18n="demand.hero.ctaPrimary">Join the waitlist</a>
-            <a class="button button-ghost" href="#how-it-works" data-i18n="demand.hero.ctaSecondary">See how it works</a>
+            <a class="button button-solid" href="#waitlist" data-i18n="demand.hero.ctaPrimary">Move between coworkings. Find your people.</a>
+            <a class="button button-ghost" href="#city-office" data-i18n="demand.hero.ctaSecondary">Your office is the city. Choose better.</a>
           </div>
         </div>
 
-        <div class="hero-panel reveal">
-          <div class="presence-card">
-            <div class="presence-top">
-              <span>08:42</span>
-              <span>Madrid</span>
+        <div class="hero-panel reveal demand-mock-shell">
+          <div class="lg:pl-8">
+            <div class="w-full max-w-md mx-auto">
+              <div class="rounded-xl border border-border bg-card overflow-hidden shadow-sm demand-hero-browser">
+                <div class="px-5 py-4 border-b border-border">
+                  <div class="flex items-center justify-between">
+                    <span class="text-sm font-semibold text-foreground tracking-tight" data-i18n="demand.card.title">Spaces near you</span>
+                    <span class="text-xs text-muted-foreground" data-i18n="demand.card.today">Today</span>
+                  </div>
+                </div>
+                <div class="divide-y divide-border">
+                  <div class="px-5 py-4 transition-colors bg-accent/50">
+                    <div class="flex items-start justify-between mb-2.5">
+                      <div>
+                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeOne">The Workshop</h4>
+                        <div class="flex items-center gap-1 mt-0.5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaOne">Kreuzberg</span>
+                        </div>
+                      </div>
+                      <div class="flex items-center gap-1 text-muted-foreground">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        <span class="text-xs font-medium" data-i18n="demand.card.countOne">7</span>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-1 mb-2">
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">AL</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">MK</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">JR</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">TS</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">NP</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">CF</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">LW</div>
+                    </div>
+                    <div class="flex gap-1.5 flex-wrap">
+                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagOne">5 designers</span>
+                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagTwo">2 developers</span>
+                    </div>
+                  </div>
+                  <div class="px-5 py-4 transition-colors">
+                    <div class="flex items-start justify-between mb-2.5">
+                      <div>
+                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeTwo">Café Desk</h4>
+                        <div class="flex items-center gap-1 mt-0.5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaTwo">Mitte</span>
+                        </div>
+                      </div>
+                      <div class="flex items-center gap-1 text-muted-foreground">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        <span class="text-xs font-medium" data-i18n="demand.card.countTwo">1</span>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-1 mb-2">
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">RB</div>
+                    </div>
+                    <div class="flex gap-1.5 flex-wrap">
+                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagThree">1 person</span>
+                    </div>
+                  </div>
+                  <div class="px-5 py-4 transition-colors">
+                    <div class="flex items-start justify-between mb-2.5">
+                      <div>
+                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeThree">CoBase</h4>
+                        <div class="flex items-center gap-1 mt-0.5">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaThree">Friedrichshain</span>
+                        </div>
+                      </div>
+                      <div class="flex items-center gap-1 text-muted-foreground">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        <span class="text-xs font-medium" data-i18n="demand.card.countThree">3</span>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-1 mb-2">
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">HJ</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">OD</div>
+                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">KS</div>
+                    </div>
+                    <div class="flex gap-1.5 flex-wrap">
+                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagFour">3 marketers</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="presence-brand">here.</div>
-            <p class="presence-question" data-i18n="demand.card.title">This week&apos;s sessions</p>
-            <ul class="presence-list">
-              <li>
-                <span class="presence-place" data-i18n="demand.card.placeOne">Lavapiés</span>
-                <span class="presence-meta" data-i18n="demand.card.metaOne">Thursday product session · 6 RSVPs</span>
-              </li>
-              <li>
-                <span class="presence-place" data-i18n="demand.card.placeTwo">Malasaña</span>
-                <span class="presence-meta" data-i18n="demand.card.metaTwo">Design + builder drop-in · host confirmed</span>
-              </li>
-              <li>
-                <span class="presence-place" data-i18n="demand.card.placeThree">Tomorrow</span>
-                <span class="presence-meta" data-i18n="demand.card.metaThree">Commitment list opens at 18:00</span>
-              </li>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid demand-simple-section">
+        <div class="section-intro reveal demand-simple-intro">
+          <p class="eyebrow" data-i18n="demand.flex.eyebrow">A better default</p>
+          <h2 data-i18n="demand.flex.title">Stop going to the same place every day</h2>
+        </div>
+        <div class="demand-compare-grid reveal">
+          <article class="demand-compare-card">
+            <p class="demand-compare-label" data-i18n="demand.flex.oldLabel">You don&apos;t need</p>
+            <ul class="demand-compare-list">
+              <li data-i18n="demand.flex.oldOne">one coworking</li>
+              <li data-i18n="demand.flex.oldTwo">one routine</li>
             </ul>
-            <p class="presence-foot" data-i18n="demand.card.foot">
-              Commit first. Show up. Repeat.
+          </article>
+          <article class="demand-compare-card is-strong">
+            <p class="demand-compare-label" data-i18n="demand.flex.newLabel">You need</p>
+            <ul class="demand-compare-list">
+              <li data-i18n="demand.flex.newOne">flexibility</li>
+              <li data-i18n="demand.flex.newTwo">variety</li>
+              <li data-i18n="demand.flex.newThree">the right people</li>
+            </ul>
+            <p class="demand-compare-foot" data-i18n="demand.flex.foot">Here gives you all three.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-grid demand-simple-section" id="problem">
+        <div class="section-intro reveal demand-simple-intro">
+          <p class="eyebrow" data-i18n="demand.problem.eyebrow">Product narrative</p>
+          <h2 data-i18n="demand.problem.title">From habit to intentional choice.</h2>
+        </div>
+        <div class="demand-compare-grid reveal">
+          <article class="demand-compare-card">
+            <p class="demand-compare-label" data-i18n="demand.problem.oldLabel">Without Here</p>
+            <ul class="demand-compare-list">
+              <li data-i18n="demand.problem.one.title">you pick a coworking</li>
+              <li data-i18n="demand.problem.two.title">you hope it&apos;s good</li>
+            </ul>
+          </article>
+          <article class="demand-compare-card is-strong">
+            <p class="demand-compare-label" data-i18n="demand.problem.newLabel">With Here</p>
+            <ul class="demand-compare-list">
+              <li data-i18n="demand.problem.newOne">you see where interesting people are</li>
+              <li data-i18n="demand.problem.newTwo">you choose</li>
+              <li data-i18n="demand.problem.newThree">you go</li>
+            </ul>
+            <p class="demand-compare-foot" data-i18n="demand.problem.foot">Big shift: from habit to intentional choice.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="statement-strip reveal demand-insight-band" id="city-office">
+        <p data-i18n="demand.insight.one">Your office is the city.</p>
+        <p data-i18n="demand.insight.two">Choose better.</p>
+      </section>
+
+      <section class="content-grid demand-simple-section">
+        <div class="section-intro reveal demand-simple-intro">
+          <p class="eyebrow" data-i18n="demand.solution.eyebrow">The solution</p>
+          <h2 data-i18n="demand.solution.title">With Here you can:</h2>
+        </div>
+        <div class="demand-solution-list reveal">
+          <article class="benefit-row demand-solution-row">
+            <h3 data-i18n="demand.solution.one.title">See who&apos;s working in each space</h3>
+            <p data-i18n="demand.solution.one.text">
+              Real-time visibility into who is checked in at coworkings near you.
             </p>
-          </div>
+          </article>
+          <article class="benefit-row demand-solution-row">
+            <h3 data-i18n="demand.solution.two.title">Find people doing similar work</h3>
+            <p data-i18n="demand.solution.two.text">
+              Look for designers, developers, creators, and freelancers before you decide.
+            </p>
+          </article>
+          <article class="benefit-row demand-solution-row">
+            <h3 data-i18n="demand.solution.three.title">Choose where to go based on that</h3>
+            <p data-i18n="demand.solution.three.text">
+              Make the decision based on people, not just on space.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section class="statement-strip reveal">
-        <p data-i18n="demand.statement.one">Don&apos;t work alone.</p>
-        <p data-i18n="demand.statement.two">Be Here.</p>
-      </section>
-
-      <section class="content-grid" id="problem">
-        <div class="section-intro reveal">
-          <p class="eyebrow" data-i18n="demand.why.eyebrow">Why it works</p>
-          <h2 data-i18n="demand.why.title">Density gets better when commitment comes before real time.</h2>
+      <section class="content-grid demand-simple-section" id="how-it-works">
+        <div class="section-intro reveal demand-simple-intro">
+          <p class="eyebrow" data-i18n="demand.how.eyebrow">How it works</p>
         </div>
-        <div class="feature-grid">
+        <div class="feature-grid demand-steps-grid">
           <article class="feature-card reveal">
-            <span class="feature-index">01</span>
-            <h3 data-i18n="demand.why.one.title">See who plans to show up</h3>
-            <p data-i18n="demand.why.one.text">
-              Start with scheduled presence and RSVP so every session has intent
-              before it has noise.
+            <span class="feature-index">1</span>
+            <h3 data-i18n="demand.how.one.title">See who&apos;s working</h3>
+            <p data-i18n="demand.how.one.text">
+              Check real-time activity at spaces near you.
             </p>
           </article>
           <article class="feature-card reveal">
-            <span class="feature-index">02</span>
-            <h3 data-i18n="demand.why.two.title">Join role-based cohorts</h3>
-            <p data-i18n="demand.why.two.text">
-              Launch around one community at a time and create relevance before scale.
+            <span class="feature-index">2</span>
+            <h3 data-i18n="demand.how.two.title">Choose where to go</h3>
+            <p data-i18n="demand.how.two.text">
+              Pick the space with the right people today.
             </p>
           </article>
           <article class="feature-card reveal">
-            <span class="feature-index">03</span>
-            <h3 data-i18n="demand.why.three.title">Return to recurring rituals</h3>
-            <p data-i18n="demand.why.three.text">
-              Weekly sessions, hosts, and familiar rooms turn flexible work into habit.
+            <span class="feature-index">3</span>
+            <h3 data-i18n="demand.how.three.title">Show up</h3>
+            <p data-i18n="demand.how.three.text">
+              Walk in and start working with your people.
             </p>
           </article>
         </div>
       </section>
 
-      <section class="split-section" id="how-it-works">
-        <div class="split-copy reveal">
-          <p class="eyebrow" data-i18n="demand.product.eyebrow">MVP flow</p>
-          <h2 data-i18n="demand.product.title">Commitment-first product, real-world payoff.</h2>
-          <ol class="steps">
-            <li data-i18n="demand.product.stepOne">Pick a Here Session or create your planned presence.</li>
-            <li data-i18n="demand.product.stepTwo">RSVP to the room, time, and people that fit.</li>
-            <li data-i18n="demand.product.stepThree">Arrive, work, and help the session reach critical mass.</li>
-          </ol>
+      <section class="content-grid demand-simple-section">
+        <div class="section-intro reveal demand-simple-intro">
+          <p class="eyebrow" data-i18n="demand.social.eyebrow">What people say</p>
         </div>
-        <div class="split-visual reveal">
-          <div class="quote-card">
-            <p class="quote-text" data-i18n="demand.product.quote">
-              “Work isn’t about where. It’s about who.”
-            </p>
-          </div>
+        <div class="demand-social-list reveal">
+          <blockquote class="demand-quote">
+            <p data-i18n="demand.social.one.quote">“I went because I knew who was there. Best work day in months.”</p>
+            <footer data-i18n="demand.social.one.meta">Alex M. · Product Designer</footer>
+          </blockquote>
+          <blockquote class="demand-quote">
+            <p data-i18n="demand.social.two.quote">“Completely different energy from a normal coworking day.”</p>
+            <footer data-i18n="demand.social.two.meta">Sara K. · Frontend Developer</footer>
+          </blockquote>
         </div>
       </section>
 
-      <section class="content-grid">
-        <div class="section-intro reveal">
-          <p class="eyebrow" data-i18n="demand.benefits.eyebrow">What users get</p>
-          <h2 data-i18n="demand.benefits.title">Repeatable high-signal work sessions instead of random solo days.</h2>
-        </div>
-        <div class="benefit-stack">
-          <article class="benefit-row reveal">
-            <h3 data-i18n="demand.benefits.one.title">A higher chance the room actually feels alive</h3>
-            <p data-i18n="demand.benefits.one.text">
-              RSVP and hosting make attendance feel more reliable from the start.
-            </p>
-          </article>
-          <article class="benefit-row reveal">
-            <h3 data-i18n="demand.benefits.two.title">Better focus through role-relevant density</h3>
-            <p data-i18n="demand.benefits.two.text">
-              The room gets better when the cohort already makes sense.
-            </p>
-          </article>
-          <article class="benefit-row reveal">
-            <h3 data-i18n="demand.benefits.three.title">Low-friction connection without event energy</h3>
-            <p data-i18n="demand.benefits.three.text">
-              Sessions are built around real work, not performative networking.
-            </p>
-          </article>
-          <article class="benefit-row reveal">
-            <h3 data-i18n="demand.benefits.four.title">A weekly ritual worth repeating</h3>
-            <p data-i18n="demand.benefits.four.text">
-              The goal is not one good day. It is consistent sessions every week.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="audience-band reveal">
-        <p class="eyebrow" data-i18n="demand.audience.eyebrow">First wedge</p>
-        <div class="audience-tags">
-          <span data-i18n="demand.audience.tagOne">Product</span>
-          <span data-i18n="demand.audience.tagTwo">Design</span>
-          <span data-i18n="demand.audience.tagThree">Tech</span>
-          <span data-i18n="demand.audience.tagFour">Marketing</span>
-          <span data-i18n="demand.audience.tagFive">Content</span>
-          <span data-i18n="demand.audience.tagSix">Creators</span>
-        </div>
-      </section>
-
-      <section class="waitlist-section" id="waitlist">
-        <div class="waitlist-copy reveal">
+      <section class="waitlist-section demand-final-cta" id="waitlist">
+        <div class="waitlist-copy reveal demand-final-copy">
           <p class="eyebrow" data-i18n="demand.waitlist.eyebrow">Join early</p>
-          <h2 data-i18n="demand.waitlist.title">Join the first role cohort.</h2>
+          <h2 data-i18n="demand.waitlist.title">Different place. Better people. Better day.</h2>
           <p data-i18n="demand.waitlist.text">
-            We are starting with small high-signal communities and recurring
-            sessions in Madrid.
+            Work from anywhere. Not with anyone.
           </p>
         </div>
-        <form class="waitlist-form reveal">
+        <form class="waitlist-form reveal demand-final-form">
           <label>
             <span data-i18n="demand.form.emailLabel">Email</span>
             <input type="email" placeholder="name@email.com" data-i18n-attr="placeholder:demand.form.emailPlaceholder" />
           </label>
           <label>
-            <span data-i18n="demand.form.roleLabel">What best describes you?</span>
+            <span data-i18n="demand.form.roleLabel">What best describes your work?</span>
             <select>
               <option data-i18n="demand.form.roleOne">Designer</option>
-              <option data-i18n="demand.form.roleTwo">Builder</option>
-              <option data-i18n="demand.form.roleThree">Marketer</option>
-              <option data-i18n="demand.form.roleFour">Creator</option>
-              <option data-i18n="demand.form.roleFive">Other independent professional</option>
+              <option data-i18n="demand.form.roleTwo">Developer</option>
+              <option data-i18n="demand.form.roleThree">Creator</option>
+              <option data-i18n="demand.form.roleFour">Remote worker</option>
+              <option data-i18n="demand.form.roleFive">Freelancer</option>
             </select>
           </label>
           <button class="button button-solid" type="submit" data-i18n="demand.form.button">
-            Request an invite
+            Join the waitlist
           </button>
         </form>
       </section>
