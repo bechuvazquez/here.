@@ -18,8 +18,9 @@ document.querySelectorAll(".reveal").forEach((element) => {
 
 const translations = {
   en: {
+    "nav.about": "About us",
     "nav.demand": "Workers",
-    "nav.supply": "Supply",
+    "nav.supply": "Coworkings",
     "nav.enterprise": "Enterprise",
     "meta.index.title": "here. | Coordinate Presence",
     "meta.index.description":
@@ -338,8 +339,9 @@ const translations = {
     "enterprise.form.button": "Talk to us",
   },
   es: {
+    "nav.about": "Nosotros",
     "nav.demand": "Workers",
-    "nav.supply": "Oferta",
+    "nav.supply": "Coworkings",
     "nav.enterprise": "Enterprise",
     "meta.index.title": "here. | Coordina presencia",
     "meta.index.description":
