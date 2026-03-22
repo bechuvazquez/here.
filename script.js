@@ -18,28 +18,28 @@ document.querySelectorAll(".reveal").forEach((element) => {
 
 const translations = {
   en: {
-    "nav.about": "About us",
-    "nav.demand": "Workers",
-    "nav.supply": "Coworkings",
+    "nav.about": "About",
+    "nav.demand": "Independents",
+    "nav.supply": "Partners",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "hier. — Work near the right people",
+    "meta.index.title": "hier. — Work near people like you",
     "meta.index.description":
       "hier. shows who's at each coworking in real time. Choose where to work based on the people, not just the space.",
-    "meta.demand.title": "hier. | Workers",
+    "meta.demand.title": "hier. | Independents",
     "meta.demand.description":
-      "hier. shows workers who is at each coworking so they can choose where to go based on people, not guesswork.",
-    "meta.supply.title": "hier. | Supply",
+      "hier. shows independents who's at each coworking so they can choose where to go based on people like them, not guesswork.",
+    "meta.supply.title": "hier. | Partners",
     "meta.supply.description":
-      "hier. partners with workspace venues to turn flexible supply into recurring, high-density sessions with lightweight commitments.",
+      "hier. helps partners turn flexible supply into recurring, coordinated sessions with stronger room energy and repeat visits.",
     "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
       "hier. gives companies a way to show up inside recurring role-based work sessions where high-signal independent talent already gathers.",
     "index.hero.eyebrow": "",
-    "index.hero.title": "Work near the right people.",
+    "index.hero.title": "Work near people like you.",
     "index.hero.text":
       "hier. shows who's working at each coworking, in real time. Choose where to go based on the people — not just the space.",
-    "index.hero.ctaDemand": "I'm a freelancer",
-    "index.hero.ctaSupply": "I run a coworking",
+    "index.hero.ctaDemand": "I work independently",
+    "index.hero.ctaSupply": "I run a space",
     "index.hero.ctaEnterprise": "I have a remote team",
     "index.card.today": "now",
     "index.card.title": "Commitment-first MVP.",
@@ -67,7 +67,7 @@ const translations = {
     "index.market.eyebrow": "",
     "index.market.title": "The moment is now.",
     "index.market.one.title":
-      "55% of professionals already use flex spaces",
+      "55% of independents already use flex spaces",
     "index.market.one.text":
       "The demand is there. Coordination is missing.",
     "index.market.two.title":
@@ -88,23 +88,23 @@ const translations = {
     "index.gtm.three.text": "",
     "index.split.eyebrow": "",
     "index.split.title": "Who are you?",
-    "index.split.demand.label": "Workers",
-    "index.split.demand.title": "I'm a freelancer or remote worker",
+    "index.split.demand.label": "Independents",
+    "index.split.demand.title": "I work independently",
     "index.split.demand.text":
       "I want to see who's at coworkings in my city and choose where to go based on the people.",
     "index.split.demand.cta": "See how it works for me →",
-    "index.split.supply.label": "Coworkings",
-    "index.split.supply.title": "I run a coworking",
+    "index.split.supply.label": "Partners",
+    "index.split.supply.title": "I run a space",
     "index.split.supply.text":
-      "I want hier. to bring me recurring, quality users — not random foot traffic.",
+      "I want hier. to help my space create recurring, coordinated presence — not random foot traffic.",
     "index.split.supply.cta": "See how it works for my space →",
     "index.split.enterprise.label": "Enterprise",
     "index.split.enterprise.title": "I have a remote or hybrid team",
     "index.split.enterprise.text":
       "I want my team to have spaces to overlap without paying for a fixed office.",
     "index.split.enterprise.cta": "See how it works for my company →",
-    "demand.hero.eyebrow": "Workers page",
-    "demand.hero.title": "Work with the right people.",
+    "demand.hero.eyebrow": "Independents page",
+    "demand.hero.title": "Work near people like you.",
     "demand.hero.text":
       "See who's working where before you leave. Choose based on people, not just the space.",
     "demand.hero.subOne": "Access coworkings across the city.",
@@ -145,9 +145,9 @@ const translations = {
     "demand.flex.eyebrow": "The problem",
     "demand.flex.title": "Too many days working alone.",
     "demand.flex.bodyOne":
-      "Remote work gave you freedom. But it also took something away: the energy of being around the right people.",
+      "Remote work gave you freedom. But it also took something away: the energy of being around people like you.",
     "demand.flex.bodyTwo":
-      "Today, many freelancers spend their days alone — at home, in cafés, or in coworkings where they know no one. Surrounded by people, but not by their people.",
+      "Today, many independents spend their days alone — at home, in cafés, or in coworkings where they know no one. Surrounded by people, but not by their people.",
     "demand.problem.eyebrow": "Choose better",
     "demand.problem.title": "Choose who, not just where.",
     "demand.problem.oldLabel": "Without Hier",
@@ -167,9 +167,9 @@ const translations = {
     "demand.solution.one.title": "Who's in each space",
     "demand.solution.one.text":
       "Real-time visibility into who is checked in at coworkings near you.",
-    "demand.solution.two.title": "People in your field",
+    "demand.solution.two.title": "People like you",
     "demand.solution.two.text":
-      "Designers, developers, creators, and consultants — filter by what matters to you.",
+      "Designers, developers, creators, and other independents — filter by what matters to you.",
     "demand.solution.three.title": "The decision is yours",
     "demand.solution.three.text":
       "Go or don't go. But always with real information.",
@@ -201,16 +201,16 @@ const translations = {
     "demand.form.roleOne": "Designer",
     "demand.form.roleTwo": "Developer",
     "demand.form.roleThree": "Creator",
-    "demand.form.roleFour": "Remote worker",
-    "demand.form.roleFive": "Freelancer",
+    "demand.form.roleFour": "Independent",
+    "demand.form.roleFive": "Other independent",
     "demand.form.emailPlaceholder": "Your email",
     "demand.form.button": "Join the waitlist",
     "demand.form.note":
       "No spam. We'll let you know when hier. is available in your city.",
-    "supply.hero.title": "Fill your coworking with the right people.",
+    "supply.hero.title": "Fill your space with people who click.",
     "supply.hero.text":
-      "hier. coordinates groups of professionals to converge at your space. Not random traffic — intentional presence.",
-    "supply.hero.ctaPrimary": "Partner with hier.",
+      "hier. helps make your room click. Not random traffic — coordinated presence.",
+    "supply.hero.ctaPrimary": "Become a partner",
     "supply.hero.ctaSecondary": "Talk to us",
     "supply.problem.title": "Empty seats are not your biggest problem.",
     "supply.problem.one.title": "Unpredictable occupancy",
@@ -225,25 +225,25 @@ const translations = {
     "supply.problem.statementOne": "The value of your space is not the space.",
     "supply.problem.statementTwo": "It's the people inside it.",
     "supply.solution.title": "We don't bring traffic. We bring density.",
-    "supply.solution.one.title": "Professionals who choose with intention",
+    "supply.solution.one.title": "People who fit",
     "supply.solution.one.text":
-      "Designers, developers, creators, and consultants who come to your space because they know who else will be there.",
+      "Designers, developers, creators, and independents who come to your space because they know who else will be there.",
     "supply.solution.two.title": "Coordinated presence",
     "supply.solution.two.text":
       "Not discovery — coordination. We help groups converge at your space at the same time.",
-    "supply.solution.three.title": "Days that create habit",
+    "supply.solution.three.title": "When the room works",
     "supply.solution.three.text":
       "A good day at your space is the best reason for someone to come back. And come back again.",
     "supply.features.title": "What changes when you're on hier.",
     "supply.features.one.title": "More consistent occupancy",
     "supply.features.one.text":
       "Fewer dead days. More predictable flow across the week.",
-    "supply.features.two.title": "Higher quality users",
+    "supply.features.two.title": "People who stay and return",
     "supply.features.two.text":
-      "People who respect the space and return — not just whoever wants the cheapest desk.",
+      "People who respect the space and return, not just whoever wants the cheapest desk.",
     "supply.features.three.title": "Better room energy",
     "supply.features.three.text":
-      "The room feels different when the right people overlap.",
+      "The room feels different when people who click overlap.",
     "supply.features.four.title": "More repeat visits",
     "supply.features.four.text":
       "Good days create habit. People choose your space again.",
@@ -264,7 +264,7 @@ const translations = {
     "supply.how.title": "How it works",
     "supply.how.one.title": "Your space joins hier.",
     "supply.how.one.text":
-      "We add your coworking to the network and make it visible to the right users.",
+      "We add your coworking to the network and make it visible to people who fit.",
     "supply.how.two.title": "Users see who's working there",
     "supply.how.two.text":
       "They understand the room before deciding where to go.",
@@ -289,7 +289,7 @@ const translations = {
     "supply.form.namePlaceholder": "Workspace name",
     "supply.form.emailLabel": "Your email",
     "supply.form.emailPlaceholder": "Your email",
-    "supply.form.buttonPrimary": "Partner with hier.",
+    "supply.form.buttonPrimary": "Become a partner",
     "supply.form.buttonSecondary": "Talk to us",
     "supply.form.note":
       "No commitment. We'll get back to you within 48 hours.",
@@ -385,27 +385,27 @@ const translations = {
   },
   es: {
     "nav.about": "Nosotros",
-    "nav.demand": "Workers",
-    "nav.supply": "Coworkings",
+    "nav.demand": "Independientes",
+    "nav.supply": "Partners",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "hier. — Trabaja cerca de las personas correctas",
+    "meta.index.title": "hier. — Trabaja cerca de gente como tú",
     "meta.index.description":
       "hier. muestra quién está en cada coworking en tiempo real. Elige dónde trabajar basándote en las personas, no solo en el espacio.",
-    "meta.demand.title": "hier. | Workers",
+    "meta.demand.title": "hier. | Independientes",
     "meta.demand.description":
-      "hier. muestra a los workers quién está en cada coworking para que puedan decidir adónde ir según las personas, no a ciegas.",
-    "meta.supply.title": "hier. | Oferta",
+      "hier. muestra a los independientes quién está en cada coworking para que puedan decidir adónde ir según gente como ellos, no a ciegas.",
+    "meta.supply.title": "hier. | Partners",
     "meta.supply.description":
-      "hier. se asocia con venues y coworkings para convertir oferta flexible en sesiones recurrentes de alta densidad con compromisos ligeros.",
+      "hier. ayuda a los partners a convertir oferta flexible en sesiones recurrentes y coordinadas, con mejor energía en sala y más repetición.",
     "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
       "hier. da a las empresas una forma de aparecer dentro de sesiones de trabajo recurrentes donde ya se reúne talento independiente de alta señal.",
     "index.hero.eyebrow": "",
-    "index.hero.title": "Trabaja cerca de las personas correctas.",
+    "index.hero.title": "Trabaja cerca de gente como tú.",
     "index.hero.text":
       "hier. muestra quién está trabajando en cada coworking, en tiempo real. Elige dónde ir basándote en las personas, no solo en el espacio.",
-    "index.hero.ctaDemand": "Soy freelancer",
-    "index.hero.ctaSupply": "Tengo un coworking",
+    "index.hero.ctaDemand": "Trabajo de forma independiente",
+    "index.hero.ctaSupply": "Tengo un espacio",
     "index.hero.ctaEnterprise": "Tengo un equipo remoto",
     "index.card.today": "ahora",
     "index.card.title": "MVP commitment-first.",
@@ -433,7 +433,7 @@ const translations = {
     "index.market.eyebrow": "",
     "index.market.title": "El momento es ahora.",
     "index.market.one.title":
-      "55% de profesionales ya usan espacios flex",
+      "55% de independientes ya usan espacios flex",
     "index.market.one.text":
       "La demanda está ahí. Falta la coordinación.",
     "index.market.two.title":
@@ -454,23 +454,23 @@ const translations = {
     "index.gtm.three.text": "",
     "index.split.eyebrow": "",
     "index.split.title": "¿Quién eres tú?",
-    "index.split.demand.label": "Workers",
-    "index.split.demand.title": "Soy freelancer o trabajo en remoto",
+    "index.split.demand.label": "Independientes",
+    "index.split.demand.title": "Trabajo de forma independiente",
     "index.split.demand.text":
       "Quiero ver quién está en los coworkings de mi ciudad y elegir dónde ir según las personas.",
     "index.split.demand.cta": "Ver cómo funciona para mí →",
-    "index.split.supply.label": "Coworkings",
-    "index.split.supply.title": "Tengo un coworking",
+    "index.split.supply.label": "Partners",
+    "index.split.supply.title": "Tengo un espacio",
     "index.split.supply.text":
-      "Quiero que hier. me traiga usuarios recurrentes y de calidad — no tráfico aleatorio.",
+      "Quiero que hier. ayude a mi espacio a crear presencia recurrente y coordinada, no tráfico aleatorio.",
     "index.split.supply.cta": "Ver cómo funciona para mi espacio →",
     "index.split.enterprise.label": "Enterprise",
     "index.split.enterprise.title": "Tengo un equipo remoto o híbrido",
     "index.split.enterprise.text":
       "Quiero que mi equipo tenga espacios donde coincidir sin pagar una oficina fija.",
     "index.split.enterprise.cta": "Ver cómo funciona para mi empresa →",
-    "demand.hero.eyebrow": "Página Workers",
-    "demand.hero.title": "Trabaja con la gente correcta.",
+    "demand.hero.eyebrow": "Página Independientes",
+    "demand.hero.title": "Trabaja cerca de gente como tú.",
     "demand.hero.text":
       "Mira quién está en cada coworking antes de salir. Elige basándote en las personas, no solo en el espacio.",
     "demand.hero.subOne": "Accede a coworkings en tu ciudad.",
@@ -511,9 +511,9 @@ const translations = {
     "demand.flex.eyebrow": "El problema",
     "demand.flex.title": "Demasiados días trabajando solo.",
     "demand.flex.bodyOne":
-      "El trabajo remoto te dio libertad. Pero también te quitó algo: la energía de estar rodeado de las personas correctas.",
+      "El trabajo remoto te dio libertad. Pero también te quitó algo: la energía de estar rodeado de gente como tú.",
     "demand.flex.bodyTwo":
-      "Hoy muchos freelancers pasan sus días solos — en casa, en cafeterías, o en coworkings donde no conocen a nadie. Están rodeados de gente, pero no de su gente.",
+      "Hoy muchos independientes pasan sus días solos — en casa, en cafeterías, o en coworkings donde no conocen a nadie. Están rodeados de gente, pero no de su gente.",
     "demand.problem.eyebrow": "Elegir mejor",
     "demand.problem.title": "Elige con quién, no solo dónde.",
     "demand.problem.oldLabel": "Sin Hier",
@@ -533,9 +533,9 @@ const translations = {
     "demand.solution.one.title": "Quién está en cada espacio",
     "demand.solution.one.text":
       "Visibilidad en tiempo real de quién hay en los coworkings cerca de ti.",
-    "demand.solution.two.title": "Gente de tu campo",
+    "demand.solution.two.title": "Gente como tú",
     "demand.solution.two.text":
-      "Diseñadores, devs, creativos y consultores — filtra por lo que te importa.",
+      "Diseñadores, devs, creativos y otros independientes — filtra por lo que te importa.",
     "demand.solution.three.title": "La decisión es tuya",
     "demand.solution.three.text":
       "Ir o no ir. Pero siempre con información real.",
@@ -567,17 +567,17 @@ const translations = {
     "demand.form.roleOne": "Diseñador/a",
     "demand.form.roleTwo": "Developer",
     "demand.form.roleThree": "Creator",
-    "demand.form.roleFour": "Remote worker",
-    "demand.form.roleFive": "Freelancer",
+    "demand.form.roleFour": "Independiente",
+    "demand.form.roleFive": "Otro independiente",
     "demand.form.emailPlaceholder": "Tu email",
     "demand.form.button": "Únete a la lista",
     "demand.form.note":
       "Sin spam. Te avisamos cuando hier. esté disponible en tu ciudad.",
-    "supply.hero.title": "Llena tu coworking con la gente correcta.",
+    "supply.hero.title": "Llena tu espacio con gente que encaja.",
     "supply.hero.text":
-      "hier. coordina grupos de profesionales para que coincidan en tu espacio. No tráfico aleatorio — presencia con intención.",
-    "supply.hero.ctaPrimary": "Asociarme con hier.",
-    "supply.hero.ctaSecondary": "Hablar con el equipo",
+      "hier. hace que tu sala funcione. No tráfico aleatorio: presencia coordinada.",
+    "supply.hero.ctaPrimary": "Conviértete en partner",
+    "supply.hero.ctaSecondary": "Habla con nosotros",
     "supply.problem.title": "El problema no son las sillas vacías.",
     "supply.problem.one.title": "Ocupación impredecible",
     "supply.problem.one.text":
@@ -591,25 +591,25 @@ const translations = {
     "supply.problem.statementOne": "El valor de tu espacio no es el espacio.",
     "supply.problem.statementTwo": "Son las personas dentro.",
     "supply.solution.title": "No traemos tráfico. Traemos densidad.",
-    "supply.solution.one.title": "Profesionales que eligen con intención",
+    "supply.solution.one.title": "Gente que encaja",
     "supply.solution.one.text":
-      "Diseñadores, devs, creativos y consultores que deciden ir a tu espacio porque saben quién más va a estar.",
+      "Diseñadores, devs, creativos e independientes que deciden ir a tu espacio porque saben quién más va a estar.",
     "supply.solution.two.title": "Presencia coordinada",
     "supply.solution.two.text":
       "No es descubrimiento — es coordinación. Ayudamos a que grupos coincidan en tu espacio al mismo tiempo.",
-    "supply.solution.three.title": "Días que generan hábito",
+    "supply.solution.three.title": "Cuando la sala funciona",
     "supply.solution.three.text":
       "Un buen día en tu espacio es el mejor argumento para que alguien vuelva. Y vuelva a volver.",
     "supply.features.title": "Qué cambia cuando estás en hier.",
     "supply.features.one.title": "Ocupación más consistente",
     "supply.features.one.text":
       "Menos días muertos. Más flujo predecible a lo largo de la semana.",
-    "supply.features.two.title": "Usuarios de mayor calidad",
+    "supply.features.two.title": "Gente que repite",
     "supply.features.two.text":
       "Gente que cuida el espacio y repite — no solo quien busca el desk más barato.",
     "supply.features.three.title": "Mejor energía en la sala",
     "supply.features.three.text":
-      "La sala se siente diferente cuando la gente correcta coincide.",
+      "La sala se siente diferente cuando coincide gente que encaja.",
     "supply.features.four.title": "Más visitas recurrentes",
     "supply.features.four.text":
       "Los buenos días crean hábito. La gente elige tu espacio de nuevo.",
@@ -631,7 +631,7 @@ const translations = {
     "supply.how.title": "Cómo funciona",
     "supply.how.one.title": "Tu espacio entra en hier.",
     "supply.how.one.text":
-      "Añadimos tu coworking a la red y lo hacemos visible para los usuarios correctos.",
+      "Añadimos tu coworking a la red y lo hacemos visible para gente que encaja.",
     "supply.how.two.title": "Los usuarios ven quién está",
     "supply.how.two.text":
       "Entienden cómo es la sala antes de decidir adónde van.",
@@ -657,8 +657,8 @@ const translations = {
     "supply.form.namePlaceholder": "Nombre de tu espacio",
     "supply.form.emailLabel": "Tu email",
     "supply.form.emailPlaceholder": "Tu email",
-    "supply.form.buttonPrimary": "Asociarme con hier.",
-    "supply.form.buttonSecondary": "Hablar con el equipo",
+    "supply.form.buttonPrimary": "Conviértete en partner",
+    "supply.form.buttonSecondary": "Habla con nosotros",
     "supply.form.note":
       "Sin compromisos. Te contactamos en menos de 48 horas.",
     "enterprise.hero.eyebrow": "Landing enterprise",

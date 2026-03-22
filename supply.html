@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hier. | Supply</title>
+    <title>hier. | Partners</title>
     <meta
       name="description"
-      content="hier. helps coworking operators attract better users, stronger atmosphere, and more consistent occupancy through coordinated presence."
+      content="hier. helps partners create recurring, coordinated presence with stronger room energy and more repeat visits."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,9 +29,9 @@
           <button type="button" class="lang-button" data-lang="es">ES</button>
         </div>
         <nav class="site-nav">
-          <a href="./index.html" data-i18n="nav.about">About us</a>
-          <a href="./demand.html">Workers</a>
-          <a href="./supply.html" aria-current="page" data-i18n="nav.supply">Coworkings</a>
+          <a href="./index.html" data-i18n="nav.about">About</a>
+          <a href="./demand.html" data-i18n="nav.demand">Independents</a>
+          <a href="./supply.html" aria-current="page" data-i18n="nav.supply">Partners</a>
           <a href="./enterprise.html" data-i18n="nav.enterprise">Enterprise</a>
         </nav>
       </div>
@@ -40,128 +40,171 @@
     <main>
       <section class="hero hero-supply hero-supply-dark">
         <div class="hero-copy reveal">
-          <h1 data-i18n="supply.hero.title">Fill your coworking with the right people.</h1>
+          <h1 data-i18n="supply.hero.title">Fill your space with people who click.</h1>
           <p class="hero-text" data-i18n="supply.hero.text">
-            hier. coordinates groups of professionals to converge at your space. Not random traffic — intentional presence.
+            hier. helps make your room click. Not random traffic — coordinated presence.
           </p>
           <div class="hero-actions">
-            <a class="button button-solid" href="#partner-form" data-i18n="supply.hero.ctaPrimary">Partner with hier.</a>
+            <a class="button button-solid" href="#partner-form" data-i18n="supply.hero.ctaPrimary">Become a partner</a>
             <a class="button button-ghost" href="#partner-form" data-i18n="supply.hero.ctaSecondary">Talk to us</a>
           </div>
         </div>
 
         <div class="hero-panel reveal supply-hero-panel">
-          <div class="supply-dashboard">
-            <div class="supply-dashboard-topbar">
-              <div class="supply-dashboard-brand">
-                <div class="supply-dashboard-logo">H</div>
-                <div>
-                  <p class="supply-dashboard-kicker">Hier</p>
-                  <p class="supply-dashboard-sub">Operator view</p>
-                </div>
+          <div class="supply-live-browser">
+            <div class="supply-live-browser-bar">
+              <div class="supply-live-browser-dots">
+                <span></span><span></span><span></span>
               </div>
-              <span class="supply-dashboard-live">Live</span>
+              <div class="supply-live-browser-url">app.hier.co/live</div>
             </div>
 
-            <div class="supply-dashboard-main">
-              <aside class="supply-dashboard-sidebar">
-                <p class="supply-dashboard-nav-label">Dashboard</p>
-                <ul class="supply-dashboard-nav">
-                  <li class="is-active">Overview</li>
-                  <li>Occupancy</li>
-                  <li>Peak hours</li>
-                  <li>Trends</li>
-                </ul>
-              </aside>
+            <div class="supply-live-app">
+              <aside class="supply-live-sidebar">
+                <div class="supply-live-logo">
+                  <div class="supply-live-logo-text">hier<span class="logo-dot-active-dark" aria-hidden="true"></span></div>
+                  <p>Operator</p>
+                </div>
 
-              <div class="supply-dashboard-body">
-                <div class="supply-dashboard-headline">
-                  <div>
-                    <h3>The Hive Coworking</h3>
-                    <p>Dashboard overview</p>
+                <div class="supply-live-nav-block">
+                  <p>Overview</p>
+                  <div class="supply-live-nav-item">
+                    <span class="supply-live-nav-icon supply-live-grid-icon"></span>
+                    <span>Dashboard</span>
+                  </div>
+                  <div class="supply-live-nav-item is-active">
+                    <span class="supply-live-nav-icon supply-live-person-icon"></span>
+                    <span>Live view</span>
                   </div>
                 </div>
 
-                <div class="supply-dashboard-metrics">
-                  <article class="supply-metric-card">
-                    <p>Current occupancy</p>
-                    <strong>72%</strong>
-                    <span>+8% vs last week</span>
-                  </article>
-                  <article class="supply-metric-card">
-                    <p>Peak hour today</p>
-                    <strong>3:00 PM</strong>
-                    <span>80% capacity</span>
-                  </article>
-                  <article class="supply-metric-card">
-                    <p>Avg. weekly visits</p>
-                    <strong>4.2</strong>
-                    <span>+0.3 vs last month</span>
-                  </article>
+                <div class="supply-live-nav-block">
+                  <p>Analytics</p>
+                  <div class="supply-live-nav-item">
+                    <span class="supply-live-nav-icon supply-live-trend-icon"></span>
+                    <span>Trends</span>
+                  </div>
+                  <div class="supply-live-nav-item">
+                    <span class="supply-live-nav-icon supply-live-bars-icon"></span>
+                    <span>Reports</span>
+                  </div>
                 </div>
 
-                <div class="supply-dashboard-charts">
-                  <article class="supply-chart-card supply-chart-card-wide">
-                    <div class="supply-card-head">
-                      <div>
-                        <h4>Today’s occupancy</h4>
-                        <p>Hourly breakdown of space usage</p>
-                      </div>
-                    </div>
-                    <div class="supply-bar-chart" aria-hidden="true">
-                      <span style="--bar: 12%"></span>
-                      <span style="--bar: 24%"></span>
-                      <span style="--bar: 48%"></span>
-                      <span style="--bar: 72%"></span>
-                      <span style="--bar: 88%"></span>
-                      <span style="--bar: 70%"></span>
-                      <span style="--bar: 82%"></span>
-                      <span style="--bar: 92%"></span>
-                      <span style="--bar: 76%"></span>
-                      <span style="--bar: 58%"></span>
-                    </div>
-                    <div class="supply-axis">
-                      <span>8a</span>
-                      <span>10a</span>
-                      <span>12p</span>
-                      <span>2p</span>
-                      <span>4p</span>
-                      <span>6p</span>
-                    </div>
-                  </article>
+                <div class="supply-live-footer">
+                  <strong>The Workshop</strong>
+                  <span>Malasaña, Madrid</span>
+                </div>
+              </aside>
 
-                  <article class="supply-chart-card">
-                    <div class="supply-card-head">
-                      <div>
-                        <h4>This week</h4>
-                        <p>Recurring density trend</p>
-                      </div>
+              <div class="supply-live-main">
+                <div class="supply-live-topbar">
+                  <div>
+                    <h3>Live view</h3>
+                    <p>18 people checked in · Updated just now</p>
+                  </div>
+                  <div class="supply-live-actions">
+                    <div class="supply-live-badge">
+                      <span class="logo-dot-active"></span>
+                      <span>18 here now</span>
                     </div>
-                    <div class="supply-line-chart" aria-hidden="true">
-                      <svg viewBox="0 0 260 120" preserveAspectRatio="none">
-                        <path
-                          d="M0,92 C28,74 54,56 84,50 C112,44 138,44 162,58 C184,70 204,72 224,94 C236,107 248,112 260,116"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div class="supply-axis">
-                      <span>Mon</span>
-                      <span>Wed</span>
-                      <span>Fri</span>
-                      <span>Sun</span>
-                    </div>
-                  </article>
+                    <button type="button" class="supply-live-pill">Filter by role ↓</button>
+                  </div>
                 </div>
 
-                <div class="supply-dashboard-footer">
-                  <article class="supply-mini-card">
-                    <h4>Industry mix</h4>
-                    <p>8 designers • 2 developers here today</p>
-                  </article>
-                  <article class="supply-mini-card">
-                    <h4>Why they chose you</h4>
-                    <p>People are already there. Momentum builds.</p>
-                  </article>
+                <div class="supply-live-content">
+                  <div class="supply-live-metrics">
+                    <article class="supply-live-metric">
+                      <p>Checked in now</p>
+                      <strong>18</strong>
+                      <span>7 designers · 5 devs · 3 marketers</span>
+                    </article>
+                    <article class="supply-live-metric">
+                      <p>Avg. time here</p>
+                      <strong>2h 40m</strong>
+                      <span class="is-positive">+20m vs yesterday</span>
+                    </article>
+                    <article class="supply-live-metric">
+                      <p>Desks available</p>
+                      <strong>7</strong>
+                      <span>of 25 total</span>
+                    </article>
+                  </div>
+
+                  <div class="supply-live-table">
+                    <div class="supply-live-table-head">
+                      <span>Person</span>
+                      <span>Discipline</span>
+                      <span>Checked in</span>
+                      <span>Status</span>
+                      <span>Duration</span>
+                    </div>
+
+                    <div class="supply-live-table-row">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar dark">AL</span>
+                        <div><strong>Alex Lima</strong><p>Product Designer</p></div>
+                      </div>
+                      <span>Design</span>
+                      <span>9:14 am</span>
+                      <span><em class="supply-live-status active">Active</em></span>
+                      <span>5h 30m</span>
+                    </div>
+
+                    <div class="supply-live-table-row">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar mid">MK</span>
+                        <div><strong>Marta K.</strong><p>Frontend Dev</p></div>
+                      </div>
+                      <span>Engineering</span>
+                      <span>10:02 am</span>
+                      <span><em class="supply-live-status active">Active</em></span>
+                      <span>4h 42m</span>
+                    </div>
+
+                    <div class="supply-live-table-row">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar warm">JR</span>
+                        <div><strong>Javi Ruiz</strong><p>UX Designer</p></div>
+                      </div>
+                      <span>Design</span>
+                      <span>10:30 am</span>
+                      <span><em class="supply-live-status active">Active</em></span>
+                      <span>4h 14m</span>
+                    </div>
+
+                    <div class="supply-live-table-row">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar dark">TS</span>
+                        <div><strong>Tom S.</strong><p>Content Creator</p></div>
+                      </div>
+                      <span>Marketing</span>
+                      <span>11:15 am</span>
+                      <span><em class="supply-live-status idle">Away</em></span>
+                      <span>3h 29m</span>
+                    </div>
+
+                    <div class="supply-live-table-row">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar muted">NP</span>
+                        <div><strong>Nadia P.</strong><p>Brand Designer</p></div>
+                      </div>
+                      <span>Design</span>
+                      <span>12:40 pm</span>
+                      <span><em class="supply-live-status active">Active</em></span>
+                      <span>2h 4m</span>
+                    </div>
+
+                    <div class="supply-live-table-row is-faded">
+                      <div class="supply-live-person">
+                        <span class="supply-live-avatar plus">+13</span>
+                        <div><strong>13 more people</strong></div>
+                      </div>
+                      <span>—</span>
+                      <span>—</span>
+                      <span>—</span>
+                      <span>—</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -200,8 +243,8 @@
         </div>
         <div class="demand-solution-list reveal">
           <article class="benefit-row demand-solution-row">
-            <h3 data-i18n="supply.solution.one.title">Professionals who choose with intention</h3>
-            <p data-i18n="supply.solution.one.text">Designers, developers, creators, and consultants who come to your space because they know who else will be there.</p>
+            <h3 data-i18n="supply.solution.one.title">People who fit</h3>
+            <p data-i18n="supply.solution.one.text">Designers, developers, creators, and independents who come to your space because they know who else will be there.</p>
           </article>
           <article class="benefit-row demand-solution-row">
             <h3 data-i18n="supply.solution.two.title">Coordinated presence</h3>
@@ -229,7 +272,7 @@
           </article>
           <article class="benefit-row demand-solution-row">
             <h3 data-i18n="supply.features.three.title">Better room energy</h3>
-            <p data-i18n="supply.features.three.text">The room feels different when the right people overlap.</p>
+            <p data-i18n="supply.features.three.text">The room feels different when people who click overlap.</p>
           </article>
           <article class="benefit-row demand-solution-row">
             <h3 data-i18n="supply.features.four.title">More repeat visits</h3>
@@ -293,7 +336,7 @@
           <article class="feature-card reveal">
             <span class="feature-index">1</span>
             <h3 data-i18n="supply.how.one.title">Your space joins hier.</h3>
-            <p data-i18n="supply.how.one.text">We add your coworking to the network and make it visible to the right users.</p>
+            <p data-i18n="supply.how.one.text">We add your coworking to the network and make it visible to people who fit.</p>
           </article>
           <article class="feature-card reveal">
             <span class="feature-index">2</span>
@@ -350,7 +393,7 @@
             <input type="email" placeholder="Your email" data-i18n-attr="placeholder:supply.form.emailPlaceholder" />
           </label>
           <div class="hero-actions" style="margin-top: 0;">
-            <button class="button button-solid" type="submit" data-i18n="supply.form.buttonPrimary">Partner with hier.</button>
+            <button class="button button-solid" type="submit" data-i18n="supply.form.buttonPrimary">Become a partner</button>
             <button class="button button-ghost" type="button" data-i18n="supply.form.buttonSecondary">Talk to us</button>
           </div>
           <p class="metrics-note" data-i18n="supply.form.note">No commitment. We'll get back to you within 48 hours.</p>
