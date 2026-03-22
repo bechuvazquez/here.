@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -21,14 +21,15 @@
   <body class="index-page">
     <div class="page-noise" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brandmark" href="./index.html" aria-label="here. home">here.</a>
+      <a class="brandmark" href="./index.html" aria-label="here. home">
+        <span class="brandmark-word">here</span><span class="logo-dot-active" aria-hidden="true"></span>
+      </a>
       <div class="header-actions">
         <div class="language-switcher" aria-label="Language switcher">
           <button type="button" class="lang-button" data-lang="en">EN</button>
           <button type="button" class="lang-button" data-lang="es">ES</button>
         </div>
         <nav class="site-nav">
-        <a href="./index.html" aria-current="page" data-i18n="nav.about">About us</a>
         <a href="./demand.html" data-i18n="nav.demand">Workers</a>
         <a href="./supply.html" data-i18n="nav.supply">Coworkings</a>
         <a href="./enterprise.html" data-i18n="nav.enterprise">Enterprise</a>
@@ -48,23 +49,9 @@
             owning real estate.
           </p>
           <div class="hero-actions">
-            <a class="button button-solid" href="./demand.html" data-i18n="index.hero.ctaDemand">For demand</a>
-            <a class="button button-ghost" href="./supply.html" data-i18n="index.hero.ctaSupply">For supply</a>
-            <a class="button button-ghost" href="./enterprise.html" data-i18n="index.hero.ctaEnterprise">For enterprise</a>
-          </div>
-        </div>
-
-        <div class="hero-panel reveal">
-          <div class="presence-card">
-            <div class="presence-top">
-              <span data-i18n="index.card.today">now</span>
-              <span>Madrid</span>
-            </div>
-            <div class="presence-brand">here.</div>
-            <p class="presence-question" data-i18n="index.card.title">Commitment-first MVP.</p>
-            <p class="presence-foot" data-i18n="index.card.text">
-              Scheduled presence and RSVP first. Real-time density next.
-            </p>
+            <a class="button button-solid" href="./demand.html" data-i18n="index.hero.ctaDemand">For Workers</a>
+            <a class="button button-ghost" href="./supply.html" data-i18n="index.hero.ctaSupply">For Venues</a>
+            <a class="button button-ghost" href="./enterprise.html" data-i18n="index.hero.ctaEnterprise">For Enterprise</a>
           </div>
         </div>
       </section>

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -20,7 +20,9 @@
   <body class="supply-dark-page">
     <div class="page-noise" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brandmark" href="./index.html" aria-label="here. home">here.</a>
+      <a class="brandmark" href="./index.html" aria-label="here. home">
+        <span class="brandmark-word">here</span><span class="logo-dot-active" aria-hidden="true"></span>
+      </a>
       <div class="header-actions">
         <div class="language-switcher" aria-label="Language switcher">
           <button type="button" class="lang-button" data-lang="en">EN</button>
@@ -38,14 +40,13 @@
     <main>
       <section class="hero hero-supply hero-supply-dark">
         <div class="hero-copy reveal">
-          <h1>Fill your coworking with the right people.</h1>
-          <p class="hero-text">
-            Here brings you professionals who choose where to work based on
-            who’s already there.
+          <h1 data-i18n="supply.hero.title">Fill your coworking with the right people.</h1>
+          <p class="hero-text" data-i18n="supply.hero.text">
+            here. coordinates groups of professionals to converge at your space. Not random traffic — intentional presence.
           </p>
           <div class="hero-actions">
-            <a class="button button-solid" href="#partner-form">Partner with Here</a>
-            <a class="button button-ghost" href="#partner-form">Get early access</a>
+            <a class="button button-solid" href="#partner-form" data-i18n="supply.hero.ctaPrimary">Partner with here.</a>
+            <a class="button button-ghost" href="#partner-form" data-i18n="supply.hero.ctaSecondary">Talk to us</a>
           </div>
         </div>
 
@@ -170,111 +171,101 @@
 
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>Empty seats are not your biggest problem.</h2>
+          <h2 data-i18n="supply.problem.title">Empty seats are not your biggest problem.</h2>
         </div>
         <div class="demand-problem-list reveal">
           <article class="demand-problem-item">
-            <h3>Unpredictable occupancy</h3>
-            <p>Some days fill naturally. Others stay quiet for no clear reason.</p>
+            <h3 data-i18n="supply.problem.one.title">Unpredictable occupancy</h3>
+            <p data-i18n="supply.problem.one.text">Some days fill naturally. Others stay dead for no clear reason. You can't plan around something you can't control.</p>
           </article>
           <article class="demand-problem-item">
-            <h3>Low-energy days</h3>
-            <p>A space can look open and still feel flat when the room lacks density.</p>
+            <h3 data-i18n="supply.problem.two.title">Low-energy days</h3>
+            <p data-i18n="supply.problem.two.text">A space can look full and still feel flat. Density matters more than headcount.</p>
           </article>
           <article class="demand-problem-item">
-            <h3>The wrong mix of people</h3>
-            <p>You can fill seats. But you can’t control who shows up.</p>
+            <h3 data-i18n="supply.problem.three.title">The wrong mix</h3>
+            <p data-i18n="supply.problem.three.text">You can fill seats. But you can't control who shows up — or whether they come back.</p>
           </article>
         </div>
       </section>
 
       <section class="statement-strip reveal demand-insight-band">
-        <p>The value of your space is not the space.</p>
-        <p>It’s the people inside it.</p>
+        <p data-i18n="supply.problem.statementOne">The value of your space is not the space.</p>
+        <p data-i18n="supply.problem.statementTwo">It's the people inside it.</p>
       </section>
 
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>We bring you the right people — at the right time.</h2>
+          <h2 data-i18n="supply.solution.title">We don't bring traffic. We bring density.</h2>
         </div>
         <div class="demand-solution-list reveal">
           <article class="benefit-row demand-solution-row">
-            <h3>Relevant users</h3>
-            <p>
-              Designers, builders, freelancers and independent professionals who
-              care about who they work around.
-            </p>
+            <h3 data-i18n="supply.solution.one.title">Professionals who choose with intention</h3>
+            <p data-i18n="supply.solution.one.text">Designers, developers, creators, and consultants who come to your space because they know who else will be there.</p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3>Coordinated presence</h3>
-            <p>
-              We help groups converge at your space at the same time, not just
-              discover it.
-            </p>
+            <h3 data-i18n="supply.solution.two.title">Coordinated presence</h3>
+            <p data-i18n="supply.solution.two.text">Not discovery — coordination. We help groups converge at your space at the same time.</p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3>Better days</h3>
-            <p>
-              Higher energy, better atmosphere, and stronger repeat behavior.
-            </p>
+            <h3 data-i18n="supply.solution.three.title">Days that create habit</h3>
+            <p data-i18n="supply.solution.three.text">A good day at your space is the best reason for someone to come back. And come back again.</p>
           </article>
         </div>
       </section>
 
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>What Here does for your coworking</h2>
+          <h2 data-i18n="supply.features.title">What changes when you're on here.</h2>
         </div>
         <div class="demand-solution-list reveal">
           <article class="benefit-row demand-solution-row">
-            <h3>More consistent occupancy</h3>
-            <p>Less randomness, more dependable flow across the week.</p>
+            <h3 data-i18n="supply.features.one.title">More consistent occupancy</h3>
+            <p data-i18n="supply.features.one.text">Fewer dead days. More predictable flow across the week.</p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3>Higher quality users</h3>
-            <p>People who care about the room, not just the cheapest desk.</p>
+            <h3 data-i18n="supply.features.two.title">Higher quality users</h3>
+            <p data-i18n="supply.features.two.text">People who respect the space and return — not just whoever wants the cheapest desk.</p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3>Better atmosphere and energy</h3>
-            <p>The room feels stronger when the right people overlap.</p>
+            <h3 data-i18n="supply.features.three.title">Better room energy</h3>
+            <p data-i18n="supply.features.three.text">The room feels different when the right people overlap.</p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3>Increased repeat visits</h3>
-            <p>Good days create habit and make people choose your space again.</p>
-          </article>
-          <article class="benefit-row demand-solution-row">
-            <h3>Demand during off-peak hours</h3>
-            <p>Coordinated presence helps quieter periods feel useful and alive.</p>
+            <h3 data-i18n="supply.features.four.title">More repeat visits</h3>
+            <p data-i18n="supply.features.four.text">Good days create habit. People choose your space again.</p>
           </article>
         </div>
       </section>
 
       <section class="content-grid demand-simple-section" id="problem">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>Not random traffic. Real momentum.</h2>
+          <h2 data-i18n="supply.diff.title">Not traffic. Momentum.</h2>
         </div>
         <div class="demand-compare-grid reveal">
           <article class="demand-compare-card">
-            <p class="demand-compare-label">Others</p>
+            <p class="demand-compare-label" data-i18n="supply.diff.others">Others</p>
             <ul class="demand-compare-list">
-              <li>Marketplaces bring random traffic</li>
-              <li>Marketing drives one-time spikes</li>
-              <li>Events create temporary activity</li>
+              <li data-i18n="supply.diff.otherOne">Marketplaces bring random visitors.</li>
+              <li data-i18n="supply.diff.otherTwo">Marketing creates one-time spikes.</li>
+              <li data-i18n="supply.diff.otherThree">Events generate temporary activity.</li>
             </ul>
           </article>
           <article class="demand-compare-card is-strong">
-            <p class="demand-compare-label">Here</p>
+            <p class="demand-compare-label" data-i18n="supply.diff.here">here.</p>
             <ul class="demand-compare-list">
-              <li>Builds recurring, coordinated presence</li>
+              <li data-i18n="supply.diff.hereOne">here. builds recurring, coordinated presence.</li>
+              <li data-i18n="supply.diff.hereTwo">Users choose your space because they know who'll be there.</li>
+              <li data-i18n="supply.diff.hereThree">Good days generate repeat behavior.</li>
             </ul>
-            <p class="demand-compare-foot">Become a place people choose.</p>
+            <p class="demand-compare-foot" data-i18n="supply.diff.foot">Become a space people choose — not just find.</p>
           </article>
         </div>
       </section>
 
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>How your space shows up on Here</h2>
+          <h2 data-i18n="supply.mock.title">How your space shows up on here.</h2>
         </div>
         <div class="demand-social-list reveal">
           <div class="rounded-xl border border-border bg-card overflow-hidden shadow-sm demand-hero-browser">
@@ -286,8 +277,8 @@
             </div>
             <div class="px-5 py-4">
               <p class="text-sm font-semibold text-foreground">6 designers • 2 developers here today</p>
-              <p class="text-xs text-muted-foreground" style="margin-top: 0.5rem;">
-                Users choose your space because people are already there.
+              <p class="text-xs text-muted-foreground" style="margin-top: 0.5rem;" data-i18n="supply.mock.text">
+                Users see who's at your space before deciding whether to go. That's what sets you apart from any other channel.
               </p>
             </div>
           </div>
@@ -296,76 +287,73 @@
 
       <section class="content-grid demand-simple-section" id="how-it-works">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>How it works</h2>
+          <h2 data-i18n="supply.how.title">How it works</h2>
         </div>
         <div class="feature-grid demand-steps-grid">
           <article class="feature-card reveal">
             <span class="feature-index">1</span>
-            <h3>Your space joins Here</h3>
-            <p>We add your coworking to the network and make it visible.</p>
+            <h3 data-i18n="supply.how.one.title">Your space joins here.</h3>
+            <p data-i18n="supply.how.one.text">We add your coworking to the network and make it visible to the right users.</p>
           </article>
           <article class="feature-card reveal">
             <span class="feature-index">2</span>
-            <h3>Users see who’s working there</h3>
-            <p>They understand the room before deciding where to go.</p>
+            <h3 data-i18n="supply.how.two.title">Users see who's working there</h3>
+            <p data-i18n="supply.how.two.text">They understand the room before deciding where to go.</p>
           </article>
           <article class="feature-card reveal">
             <span class="feature-index">3</span>
-            <h3>People choose your coworking</h3>
-            <p>They come because the mix of people makes sense for the day.</p>
+            <h3 data-i18n="supply.how.three.title">They choose your space</h3>
+            <p data-i18n="supply.how.three.text">They come because the mix of people makes sense for their day.</p>
           </article>
           <article class="feature-card reveal">
             <span class="feature-index">4</span>
-            <h3>Groups form and come back</h3>
-            <p>Better days lead to repeat behavior and stronger momentum.</p>
+            <h3 data-i18n="supply.how.four.title">Groups form and come back</h3>
+            <p data-i18n="supply.how.four.text">Good days create habit. Momentum builds.</p>
           </article>
         </div>
       </section>
 
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2>Built for coworkings that want more than visibility</h2>
+          <h2 data-i18n="supply.fit.title">here. is for you if…</h2>
         </div>
         <div class="demand-problem-list reveal">
           <article class="demand-problem-item">
-            <h3>Want more consistent flow</h3>
-            <p>Not just occasional bursts of traffic.</p>
+            <h3 data-i18n="supply.fit.one.title">You want consistent flow, not occasional spikes.</h3>
           </article>
           <article class="demand-problem-item">
-            <h3>Care about user quality, not just volume</h3>
-            <p>The room matters as much as the occupancy number.</p>
+            <h3 data-i18n="supply.fit.two.title">You care about who walks in, not just how many.</h3>
           </article>
           <article class="demand-problem-item">
-            <h3>Have empty capacity during the week</h3>
-            <p>Quiet hours are a growth opportunity if the right people overlap.</p>
+            <h3 data-i18n="supply.fit.three.title">You have unused capacity mid-week that you don't know how to activate.</h3>
           </article>
           <article class="demand-problem-item">
-            <h3>Want to stand out beyond location and price</h3>
-            <p>People should choose your space because of what happens inside it.</p>
+            <h3 data-i18n="supply.fit.four.title">You want people to choose you for what happens inside, not just location or price.</h3>
           </article>
         </div>
       </section>
 
       <section class="waitlist-section demand-final-cta" id="partner-form">
         <div class="waitlist-copy reveal demand-final-copy">
-          <h2>Turn empty seats into the right crowd.</h2>
-          <p>
-            Join Here and become a place people choose, not just find.
+          <h2 data-i18n="supply.waitlist.title">Your space's best days are ahead.</h2>
+          <p data-i18n="supply.waitlist.text">
+            Join here. and become a space people genuinely choose.
           </p>
         </div>
         <form class="waitlist-form reveal demand-final-form">
           <label>
-            <span>Workspace name</span>
-            <input type="text" placeholder="Your coworking space" />
+            <span data-i18n="supply.form.nameLabel">Workspace name</span>
+            <input type="text" placeholder="Workspace name" data-i18n-attr="placeholder:supply.form.namePlaceholder" />
           </label>
           <label>
-            <span>Email</span>
-            <input type="email" placeholder="team@workspace.com" />
+            <span data-i18n="supply.form.emailLabel">Your email</span>
+            <input type="email" placeholder="Your email" data-i18n-attr="placeholder:supply.form.emailPlaceholder" />
           </label>
           <div class="hero-actions" style="margin-top: 0;">
-            <button class="button button-solid" type="submit">Partner with Here</button>
-            <button class="button button-ghost" type="button">Talk to us</button>
+            <button class="button button-solid" type="submit" data-i18n="supply.form.buttonPrimary">Partner with here.</button>
+            <button class="button button-ghost" type="button" data-i18n="supply.form.buttonSecondary">Talk to us</button>
           </div>
+          <p class="metrics-note" data-i18n="supply.form.note">No commitment. We'll get back to you within 48 hours.</p>
         </form>
       </section>
     </main>

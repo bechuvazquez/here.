@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -21,7 +21,9 @@
   <body class="demand-workers-page">
     <div class="page-noise" aria-hidden="true"></div>
     <header class="site-header">
-      <a class="brandmark" href="./index.html" aria-label="here. home">here.</a>
+      <a class="brandmark" href="./index.html" aria-label="here. home">
+        <span class="brandmark-word">here</span><span class="logo-dot-active" aria-hidden="true"></span>
+      </a>
       <div class="header-actions">
         <div class="language-switcher" aria-label="Language switcher">
           <button type="button" class="lang-button" data-lang="en">EN</button>
@@ -39,14 +41,14 @@
     <main>
       <section class="hero hero-demand hero-demand-workers">
         <div class="hero-copy reveal">
-          <h1 data-i18n="demand.hero.title">Work from different coworkings — with the right people.</h1>
+          <h1 data-i18n="demand.hero.title">Work with the right people.</h1>
           <p class="hero-text" data-i18n="demand.hero.text">
-            See who&apos;s working, where and move freely.
+            See who&apos;s working where before you leave. Choose based on people, not just the space.
           </p>
           <div class="demand-hero-sub reveal">
-            <span data-i18n="demand.hero.subOne">Access great coworkings.</span>
-            <span data-i18n="demand.hero.subTwo">Know who&apos;s there.</span>
-            <span data-i18n="demand.hero.subThree">Choose better.</span>
+            <span data-i18n="demand.hero.subOne">Access coworkings across the city.</span>
+            <span data-i18n="demand.hero.subTwo">See who&apos;s there in real time.</span>
+            <span data-i18n="demand.hero.subThree">Make better decisions every day.</span>
           </div>
           <div class="hero-actions">
             <a class="button button-solid" href="#waitlist" data-i18n="demand.hero.ctaPrimary">Join waitlist</a>
@@ -54,169 +56,291 @@
         </div>
 
         <div class="hero-panel reveal demand-mock-shell">
-          <div class="lg:pl-8">
-            <div class="w-full max-w-md mx-auto">
-              <div class="rounded-xl border border-border bg-card overflow-hidden shadow-sm demand-hero-browser">
-                <div class="px-5 py-4 border-b border-border">
-                  <div class="flex items-center justify-between">
-                    <span class="text-sm font-semibold text-foreground tracking-tight" data-i18n="demand.card.title">Spaces near you</span>
-                    <span class="text-xs text-muted-foreground" data-i18n="demand.card.today">Today</span>
-                  </div>
+          <div class="demand-phone demand-phone-home">
+            <div class="demand-phone-status">
+              <span>9:41</span>
+              <div class="demand-phone-status-icons">
+                <div class="demand-signal-bars">
+                  <span></span><span></span><span></span><span></span>
                 </div>
-                <div class="divide-y divide-border">
-                  <div class="px-5 py-4 transition-colors bg-accent/50">
-                    <div class="flex items-start justify-between mb-2.5">
-                      <div>
-                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeOne">The Workshop</h4>
-                        <div class="flex items-center gap-1 mt-0.5">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaOne">Kreuzberg</span>
-                        </div>
-                      </div>
-                      <div class="flex items-center gap-1 text-muted-foreground">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                        <span class="text-xs font-medium" data-i18n="demand.card.countOne">7</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1 mb-2">
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">AL</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">MK</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">JR</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">TS</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">NP</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">CF</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">LW</div>
-                    </div>
-                    <div class="flex gap-1.5 flex-wrap">
-                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagOne">5 designers</span>
-                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagTwo">2 developers</span>
-                    </div>
-                  </div>
-                  <div class="px-5 py-4 transition-colors">
-                    <div class="flex items-start justify-between mb-2.5">
-                      <div>
-                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeTwo">Café Desk</h4>
-                        <div class="flex items-center gap-1 mt-0.5">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaTwo">Mitte</span>
-                        </div>
-                      </div>
-                      <div class="flex items-center gap-1 text-muted-foreground">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                        <span class="text-xs font-medium" data-i18n="demand.card.countTwo">1</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1 mb-2">
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">RB</div>
-                    </div>
-                    <div class="flex gap-1.5 flex-wrap">
-                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagThree">1 person</span>
-                    </div>
-                  </div>
-                  <div class="px-5 py-4 transition-colors">
-                    <div class="flex items-start justify-between mb-2.5">
-                      <div>
-                        <h4 class="text-sm font-semibold text-foreground" data-i18n="demand.card.placeThree">CoBase</h4>
-                        <div class="flex items-center gap-1 mt-0.5">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                          <span class="text-xs text-muted-foreground" data-i18n="demand.card.metaThree">Friedrichshain</span>
-                        </div>
-                      </div>
-                      <div class="flex items-center gap-1 text-muted-foreground">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-3.5 h-3.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                        <span class="text-xs font-medium" data-i18n="demand.card.countThree">3</span>
-                      </div>
-                    </div>
-                    <div class="flex items-center gap-1 mb-2">
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">HJ</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">OD</div>
-                      <div class="w-7 h-7 rounded-full bg-secondary flex items-center justify-center text-[10px] font-semibold text-secondary-foreground border-2 border-card -ml-1 first:ml-0">KS</div>
-                    </div>
-                    <div class="flex gap-1.5 flex-wrap">
-                      <span class="text-[11px] font-medium text-muted-foreground bg-secondary px-2 py-0.5 rounded-full" data-i18n="demand.card.tagFour">3 marketers</span>
-                    </div>
-                  </div>
+                <div class="demand-battery"><div class="demand-battery-fill"></div></div>
+              </div>
+            </div>
+
+            <div class="demand-phone-top demand-grid-shell">
+              <div class="demand-grid-lines"></div>
+              <div class="demand-grid-mask demand-grid-mask-one"></div>
+              <div class="demand-grid-mask demand-grid-mask-two"></div>
+              <div class="demand-phone-top-inner">
+                <div class="demand-phone-logo">
+                  <span>here</span>
+                  <span class="logo-dot-active"></span>
+                </div>
+                <div class="demand-phone-avatar">MP</div>
+              </div>
+            </div>
+
+            <div class="demand-map">
+              <div class="demand-map-grid"></div>
+              <div class="demand-map-street h one"></div>
+              <div class="demand-map-street h two"></div>
+              <div class="demand-map-street h three"></div>
+              <div class="demand-map-street v one"></div>
+              <div class="demand-map-street v two"></div>
+              <div class="demand-map-street v three"></div>
+              <div class="demand-map-block b1"></div>
+              <div class="demand-map-block b2"></div>
+              <div class="demand-map-block b3"></div>
+              <div class="demand-map-block b4"></div>
+              <div class="demand-map-block b5"></div>
+              <div class="demand-map-block b6"></div>
+              <div class="demand-map-block b7"></div>
+              <div class="demand-map-block b8"></div>
+              <div class="demand-map-block b9"></div>
+              <div class="demand-map-pin p1">
+                <div class="demand-map-bubble">
+                  <span class="presence-dot-dark"></span>
+                  <strong>7</strong>
+                  <span>Workshop</span>
                 </div>
               </div>
+              <div class="demand-map-pin p2">
+                <div class="demand-map-bubble">
+                  <span class="presence-dot-dark"></span>
+                  <strong>3</strong>
+                  <span>CoBase</span>
+                </div>
+              </div>
+              <div class="demand-map-pin p3 is-empty">
+                <div class="demand-map-bubble">
+                  <span class="demand-off-dot"></span>
+                  <strong>0</strong>
+                  <span>Cafe Desk</span>
+                </div>
+              </div>
+              <div class="demand-map-user"></div>
+            </div>
+
+            <div class="demand-phone-list">
+              <div class="demand-phone-list-head">
+                <div>
+                  <p class="demand-phone-list-title">Near you</p>
+                </div>
+                <span class="demand-phone-list-meta">Today</span>
+              </div>
+
+              <article class="demand-space-card is-live">
+                <div class="demand-space-row">
+                  <div>
+                    <h4>The Workshop</h4>
+                    <p>Malasaña · 8 min</p>
+                  </div>
+                  <div class="demand-space-count">
+                    <span class="presence-dot"></span>
+                    <strong>7</strong>
+                  </div>
+                </div>
+                <div class="demand-avatar-stack">
+                  <span class="demand-avatar a-dark">AL</span>
+                  <span class="demand-avatar a-mid">MK</span>
+                  <span class="demand-avatar a-warm">JR</span>
+                  <span class="demand-avatar a-dark">TS</span>
+                  <span class="demand-avatar a-plus">+3</span>
+                </div>
+                <div class="demand-pill-row">
+                  <span class="demand-ui-pill">5 designers</span>
+                  <span class="demand-ui-pill">2 devs</span>
+                </div>
+              </article>
+
+              <article class="demand-space-card is-live">
+                <div class="demand-space-row">
+                  <div>
+                    <h4>CoBase</h4>
+                    <p>Cuzco · 12 min</p>
+                  </div>
+                  <div class="demand-space-count">
+                    <span class="presence-dot"></span>
+                    <strong>3</strong>
+                  </div>
+                </div>
+                <div class="demand-avatar-stack">
+                  <span class="demand-avatar a-mid">HJ</span>
+                  <span class="demand-avatar a-dark">OD</span>
+                  <span class="demand-avatar a-warm">KS</span>
+                </div>
+                <div class="demand-pill-row">
+                  <span class="demand-ui-pill">3 marketers</span>
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="content-grid demand-simple-section">
+      <section class="content-grid demand-simple-section demand-product-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2 data-i18n="demand.flex.title">Stop going to the same place every day</h2>
+          <h2 data-i18n="demand.product.title">See the room before you go.</h2>
         </div>
-        <div class="demand-compare-grid reveal">
-          <article class="demand-compare-card">
-            <p class="demand-compare-label" data-i18n="demand.flex.oldLabel">You don&apos;t need</p>
-            <ul class="demand-compare-list">
-              <li data-i18n="demand.flex.oldOne">one coworking</li>
-              <li data-i18n="demand.flex.oldTwo">one routine</li>
-            </ul>
+        <div class="demand-product-grid reveal">
+          <article class="demand-product-card">
+            <p class="demand-product-label" data-i18n="demand.product.detailLabel">Space detail</p>
+            <div class="demand-phone demand-phone-detail">
+              <div class="demand-phone-status">
+                <span>9:41</span>
+                <div class="demand-phone-status-icons">
+                  <div class="demand-signal-bars">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="demand-battery"><div class="demand-battery-fill"></div></div>
+                </div>
+              </div>
+              <div class="demand-phone-top demand-grid-shell">
+                <div class="demand-grid-lines"></div>
+                <div class="demand-grid-mask demand-grid-mask-one"></div>
+                <div class="demand-grid-mask demand-grid-mask-two"></div>
+                <div class="demand-detail-head">
+                  <div class="demand-back-row"><span>&larr;</span><span data-i18n="demand.product.back">Back</span></div>
+                  <h3>The Workshop</h3>
+                  <p>Malasaña · Calle Velarde 12 · 8 min</p>
+                  <div class="demand-live-chip">
+                    <span class="presence-dot-dark"></span>
+                    <span data-i18n="demand.product.liveNow">7 here now</span>
+                  </div>
+                </div>
+              </div>
+              <div class="demand-people-section">
+                <p class="demand-product-label" data-i18n="demand.product.peopleNow">Who’s there now</p>
+                <div class="demand-person-row">
+                  <span class="demand-avatar a-dark large">AL</span>
+                  <div><strong>Alex Lima</strong><p>Product Designer</p></div>
+                  <span>2h</span>
+                </div>
+                <div class="demand-person-row">
+                  <span class="demand-avatar a-mid large">MK</span>
+                  <div><strong>Marta K.</strong><p>Frontend Dev</p></div>
+                  <span>1h</span>
+                </div>
+                <div class="demand-person-row no-border">
+                  <span class="demand-avatar a-warm large">JR</span>
+                  <div><strong>Javi Ruiz</strong><p>UX Designer</p></div>
+                  <span>45m</span>
+                </div>
+              </div>
+            </div>
           </article>
-          <article class="demand-compare-card is-strong">
-            <p class="demand-compare-label" data-i18n="demand.flex.newLabel">You need</p>
-            <ul class="demand-compare-list">
-              <li data-i18n="demand.flex.newOne">flexibility</li>
-              <li data-i18n="demand.flex.newTwo">variety</li>
-              <li data-i18n="demand.flex.newThree">the right people</li>
-            </ul>
-            <p class="demand-compare-foot" data-i18n="demand.flex.foot">Here gives you all three.</p>
+
+          <article class="demand-product-card">
+            <p class="demand-product-label" data-i18n="demand.product.checkinLabel">Check in</p>
+            <div class="demand-phone demand-phone-checkin">
+              <div class="demand-phone-status">
+                <span>9:41</span>
+                <div class="demand-phone-status-icons">
+                  <div class="demand-signal-bars">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="demand-battery"><div class="demand-battery-fill"></div></div>
+                </div>
+              </div>
+              <div class="demand-checkin-wrap">
+                <div class="demand-back-row"><span>&larr;</span><span data-i18n="demand.product.back">Back</span></div>
+                <h3 data-i18n="demand.product.checkinTitle">Check in</h3>
+                <p data-i18n="demand.product.checkinText">Confirm where you’ll work and make yourself visible.</p>
+
+                <div class="demand-checkin-card">
+                  <h4>The Workshop</h4>
+                  <p>Malasaña · Calle Velarde 12</p>
+                  <div class="demand-live-chip">
+                    <span class="presence-dot-dark"></span>
+                    <span data-i18n="demand.product.peopleThere">7 people there</span>
+                  </div>
+                </div>
+
+                <div class="demand-duration">
+                  <span class="demand-product-label" data-i18n="demand.product.duration">Duration</span>
+                  <div class="demand-duration-row">
+                    <button type="button" class="demand-duration-pill is-selected">2h</button>
+                    <button type="button" class="demand-duration-pill" data-i18n="demand.product.halfDay">Half day</button>
+                    <button type="button" class="demand-duration-pill" data-i18n="demand.product.fullDay">Full day</button>
+                  </div>
+                </div>
+
+                <div class="demand-visibility-row">
+                  <div>
+                    <strong data-i18n="demand.product.visible">Visible to others</strong>
+                    <p data-i18n="demand.product.visibleText">People can see you’re there</p>
+                  </div>
+                  <div class="demand-toggle"><span></span></div>
+                </div>
+
+                <button type="button" class="demand-checkin-button" data-i18n="demand.product.cta">I’ll work here</button>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
+      <section class="content-grid demand-simple-section">
+        <div class="section-intro reveal demand-simple-intro">
+          <h2 data-i18n="demand.flex.title">Too many days working alone.</h2>
+        </div>
+        <article class="demand-problem-item reveal">
+          <p data-i18n="demand.flex.bodyOne">
+            Remote work gave you freedom. But it also took something away: the energy of being around the right people.
+          </p>
+          <p data-i18n="demand.flex.bodyTwo">
+            Today, many freelancers spend their days alone — at home, in cafés, or in coworkings where they know no one. Surrounded by people, but not by their people.
+          </p>
+        </article>
+      </section>
+
       <section class="content-grid demand-simple-section" id="problem">
         <div class="section-intro reveal demand-simple-intro">
-          <h2 data-i18n="demand.problem.title">From habit to intentional choice.</h2>
+          <h2 data-i18n="demand.problem.title">Choose who, not just where.</h2>
         </div>
         <div class="demand-compare-grid reveal">
           <article class="demand-compare-card">
             <p class="demand-compare-label" data-i18n="demand.problem.oldLabel">Without Here</p>
             <ul class="demand-compare-list">
-              <li data-i18n="demand.problem.one.title">you pick a coworking</li>
-              <li data-i18n="demand.problem.two.title">you hope it&apos;s good</li>
+              <li data-i18n="demand.problem.one.title">You pick a coworking.</li>
+              <li data-i18n="demand.problem.two.title">You hope it&apos;s good.</li>
+              <li data-i18n="demand.problem.three.title">You know no one.</li>
+              <li data-i18n="demand.problem.four.title">Another day alone.</li>
             </ul>
           </article>
           <article class="demand-compare-card is-strong">
             <p class="demand-compare-label" data-i18n="demand.problem.newLabel">With Here</p>
             <ul class="demand-compare-list">
-              <li data-i18n="demand.problem.newOne">you see where interesting people are</li>
-              <li data-i18n="demand.problem.newTwo">you choose</li>
-              <li data-i18n="demand.problem.newThree">you go</li>
+              <li data-i18n="demand.problem.newOne">You see where interesting people are.</li>
+              <li data-i18n="demand.problem.newTwo">You choose based on that.</li>
+              <li data-i18n="demand.problem.newThree">You arrive with context.</li>
+              <li data-i18n="demand.problem.newFour">A good day of work.</li>
             </ul>
-            <p class="demand-compare-foot" data-i18n="demand.problem.foot">Big shift: from habit to intentional choice.</p>
           </article>
         </div>
       </section>
 
-      <section class="statement-strip reveal demand-insight-band" id="city-office">
-        <p data-i18n="demand.insight.one">Your office is the city.</p>
-        <p data-i18n="demand.insight.two">Choose better.</p>
-      </section>
-
       <section class="content-grid demand-simple-section">
         <div class="section-intro reveal demand-simple-intro">
-          <h2 data-i18n="demand.solution.title">With Here you can:</h2>
+          <h2 data-i18n="demand.solution.title">What you see before you arrive.</h2>
         </div>
         <div class="demand-solution-list reveal">
           <article class="benefit-row demand-solution-row">
-            <h3 data-i18n="demand.solution.one.title">See who&apos;s working in each space</h3>
+            <h3 data-i18n="demand.solution.one.title">Who&apos;s in each space</h3>
             <p data-i18n="demand.solution.one.text">
               Real-time visibility into who is checked in at coworkings near you.
             </p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3 data-i18n="demand.solution.two.title">Find people doing similar work</h3>
+            <h3 data-i18n="demand.solution.two.title">People in your field</h3>
             <p data-i18n="demand.solution.two.text">
-              Look for designers, developers, creators, and freelancers before you decide.
+              Designers, developers, creators, and consultants — filter by what matters to you.
             </p>
           </article>
           <article class="benefit-row demand-solution-row">
-            <h3 data-i18n="demand.solution.three.title">Choose where to go based on that</h3>
+            <h3 data-i18n="demand.solution.three.title">The decision is yours</h3>
             <p data-i18n="demand.solution.three.text">
-              Make the decision based on people, not just on space.
+              Go or don&apos;t go. But always with real information.
             </p>
           </article>
         </div>
@@ -229,7 +353,7 @@
         <div class="feature-grid demand-steps-grid">
           <article class="feature-card reveal">
             <span class="feature-index">1</span>
-            <h3 data-i18n="demand.how.one.title">See who&apos;s working</h3>
+            <h3 data-i18n="demand.how.one.title">See who&apos;s there</h3>
             <p data-i18n="demand.how.one.text">
               Check real-time activity at spaces near you.
             </p>
@@ -238,14 +362,14 @@
             <span class="feature-index">2</span>
             <h3 data-i18n="demand.how.two.title">Choose where to go</h3>
             <p data-i18n="demand.how.two.text">
-              Pick the space with the right people today.
+              Pick the space with the people you care about today.
             </p>
           </article>
           <article class="feature-card reveal">
             <span class="feature-index">3</span>
             <h3 data-i18n="demand.how.three.title">Show up</h3>
             <p data-i18n="demand.how.three.text">
-              Walk in and start working with your people.
+              Walk in and get to work. Connections happen naturally.
             </p>
           </article>
         </div>
@@ -269,18 +393,18 @@
 
       <section class="waitlist-section demand-final-cta" id="waitlist">
         <div class="waitlist-copy reveal demand-final-copy">
-          <h2 data-i18n="demand.waitlist.title">Different place. Better people. Better day.</h2>
+          <h2 data-i18n="demand.waitlist.title">The best days aren&apos;t planned.</h2>
           <p data-i18n="demand.waitlist.text">
-            Work from anywhere. Not with anyone.
+            Work from anywhere. Just not with anyone.
           </p>
         </div>
         <form class="waitlist-form reveal demand-final-form">
           <label>
             <span data-i18n="demand.form.emailLabel">Email</span>
-            <input type="email" placeholder="name@email.com" data-i18n-attr="placeholder:demand.form.emailPlaceholder" />
+            <input type="email" placeholder="Your email" data-i18n-attr="placeholder:demand.form.emailPlaceholder" />
           </label>
           <label>
-            <span data-i18n="demand.form.roleLabel">What best describes your work?</span>
+            <span data-i18n="demand.form.roleLabel">What do you do?</span>
             <select>
               <option data-i18n="demand.form.roleOne">Designer</option>
               <option data-i18n="demand.form.roleTwo">Developer</option>
@@ -292,6 +416,9 @@
           <button class="button button-solid" type="submit" data-i18n="demand.form.button">
             Join the waitlist
           </button>
+          <p class="metrics-note" data-i18n="demand.form.note">
+            No spam. We&apos;ll let you know when here. is available in your city.
+          </p>
         </form>
       </section>
     </main>
