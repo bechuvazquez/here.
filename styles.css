@@ -252,13 +252,6 @@ strong {
   padding-bottom: 4.5rem;
 }
 
-.index-page .hero-copy h1 {
-  max-width: 11.5ch;
-  font-size: clamp(3.35rem, 7.8vw, 5.8rem);
-  line-height: 1;
-  letter-spacing: -0.06em;
-}
-
 .hero-copy h1 {
   max-width: 9ch;
   font-size: clamp(3.4rem, 8vw, 52px);
@@ -739,6 +732,24 @@ body.enterprise-dark-page {
   border-bottom-color: rgba(236, 226, 214, 0.1);
 }
 
+.enterprise-dark-page .pricing-band h2 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+  color: var(--ink-d-primary);
+}
+
+.enterprise-dark-page .pricing-band .price-cards {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.enterprise-dark-page .price-cards article strong {
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
 .enterprise-dark-page .statement-strip p:first-child {
   color: var(--ink-d-primary);
 }
@@ -825,10 +836,6 @@ body.enterprise-dark-page {
   max-width: 11.5ch;
   color: var(--ink-d-primary);
   text-transform: none;
-  letter-spacing: -0.06em;
-  font-size: clamp(3.35rem, 7.8vw, 5.8rem);
-  line-height: 1;
-  margin: 0;
 }
 
 .supply-dark-page .hero-text {
@@ -1366,11 +1373,7 @@ body.demand-workers-page {
 
 .demand-workers-page .hero-copy h1 {
   max-width: 11ch;
-  font-size: clamp(3.4rem, 8vw, 6.3rem);
-  line-height: 0.98;
-  letter-spacing: -0.07em;
   text-transform: none;
-  margin: 0;
 }
 
 .demand-workers-page .hero-text {
@@ -2535,4 +2538,17 @@ body.demand-workers-page {
   .demand-insight-band {
     padding-bottom: 4rem;
   }
+}
+.index-page .hero-copy h1,
+.supply-dark-page .hero-copy h1,
+.demand-workers-page .hero-copy h1,
+.enterprise-dark-page .hero-copy h1 {
+  font-size: clamp(3.35rem, 7.8vw, 5.8rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+  margin: 0;
+}
+
+.index-page .hero-copy h1 {
+  max-width: 11.5ch;
 }

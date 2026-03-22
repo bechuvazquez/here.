@@ -22,88 +22,87 @@ const translations = {
     "nav.demand": "Workers",
     "nav.supply": "Coworkings",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "here. | Coordinate Presence",
+    "meta.index.title": "hier. — Work near the right people",
     "meta.index.description":
-      "here. is the people-first coordination layer that turns flexible work into repeatable, high-density in-person sessions.",
-    "meta.demand.title": "here. | Workers",
+      "hier. shows who's at each coworking in real time. Choose where to work based on the people, not just the space.",
+    "meta.demand.title": "hier. | Workers",
     "meta.demand.description":
-      "here. shows workers who is at each coworking so they can choose where to go based on people, not guesswork.",
-    "meta.supply.title": "here. | Supply",
+      "hier. shows workers who is at each coworking so they can choose where to go based on people, not guesswork.",
+    "meta.supply.title": "hier. | Supply",
     "meta.supply.description":
-      "here. partners with workspace venues to turn flexible supply into recurring, high-density sessions with lightweight commitments.",
-    "meta.enterprise.title": "here. | Enterprise",
+      "hier. partners with workspace venues to turn flexible supply into recurring, high-density sessions with lightweight commitments.",
+    "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
-      "here. gives companies a way to show up inside recurring role-based work sessions where high-signal independent talent already gathers.",
-    "index.hero.eyebrow": "People-first coordination layer",
-    "index.hero.title": "Coordinate presence. Build real-world density.",
+      "hier. gives companies a way to show up inside recurring role-based work sessions where high-signal independent talent already gathers.",
+    "index.hero.eyebrow": "",
+    "index.hero.title": "Work near the right people.",
     "index.hero.text":
-      "here. makes who is working where visible so independent professionals can converge on the right people in the same place, same time. We turn flexible work into repeatable, high-density sessions without owning real estate.",
-    "index.hero.ctaDemand": "For Workers",
-    "index.hero.ctaSupply": "For Venues",
-    "index.hero.ctaEnterprise": "For Enterprise",
+      "hier. shows who's working at each coworking, in real time. Choose where to go based on the people — not just the space.",
+    "index.hero.ctaDemand": "I'm a freelancer",
+    "index.hero.ctaSupply": "I run a coworking",
+    "index.hero.ctaEnterprise": "I have a remote team",
     "index.card.today": "now",
     "index.card.title": "Commitment-first MVP.",
     "index.card.text":
       "Scheduled presence and RSVP first. Real-time density next.",
-    "index.statement.one": "See who's Here. Join them.",
-    "index.statement.two": "Don't work alone. Be Here.",
-    "index.problem.eyebrow": "Three pillars",
-    "index.problem.title":
-      "A city-by-city model built on presence, sessions, and partner venues.",
-    "index.problem.one.title": "Make relevant people visible in real time",
+    "index.statement.one": "See who's hier. Join them.",
+    "index.statement.two": "Don't work alone. Be hier.",
+    "index.problem.eyebrow": "",
+    "index.problem.title": "How it works.",
+    "index.problem.one.title": "Open hier. in the morning.",
     "index.problem.one.text":
-      "Turn workspace choice into people-first coordination across physical workspaces.",
-    "index.problem.two.title": "Create recurring density through sessions and hosts",
+      "Start the day by checking where your people are.",
+    "index.problem.two.title":
+      "See who's working at coworkings near you.",
     "index.problem.two.text":
-      "Lightweight commitments and repeatable rituals make attendance more reliable.",
-    "index.problem.three.title": "Stay asset-light through supply partnerships",
+      "Real-time visibility changes how you choose where to go.",
+    "index.problem.three.title":
+      "Choose where to go. Show up. Work better.",
     "index.problem.three.text":
-      "Work with existing venues, day-access pricing, and scale one city and one cohort at a time.",
-    "index.solution.eyebrow": "Positioning",
-    "index.solution.title": "Flexible work becomes defensible when density becomes repeatable.",
-    "index.solution.text":
-      "The wedge is not everyone in one city. It is one role community, 3–5 partner venues, and weekly Here Sessions that reliably reach critical mass before broader expansion.",
-    "index.solution.quote":
-      "“Coordinate presence. Build density. Create value.”",
-    "index.market.eyebrow": "Proof points",
-    "index.market.title":
-      "The tailwinds are already here.",
-    "index.market.one.title": "55% demand signal",
+      "The decision gets easier when you know who is already there.",
+    "index.solution.eyebrow": "",
+    "index.solution.title": "",
+    "index.solution.text": "",
+    "index.solution.quote": "",
+    "index.market.eyebrow": "",
+    "index.market.title": "The moment is now.",
+    "index.market.one.title":
+      "55% of professionals already use flex spaces",
     "index.market.one.text":
-      "55% of global occupiers already use flexible office solutions.",
-    "index.market.two.title": "21% flex allocation",
+      "The demand is there. Coordination is missing.",
+    "index.market.two.title":
+      "Flex grew from 12% to 21% across Europe in one year",
     "index.market.two.text":
-      "Europe flex allocation grew from 12% in 2024 to 21% in 2025.",
-    "index.market.three.title": "€19–€40 day access",
+      "Flexible work isn't a trend. It's the standard.",
+    "index.market.three.title": "Day passes from EUR15-EUR40 in Madrid",
     "index.market.three.text":
-      "Partner-friendly day pricing means low-friction supply already exists.",
-    "index.market.four.title": "What to track",
-    "index.market.four.text":
-      "Density, retention, and RSVP-to-arrival reliability tell you if the coordination loop is working.",
-    "index.gtm.eyebrow": "Go-to-market and KPIs",
-    "index.gtm.one.title": "Wedge by cohort",
-    "index.gtm.one.text":
-      "Launch one role community and win density before expanding.",
-    "index.gtm.two.title": "Ritualize demand",
-    "index.gtm.two.text":
-      "Run weekly Here Sessions across 3–5 partner venues.",
-    "index.gtm.three.title": "Track reliability",
-    "index.gtm.three.text":
-      "Watch attendees per session, repeat rate, and RSVP-to-arrival.",
-    "index.split.eyebrow": "Audience paths",
-    "index.split.title": "Three entry points into the same coordination engine.",
+      "Affordable access already exists. You just need to know who to go with.",
+    "index.market.four.title": "",
+    "index.market.four.text": "",
+    "index.gtm.eyebrow": "",
+    "index.gtm.one.title": "",
+    "index.gtm.one.text": "",
+    "index.gtm.two.title": "",
+    "index.gtm.two.text": "",
+    "index.gtm.three.title": "",
+    "index.gtm.three.text": "",
+    "index.split.eyebrow": "",
+    "index.split.title": "Who are you?",
     "index.split.demand.label": "Workers",
-    "index.split.demand.title": "Sell repeatable work sessions",
+    "index.split.demand.title": "I'm a freelancer or remote worker",
     "index.split.demand.text":
-      "For independent professionals who want to stop choosing workdays blindly.",
-    "index.split.supply.label": "Supply",
-    "index.split.supply.title": "Sell recurring density",
+      "I want to see who's at coworkings in my city and choose where to go based on the people.",
+    "index.split.demand.cta": "See how it works for me →",
+    "index.split.supply.label": "Coworkings",
+    "index.split.supply.title": "I run a coworking",
     "index.split.supply.text":
-      "For venue partners who want predictable sessions, not random foot traffic.",
+      "I want hier. to bring me recurring, quality users — not random foot traffic.",
+    "index.split.supply.cta": "See how it works for my space →",
     "index.split.enterprise.label": "Enterprise",
-    "index.split.enterprise.title": "Sell sponsored presence",
+    "index.split.enterprise.title": "I have a remote or hybrid team",
     "index.split.enterprise.text":
-      "For companies that want visibility inside high-signal role communities.",
+      "I want my team to have spaces to overlap without paying for a fixed office.",
+    "index.split.enterprise.cta": "See how it works for my company →",
     "demand.hero.eyebrow": "Workers page",
     "demand.hero.title": "Work with the right people.",
     "demand.hero.text":
@@ -151,12 +150,12 @@ const translations = {
       "Today, many freelancers spend their days alone — at home, in cafés, or in coworkings where they know no one. Surrounded by people, but not by their people.",
     "demand.problem.eyebrow": "Choose better",
     "demand.problem.title": "Choose who, not just where.",
-    "demand.problem.oldLabel": "Without Here",
+    "demand.problem.oldLabel": "Without Hier",
     "demand.problem.one.title": "You pick a coworking.",
     "demand.problem.two.title": "You hope it's good.",
     "demand.problem.three.title": "You know no one.",
     "demand.problem.four.title": "Another day alone.",
-    "demand.problem.newLabel": "With Here",
+    "demand.problem.newLabel": "With Hier",
     "demand.problem.newOne": "You see where interesting people are.",
     "demand.problem.newTwo": "You choose based on that.",
     "demand.problem.newThree": "You arrive with context.",
@@ -207,11 +206,11 @@ const translations = {
     "demand.form.emailPlaceholder": "Your email",
     "demand.form.button": "Join the waitlist",
     "demand.form.note":
-      "No spam. We'll let you know when here. is available in your city.",
+      "No spam. We'll let you know when hier. is available in your city.",
     "supply.hero.title": "Fill your coworking with the right people.",
     "supply.hero.text":
-      "here. coordinates groups of professionals to converge at your space. Not random traffic — intentional presence.",
-    "supply.hero.ctaPrimary": "Partner with here.",
+      "hier. coordinates groups of professionals to converge at your space. Not random traffic — intentional presence.",
+    "supply.hero.ctaPrimary": "Partner with hier.",
     "supply.hero.ctaSecondary": "Talk to us",
     "supply.problem.title": "Empty seats are not your biggest problem.",
     "supply.problem.one.title": "Unpredictable occupancy",
@@ -235,7 +234,7 @@ const translations = {
     "supply.solution.three.title": "Days that create habit",
     "supply.solution.three.text":
       "A good day at your space is the best reason for someone to come back. And come back again.",
-    "supply.features.title": "What changes when you're on here.",
+    "supply.features.title": "What changes when you're on hier.",
     "supply.features.one.title": "More consistent occupancy",
     "supply.features.one.text":
       "Fewer dead days. More predictable flow across the week.",
@@ -253,17 +252,17 @@ const translations = {
     "supply.diff.otherOne": "Marketplaces bring random visitors.",
     "supply.diff.otherTwo": "Marketing creates one-time spikes.",
     "supply.diff.otherThree": "Events generate temporary activity.",
-    "supply.diff.here": "here.",
-    "supply.diff.hereOne": "here. builds recurring, coordinated presence.",
+    "supply.diff.here": "hier.",
+    "supply.diff.hereOne": "hier. builds recurring, coordinated presence.",
     "supply.diff.hereTwo":
       "Users choose your space because they know who'll be there.",
     "supply.diff.hereThree": "Good days generate repeat behavior.",
     "supply.diff.foot": "Become a space people choose — not just find.",
-    "supply.mock.title": "How your space shows up on here.",
+    "supply.mock.title": "How your space shows up on hier.",
     "supply.mock.text":
       "Users see who's at your space before deciding whether to go. That's what sets you apart from any other channel.",
     "supply.how.title": "How it works",
-    "supply.how.one.title": "Your space joins here.",
+    "supply.how.one.title": "Your space joins hier.",
     "supply.how.one.text":
       "We add your coworking to the network and make it visible to the right users.",
     "supply.how.two.title": "Users see who's working there",
@@ -274,7 +273,7 @@ const translations = {
       "They come because the mix of people makes sense for their day.",
     "supply.how.four.title": "Groups form and come back",
     "supply.how.four.text": "Good days create habit. Momentum builds.",
-    "supply.fit.title": "here. is for you if…",
+    "supply.fit.title": "hier. is for you if…",
     "supply.fit.one.title":
       "You want consistent flow, not occasional spikes.",
     "supply.fit.two.title":
@@ -285,181 +284,191 @@ const translations = {
       "You want people to choose you for what happens inside, not just location or price.",
     "supply.waitlist.title": "Your space's best days are ahead.",
     "supply.waitlist.text":
-      "Join here. and become a space people genuinely choose.",
+      "Join hier. and become a space people genuinely choose.",
     "supply.form.nameLabel": "Workspace name",
     "supply.form.namePlaceholder": "Workspace name",
     "supply.form.emailLabel": "Your email",
     "supply.form.emailPlaceholder": "Your email",
-    "supply.form.buttonPrimary": "Partner with here.",
+    "supply.form.buttonPrimary": "Partner with hier.",
     "supply.form.buttonSecondary": "Talk to us",
     "supply.form.note":
       "No commitment. We'll get back to you within 48 hours.",
     "enterprise.hero.eyebrow": "Enterprise landing page",
-    "enterprise.hero.title": "Show up inside high-signal work sessions.",
+    "enterprise.hero.title": "Your team. Same place. Same day.",
     "enterprise.hero.text":
-      "here. gives teams and employers a way to appear inside recurring role-based sessions where independent professionals already gather. Better signal than cold outreach, more trust than generic job posts.",
-    "enterprise.hero.ctaPrimary": "Request the pack",
-    "enterprise.hero.ctaSecondary": "See what’s included",
-    "enterprise.metrics.label": "What enterprise gets",
-    "enterprise.metrics.one.label": "Contextual visibility",
-    "enterprise.metrics.one.value": "stronger",
-    "enterprise.metrics.two.label": "Role-based access",
-    "enterprise.metrics.two.value": "targeted",
-    "enterprise.metrics.three.label": "Trust",
-    "enterprise.metrics.three.value": "higher",
-    "enterprise.metrics.note":
-      "Presence inside real sessions creates better brand memory than static listings.",
-    "enterprise.statement.one": "Reach people in the workday.",
-    "enterprise.statement.two": "Not after it.",
+      "hier. coordinates where your team works. No fixed office. No rigidity. Just the days it makes sense to be together.",
+    "enterprise.hero.ctaPrimary": "Talk to us",
+    "enterprise.hero.ctaSecondary": "See how it works",
+    "enterprise.metrics.label": "What you get",
+    "enterprise.metrics.one.label":
+      "Access to a coworking network in your city.",
+    "enterprise.metrics.two.label":
+      "Coordinate which days your team overlaps.",
+    "enterprise.metrics.three.label": "No office lease. No fixed cost.",
+    "enterprise.statement.one": "The energy of an office.",
+    "enterprise.statement.two": "Without the office.",
     "enterprise.value.eyebrow": "Why this matters",
-    "enterprise.value.title":
-      "High-signal communities are built through recurring presence, not one-off campaigns.",
-    "enterprise.value.one.title": "Show up where product, design, and builder cohorts already meet",
+    "enterprise.value.title": "Hybrid work works. But something's missing.",
+    "enterprise.value.one.title": "Your team works from anywhere",
     "enterprise.value.one.text":
-      "Visibility works better when it appears inside a room people already trust.",
-    "enterprise.value.two.title":
-      "Support sessions without trying to own the community",
+      "Flexibility was the goal. You got there. But now everyone works from home, from their cafe, from their own coworking. Without crossing paths.",
+    "enterprise.value.two.title": "Tools don't solve it",
     "enterprise.value.two.text":
-      "The value is adjacency, sponsorship, and relevance rather than interruption.",
-    "enterprise.value.three.title": "Stay close to talent and collaborators as habits form",
+      "Slack, Notion, Zoom. Everything works. But the energy of working together in the same room has no digital substitute.",
+    "enterprise.value.three.title": "A fixed office doesn't either",
     "enterprise.value.three.text":
-      "Repeated presence creates signal that generic recruiting channels cannot.",
-    "enterprise.offer.eyebrow": "The offer",
-    "enterprise.offer.title":
-      "A lighter-weight enterprise offer built around presence.",
-    "enterprise.offer.one":
-      "Sponsored Here Sessions for specific role cohorts.",
+      "Going back to a Monday-to-Friday office isn't what anyone wants. There's something in between. Overlapping when it makes sense, where it makes sense.",
+    "enterprise.offer.eyebrow": "How it works",
+    "enterprise.offer.title": "Coordinate where your team works.",
+    "enterprise.offer.one": "Coworking access for your whole team.",
     "enterprise.offer.two":
-      "Contextual employer visibility inside recurring work rituals.",
-    "enterprise.offer.three":
-      "Access to high-signal communities by role and city.",
-    "enterprise.offer.four":
-      "A future path into hiring packs once density is established.",
-    "enterprise.offer.quote":
-      "“Create value where real-world density already exists.”",
-    "enterprise.buy.eyebrow": "What enterprises buy",
-    "enterprise.buy.title": "A better route into flexible talent networks.",
-    "enterprise.buy.one.title": "Brand presence inside trusted sessions",
+      "Coordinated presence, not mandatory attendance.",
+    "enterprise.offer.three": "No office lease.",
+    "enterprise.offer.one.title": "Coworking access for your whole team",
+    "enterprise.offer.one.text":
+      "Your team joins the hier. network and can work from any partner space in the city.",
+    "enterprise.offer.two.title":
+      "Coordinated presence, not mandatory attendance",
+    "enterprise.offer.two.text":
+      "hier. shows who's at each space. Your team decides to go when there's people. No forcing. No mandatory schedule.",
+    "enterprise.offer.three.title": "No office lease",
+    "enterprise.offer.three.text":
+      "You pay for real usage. No long-term commitments. No empty square meters on Fridays.",
+    "enterprise.buy.eyebrow": "What changes",
+    "enterprise.buy.title": "What changes for your team.",
+    "enterprise.buy.one.title": "Team days without forced planning",
     "enterprise.buy.one.text":
-      "Appear where professionals are already choosing where and with whom to work.",
-    "enterprise.buy.two.title": "Role-specific access without broad noisy spend",
+      "The team overlaps naturally when hier. shows who's around. No Doodle, no meetings to organize meetings.",
+    "enterprise.buy.two.title": "Spaces that already work",
     "enterprise.buy.two.text":
-      "Start with the cohorts that matter most, then expand as density compounds.",
-    "enterprise.buy.three.title": "Repeated signal instead of one-off campaigns",
+      "Your team works in coworkings with good energy, good connectivity, and interesting people around.",
+    "enterprise.buy.three.title": "Real visibility into usage",
     "enterprise.buy.three.text":
-      "Repetition inside recurring sessions makes the brand feel more credible.",
-    "enterprise.buy.four.title": "A path toward future hiring products",
+      "You know which days the team overlaps, which spaces they prefer, and how the habit evolves.",
+    "enterprise.buy.four.title": "Flexible by design",
     "enterprise.buy.four.text":
-      "Start with presence and sponsorship, then layer in hiring access as the network matures.",
+      "More overlap during project sprints. Less in August. The space adapts to the team's rhythm.",
+    "enterprise.how.title": "How it works for your company.",
+    "enterprise.how.one.title": "Your company joins hier.",
+    "enterprise.how.one.text":
+      "We add your team to the network and set up access to spaces in your city.",
+    "enterprise.how.two.title": "Your team sees who's where",
+    "enterprise.how.two.text":
+      "Everyone can see who from the team is working at which space each day.",
+    "enterprise.how.three.title": "They overlap when it makes sense",
+    "enterprise.how.three.text":
+      "No obligation. Those who want to overlap, can. Coordination happens naturally.",
+    "enterprise.how.four.title": "The habit forms on its own",
+    "enterprise.how.four.text":
+      "Good days create routine. The team starts choosing to overlap because it works.",
     "enterprise.fit.eyebrow": "Best fit",
-    "enterprise.fit.one.title": "Remote-first",
-    "enterprise.fit.one.text": "Teams building around distributed work habits",
-    "enterprise.fit.two.title": "Design-forward",
-    "enterprise.fit.two.text": "Brands that care how they show up in communities",
-    "enterprise.fit.three.title": "Selective",
-    "enterprise.fit.three.text": "Teams that value quality, trust, and adjacency over volume",
-    "enterprise.form.eyebrow": "Request enterprise info",
-    "enterprise.form.title": "Get the enterprise pack.",
+    "enterprise.fit.title": "hier. is for your company if…",
+    "enterprise.fit.one.title":
+      "You have a remote or hybrid team and want more overlap, without going back to a fixed office.",
+    "enterprise.fit.two.title":
+      "You use coworkings but everyone goes to their own — without coordination.",
+    "enterprise.fit.three.title":
+      "You value team culture and feel it's diluting with distance.",
+    "enterprise.fit.four.title":
+      "You want real flexibility, not an office lease with a different name.",
+    "enterprise.form.eyebrow": "Talk to us",
+    "enterprise.form.title": "Your team's best days don't need an office.",
     "enterprise.form.text":
-      "For companies that want sponsored presence inside recurring role-based sessions before broader hiring products arrive.",
-    "enterprise.form.companyLabel": "Company",
-    "enterprise.form.companyPlaceholder": "Company name",
-    "enterprise.form.focusLabel": "Hiring focus",
-    "enterprise.form.focusOne": "Product and design",
-    "enterprise.form.focusTwo": "Engineering",
-    "enterprise.form.focusThree": "Marketing and content",
-    "enterprise.form.focusFour": "Cross-functional remote hiring",
-    "enterprise.form.emailLabel": "Work email",
+      "Leave your email and we'll explain how hier. can work for your team.",
+    "enterprise.form.companyLabel": "Your company",
+    "enterprise.form.companyPlaceholder": "Your company",
+    "enterprise.form.emailLabel": "Your work email",
     "enterprise.form.emailPlaceholder": "name@company.com",
-    "enterprise.form.button": "Talk to us",
+    "enterprise.form.button": "I want to know more",
+    "enterprise.form.note":
+      "No commitment. We'll get back to you within 48 hours.",
   },
   es: {
     "nav.about": "Nosotros",
     "nav.demand": "Workers",
     "nav.supply": "Coworkings",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "here. | Coordina presencia",
+    "meta.index.title": "hier. — Trabaja cerca de las personas correctas",
     "meta.index.description":
-      "here. es la capa de coordinación centrada en personas que convierte el trabajo flexible en sesiones presenciales repetibles y densas.",
-    "meta.demand.title": "here. | Workers",
+      "hier. muestra quién está en cada coworking en tiempo real. Elige dónde trabajar basándote en las personas, no solo en el espacio.",
+    "meta.demand.title": "hier. | Workers",
     "meta.demand.description":
-      "here. muestra a los workers quién está en cada coworking para que puedan decidir adónde ir según las personas, no a ciegas.",
-    "meta.supply.title": "here. | Oferta",
+      "hier. muestra a los workers quién está en cada coworking para que puedan decidir adónde ir según las personas, no a ciegas.",
+    "meta.supply.title": "hier. | Oferta",
     "meta.supply.description":
-      "here. se asocia con venues y coworkings para convertir oferta flexible en sesiones recurrentes de alta densidad con compromisos ligeros.",
-    "meta.enterprise.title": "here. | Enterprise",
+      "hier. se asocia con venues y coworkings para convertir oferta flexible en sesiones recurrentes de alta densidad con compromisos ligeros.",
+    "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
-      "here. da a las empresas una forma de aparecer dentro de sesiones de trabajo recurrentes donde ya se reúne talento independiente de alta señal.",
-    "index.hero.eyebrow": "Capa de coordinación centrada en personas",
-    "index.hero.title": "Coordina presencia. Construye densidad real.",
+      "hier. da a las empresas una forma de aparecer dentro de sesiones de trabajo recurrentes donde ya se reúne talento independiente de alta señal.",
+    "index.hero.eyebrow": "",
+    "index.hero.title": "Trabaja cerca de las personas correctas.",
     "index.hero.text":
-      "here. hace visible quién va a trabajar dónde para que profesionales independientes converjan con la gente correcta, en el mismo lugar y al mismo tiempo. Convertimos trabajo flexible en sesiones repetibles de alta densidad sin poseer real estate.",
-    "index.hero.ctaDemand": "Para Workers",
-    "index.hero.ctaSupply": "Para Venues",
-    "index.hero.ctaEnterprise": "Para Enterprise",
+      "hier. muestra quién está trabajando en cada coworking, en tiempo real. Elige dónde ir basándote en las personas, no solo en el espacio.",
+    "index.hero.ctaDemand": "Soy freelancer",
+    "index.hero.ctaSupply": "Tengo un coworking",
+    "index.hero.ctaEnterprise": "Tengo un equipo remoto",
     "index.card.today": "ahora",
     "index.card.title": "MVP commitment-first.",
     "index.card.text":
       "Presencia programada y RSVP primero. Densidad en tiempo real después.",
-    "index.statement.one": "Mira quién está Here. Súmate.",
-    "index.statement.two": "No trabajes sola. Be Here.",
-    "index.problem.eyebrow": "Tres pilares",
-    "index.problem.title":
-      "Un modelo city-by-city construido sobre presencia, sesiones y venues partners.",
-    "index.problem.one.title": "Haz visible a la gente relevante en tiempo real",
+    "index.statement.one": "Ve quién está. Únete.",
+    "index.statement.two": "No trabajes solo. Sé hier.",
+    "index.problem.eyebrow": "",
+    "index.problem.title": "Cómo funciona.",
+    "index.problem.one.title": "Abre hier. por la mañana.",
     "index.problem.one.text":
-      "Convierte la elección del workspace en coordinación centrada en personas.",
-    "index.problem.two.title": "Crea densidad recurrente con sesiones y hosts",
+      "Empieza el día viendo dónde está tu gente.",
+    "index.problem.two.title":
+      "Ve quién está trabajando en los coworkings cerca de ti.",
     "index.problem.two.text":
-      "Compromisos ligeros y rituales repetibles hacen la asistencia más fiable.",
-    "index.problem.three.title": "Mantente asset-light gracias a partners de supply",
+      "La visibilidad en tiempo real cambia cómo eliges dónde ir.",
+    "index.problem.three.title":
+      "Elige dónde ir. Aparece. Trabaja mejor.",
     "index.problem.three.text":
-      "Trabaja con venues existentes, precios de day access y escala por ciudad y cohorte.",
-    "index.solution.eyebrow": "Posicionamiento",
-    "index.solution.title": "El trabajo flexible se vuelve defensible cuando la densidad es repetible.",
-    "index.solution.text":
-      "La cuña no es toda la ciudad a la vez. Es una comunidad de rol, 3–5 venues partners y Here Sessions semanales que alcanzan masa crítica de forma fiable antes de expandirse.",
-    "index.solution.quote":
-      "“Coordina presencia. Construye densidad. Crea valor.”",
-    "index.market.eyebrow": "Pruebas",
-    "index.market.title":
-      "Los tailwinds ya existen.",
-    "index.market.one.title": "55% señal de demanda",
+      "Decidir es más fácil cuando sabes quién está ya ahí.",
+    "index.solution.eyebrow": "",
+    "index.solution.title": "",
+    "index.solution.text": "",
+    "index.solution.quote": "",
+    "index.market.eyebrow": "",
+    "index.market.title": "El momento es ahora.",
+    "index.market.one.title":
+      "55% de profesionales ya usan espacios flex",
     "index.market.one.text":
-      "El 55% de los occupiers globales ya usa soluciones de oficina flexible.",
-    "index.market.two.title": "21% asignación flex",
+      "La demanda está ahí. Falta la coordinación.",
+    "index.market.two.title":
+      "El flex creció del 12% al 21% en Europa en un año",
     "index.market.two.text":
-      "La asignación flex en Europa pasó del 12% en 2024 al 21% en 2025.",
-    "index.market.three.title": "€19–€40 day access",
+      "El trabajo flexible no es una tendencia. Es el estándar.",
+    "index.market.three.title": "Day passes desde EUR15-EUR40 en Madrid",
     "index.market.three.text":
-      "Ya existe supply con precios partner-friendly y baja fricción.",
-    "index.market.four.title": "Qué medir",
-    "index.market.four.text":
-      "Densidad, retención y conversión de RSVP a llegada muestran si el loop funciona.",
-    "index.gtm.eyebrow": "Go-to-market y KPIs",
-    "index.gtm.one.title": "Entrar por cohorte",
-    "index.gtm.one.text":
-      "Lanza una comunidad de rol y gana densidad antes de expandirte.",
-    "index.gtm.two.title": "Ritualiza la demanda",
-    "index.gtm.two.text":
-      "Corre Here Sessions semanales en 3–5 venues partners.",
-    "index.gtm.three.title": "Mide fiabilidad",
-    "index.gtm.three.text":
-      "Observa asistentes por sesión, repetición y conversión de RSVP a llegada.",
-    "index.split.eyebrow": "Entradas por audiencia",
-    "index.split.title": "Tres puertas de entrada al mismo motor de coordinación.",
+      "Acceso asequible ya existe. Solo falta saber con quién ir.",
+    "index.market.four.title": "",
+    "index.market.four.text": "",
+    "index.gtm.eyebrow": "",
+    "index.gtm.one.title": "",
+    "index.gtm.one.text": "",
+    "index.gtm.two.title": "",
+    "index.gtm.two.text": "",
+    "index.gtm.three.title": "",
+    "index.gtm.three.text": "",
+    "index.split.eyebrow": "",
+    "index.split.title": "¿Quién eres tú?",
     "index.split.demand.label": "Workers",
-    "index.split.demand.title": "Vender sesiones de trabajo repetibles",
+    "index.split.demand.title": "Soy freelancer o trabajo en remoto",
     "index.split.demand.text":
-      "Para profesionales independientes que quieren dejar de elegir sus días a ciegas.",
-    "index.split.supply.label": "Oferta",
-    "index.split.supply.title": "Vender densidad recurrente",
+      "Quiero ver quién está en los coworkings de mi ciudad y elegir dónde ir según las personas.",
+    "index.split.demand.cta": "Ver cómo funciona para mí →",
+    "index.split.supply.label": "Coworkings",
+    "index.split.supply.title": "Tengo un coworking",
     "index.split.supply.text":
-      "Para venues que quieren sesiones predecibles, no solo tráfico aleatorio.",
+      "Quiero que hier. me traiga usuarios recurrentes y de calidad — no tráfico aleatorio.",
+    "index.split.supply.cta": "Ver cómo funciona para mi espacio →",
     "index.split.enterprise.label": "Enterprise",
-    "index.split.enterprise.title": "Vender presencia patrocinada",
+    "index.split.enterprise.title": "Tengo un equipo remoto o híbrido",
     "index.split.enterprise.text":
-      "Para empresas que quieren visibilidad dentro de comunidades de rol de alta señal.",
+      "Quiero que mi equipo tenga espacios donde coincidir sin pagar una oficina fija.",
+    "index.split.enterprise.cta": "Ver cómo funciona para mi empresa →",
     "demand.hero.eyebrow": "Página Workers",
     "demand.hero.title": "Trabaja con la gente correcta.",
     "demand.hero.text":
@@ -507,12 +516,12 @@ const translations = {
       "Hoy muchos freelancers pasan sus días solos — en casa, en cafeterías, o en coworkings donde no conocen a nadie. Están rodeados de gente, pero no de su gente.",
     "demand.problem.eyebrow": "Elegir mejor",
     "demand.problem.title": "Elige con quién, no solo dónde.",
-    "demand.problem.oldLabel": "Sin Here",
+    "demand.problem.oldLabel": "Sin Hier",
     "demand.problem.one.title": "Eliges un coworking.",
     "demand.problem.two.title": "Esperas que esté bien.",
     "demand.problem.three.title": "No conoces a nadie.",
     "demand.problem.four.title": "Otro día solo.",
-    "demand.problem.newLabel": "Con Here",
+    "demand.problem.newLabel": "Con Hier",
     "demand.problem.newOne": "Ves dónde hay gente interesante.",
     "demand.problem.newTwo": "Eliges basándote en eso.",
     "demand.problem.newThree": "Llegas con contexto.",
@@ -563,11 +572,11 @@ const translations = {
     "demand.form.emailPlaceholder": "Tu email",
     "demand.form.button": "Únete a la lista",
     "demand.form.note":
-      "Sin spam. Te avisamos cuando here. esté disponible en tu ciudad.",
+      "Sin spam. Te avisamos cuando hier. esté disponible en tu ciudad.",
     "supply.hero.title": "Llena tu coworking con la gente correcta.",
     "supply.hero.text":
-      "here. coordina grupos de profesionales para que coincidan en tu espacio. No tráfico aleatorio — presencia con intención.",
-    "supply.hero.ctaPrimary": "Asociarme con here.",
+      "hier. coordina grupos de profesionales para que coincidan en tu espacio. No tráfico aleatorio — presencia con intención.",
+    "supply.hero.ctaPrimary": "Asociarme con hier.",
     "supply.hero.ctaSecondary": "Hablar con el equipo",
     "supply.problem.title": "El problema no son las sillas vacías.",
     "supply.problem.one.title": "Ocupación impredecible",
@@ -591,7 +600,7 @@ const translations = {
     "supply.solution.three.title": "Días que generan hábito",
     "supply.solution.three.text":
       "Un buen día en tu espacio es el mejor argumento para que alguien vuelva. Y vuelva a volver.",
-    "supply.features.title": "Qué cambia cuando estás en here.",
+    "supply.features.title": "Qué cambia cuando estás en hier.",
     "supply.features.one.title": "Ocupación más consistente",
     "supply.features.one.text":
       "Menos días muertos. Más flujo predecible a lo largo de la semana.",
@@ -609,18 +618,18 @@ const translations = {
     "supply.diff.otherOne": "Los marketplaces traen visitas aleatorias.",
     "supply.diff.otherTwo": "El marketing genera picos puntuales.",
     "supply.diff.otherThree": "Los eventos crean actividad temporal.",
-    "supply.diff.here": "here.",
-    "supply.diff.hereOne": "here. construye presencia recurrente y coordinada.",
+    "supply.diff.here": "hier.",
+    "supply.diff.hereOne": "hier. construye presencia recurrente y coordinada.",
     "supply.diff.hereTwo":
       "Los usuarios eligen tu espacio porque saben quién estará.",
     "supply.diff.hereThree": "Los buenos días generan repetición.",
     "supply.diff.foot":
       "Conviértete en un espacio que la gente elige — no solo que encuentra.",
-    "supply.mock.title": "Así aparece tu espacio en here.",
+    "supply.mock.title": "Así aparece tu espacio en hier.",
     "supply.mock.text":
       "Los usuarios ven quién está en tu espacio antes de decidir si van. Eso es lo que te diferencia de cualquier otro canal.",
     "supply.how.title": "Cómo funciona",
-    "supply.how.one.title": "Tu espacio entra en here.",
+    "supply.how.one.title": "Tu espacio entra en hier.",
     "supply.how.one.text":
       "Añadimos tu coworking a la red y lo hacemos visible para los usuarios correctos.",
     "supply.how.two.title": "Los usuarios ven quién está",
@@ -632,7 +641,7 @@ const translations = {
     "supply.how.four.title": "Forman grupos y repiten",
     "supply.how.four.text":
       "Los buenos días crean hábito. El momentum se acumula.",
-    "supply.fit.title": "here. es para ti si…",
+    "supply.fit.title": "hier. es para ti si…",
     "supply.fit.one.title":
       "Quieres flujo consistente, no picos puntuales.",
     "supply.fit.two.title":
@@ -643,92 +652,107 @@ const translations = {
       "Quieres que la gente te elija por lo que pasa dentro, no solo por ubicación o precio.",
     "supply.waitlist.title": "Los mejores días de tu espacio están por venir.",
     "supply.waitlist.text":
-      "Entra en here. y conviértete en un espacio que la gente elige de verdad.",
+      "Entra en hier. y conviértete en un espacio que la gente elige de verdad.",
     "supply.form.nameLabel": "Nombre de tu espacio",
     "supply.form.namePlaceholder": "Nombre de tu espacio",
     "supply.form.emailLabel": "Tu email",
     "supply.form.emailPlaceholder": "Tu email",
-    "supply.form.buttonPrimary": "Asociarme con here.",
+    "supply.form.buttonPrimary": "Asociarme con hier.",
     "supply.form.buttonSecondary": "Hablar con el equipo",
     "supply.form.note":
       "Sin compromisos. Te contactamos en menos de 48 horas.",
     "enterprise.hero.eyebrow": "Landing enterprise",
-    "enterprise.hero.title": "Aparece dentro de sesiones de trabajo de alta señal.",
+    "enterprise.hero.title": "Tu equipo. Mismo sitio. Mismo día.",
     "enterprise.hero.text":
-      "here. da a equipos y empleadores una forma de aparecer dentro de sesiones recurrentes por rol donde ya se reúne talento independiente. Más señal que el cold outreach, más confianza que un job post genérico.",
-    "enterprise.hero.ctaPrimary": "Solicitar el pack",
-    "enterprise.hero.ctaSecondary": "Ver qué incluye",
-    "enterprise.metrics.label": "Lo que obtiene enterprise",
-    "enterprise.metrics.one.label": "Visibilidad contextual",
-    "enterprise.metrics.one.value": "mejor",
-    "enterprise.metrics.two.label": "Acceso por rol",
-    "enterprise.metrics.two.value": "más preciso",
-    "enterprise.metrics.three.label": "Confianza",
-    "enterprise.metrics.three.value": "mayor",
-    "enterprise.metrics.note":
-      "La presencia dentro de sesiones reales crea mejor memoria de marca que una listing estática.",
-    "enterprise.statement.one": "Llega a la gente dentro del workday.",
-    "enterprise.statement.two": "No después.",
+      "hier. coordina dónde trabaja tu equipo. Sin oficina fija. Sin rigidez. Solo los días que tiene sentido coincidir.",
+    "enterprise.hero.ctaPrimary": "Habla con nosotros",
+    "enterprise.hero.ctaSecondary": "Ver cómo funciona",
+    "enterprise.metrics.label": "Lo que obtienes",
+    "enterprise.metrics.one.label":
+      "Acceso a una red de coworkings en tu ciudad.",
+    "enterprise.metrics.two.label":
+      "Coordina qué días coincide el equipo.",
+    "enterprise.metrics.three.label":
+      "Sin contrato de oficina. Sin coste fijo.",
+    "enterprise.statement.one": "La energía de una oficina.",
+    "enterprise.statement.two": "Sin la oficina.",
     "enterprise.value.eyebrow": "Por qué importa",
-    "enterprise.value.title":
-      "Las comunidades de alta señal se construyen con presencia recurrente, no con campañas sueltas.",
-    "enterprise.value.one.title": "Aparece donde ya se reúnen cohortes de producto, diseño y builders",
+    "enterprise.value.title": "El trabajo híbrido funciona. Pero algo falla.",
+    "enterprise.value.one.title": "Tu equipo trabaja desde cualquier sitio",
     "enterprise.value.one.text":
-      "La visibilidad funciona mejor cuando aparece dentro de una sala que la gente ya confía.",
-    "enterprise.value.two.title": "Apoya sesiones sin intentar poseer la comunidad",
+      "La flexibilidad era el objetivo. La conseguisteis. Pero ahora cada persona trabaja desde casa, desde su café, desde su propio coworking. Sin cruzarse.",
+    "enterprise.value.two.title": "Las herramientas no lo resuelven",
     "enterprise.value.two.text":
-      "El valor está en la cercanía, el sponsorship y la relevancia, no en la interrupción.",
-    "enterprise.value.three.title": "Mantente cerca del talento mientras se forman hábitos",
+      "Slack, Notion, Zoom. Todo funciona. Pero la energía de trabajar juntos en la misma sala no tiene sustituto digital.",
+    "enterprise.value.three.title": "Una oficina fija tampoco",
     "enterprise.value.three.text":
-      "La presencia repetida crea una señal que los canales genéricos de recruiting no pueden igualar.",
-    "enterprise.offer.eyebrow": "La oferta",
-    "enterprise.offer.title":
-      "Una oferta enterprise más ligera construida alrededor de presencia.",
-    "enterprise.offer.one":
-      "Here Sessions patrocinadas para cohortes específicas por rol.",
+      "Volver a una oficina de lunes a viernes no es lo que nadie quiere. Hay algo intermedio. Coincidir cuando tiene sentido, donde tiene sentido.",
+    "enterprise.offer.eyebrow": "Cómo funciona",
+    "enterprise.offer.title": "Coordina dónde trabaja tu equipo.",
+    "enterprise.offer.one": "Acceso a coworkings para todo el equipo.",
     "enterprise.offer.two":
-      "Visibilidad de employer brand dentro de rituales de trabajo recurrentes.",
-    "enterprise.offer.three":
-      "Acceso a comunidades de alta señal por rol y ciudad.",
-    "enterprise.offer.four":
-      "Un camino futuro hacia hiring packs cuando la densidad esté establecida.",
-    "enterprise.offer.quote":
-      "“Crea valor donde la densidad real ya existe.”",
-    "enterprise.buy.eyebrow": "Lo que compran las empresas",
-    "enterprise.buy.title": "Una mejor ruta hacia redes flexibles de talento.",
-    "enterprise.buy.one.title": "Presencia de marca dentro de sesiones confiables",
+      "Presencia coordinada, no obligatoria.",
+    "enterprise.offer.three": "Sin contrato de oficina.",
+    "enterprise.offer.one.title":
+      "Acceso a coworkings para todo el equipo",
+    "enterprise.offer.one.text":
+      "Tu equipo entra en la red de hier. y puede trabajar desde cualquier espacio asociado en la ciudad.",
+    "enterprise.offer.two.title":
+      "Presencia coordinada, no obligatoria",
+    "enterprise.offer.two.text":
+      "hier. muestra quién está en cada espacio. Tu equipo decide ir cuando hay gente. Sin obligar. Sin calendario forzado.",
+    "enterprise.offer.three.title": "Sin contrato de oficina",
+    "enterprise.offer.three.text":
+      "Pagas por uso real. Sin compromisos de largo plazo. Sin metros cuadrados vacíos los viernes.",
+    "enterprise.buy.eyebrow": "Qué cambia",
+    "enterprise.buy.title": "Qué cambia para tu equipo.",
+    "enterprise.buy.one.title": "Días de equipo sin planificación forzada",
     "enterprise.buy.one.text":
-      "Aparece donde la gente ya está decidiendo dónde y con quién trabajar.",
-    "enterprise.buy.two.title": "Acceso por rol sin gasto amplio y ruidoso",
+      "El equipo coincide de forma natural cuando hier. muestra que hay gente. Sin Doodle, sin reuniones para organizar reuniones.",
+    "enterprise.buy.two.title": "Espacios que ya funcionan",
     "enterprise.buy.two.text":
-      "Empieza con las cohortes que más importan y expande cuando la densidad compone.",
-    "enterprise.buy.three.title": "Señal repetida en vez de campañas sueltas",
+      "Tu equipo trabaja en coworkings con buena energía, buena conexión y gente interesante alrededor.",
+    "enterprise.buy.three.title": "Visibilidad real del uso",
     "enterprise.buy.three.text":
-      "La repetición dentro de sesiones recurrentes hace que la marca se sienta más creíble.",
-    "enterprise.buy.four.title": "Un camino hacia futuros productos de hiring",
+      "Sabes qué días coincide el equipo, qué espacios prefieren y cómo evoluciona el hábito.",
+    "enterprise.buy.four.title": "Flexible por diseño",
     "enterprise.buy.four.text":
-      "Empieza con presencia y sponsorship, luego añade acceso a hiring cuando la red madure.",
+      "Más coincidencia en sprints. Menos en agosto. El espacio se adapta al ritmo del equipo.",
+    "enterprise.how.title": "Cómo funciona para tu empresa.",
+    "enterprise.how.one.title": "Tu empresa entra en hier.",
+    "enterprise.how.one.text":
+      "Añadimos tu equipo a la red y configuramos el acceso a los espacios de tu ciudad.",
+    "enterprise.how.two.title": "Tu equipo ve quién está y dónde",
+    "enterprise.how.two.text":
+      "Cada persona puede ver quién del equipo va a trabajar a qué espacio cada día.",
+    "enterprise.how.three.title": "Coinciden cuando tiene sentido",
+    "enterprise.how.three.text":
+      "Sin obligación. Quien quiere coincidir, puede. La coordinación ocurre sola.",
+    "enterprise.how.four.title": "El hábito se forma solo",
+    "enterprise.how.four.text":
+      "Los buenos días crean rutina. El equipo empieza a elegir coincidir porque funciona.",
     "enterprise.fit.eyebrow": "Mejor encaje",
-    "enterprise.fit.one.title": "Remote-first",
-    "enterprise.fit.one.text": "Equipos construidos alrededor de hábitos remote-first",
-    "enterprise.fit.two.title": "Design-forward",
-    "enterprise.fit.two.text": "Marcas que cuidan cómo aparecen dentro de comunidades",
-    "enterprise.fit.three.title": "Selectivas",
-    "enterprise.fit.three.text": "Equipos que valoran calidad, confianza y cercanía sobre volumen",
-    "enterprise.form.eyebrow": "Solicitar info enterprise",
-    "enterprise.form.title": "Consigue el enterprise pack.",
+    "enterprise.fit.title": "hier. es para tu empresa si…",
+    "enterprise.fit.one.title":
+      "Tienes equipo remoto o híbrido y quieres que coincidan más, sin volver a una oficina fija.",
+    "enterprise.fit.two.title":
+      "Usas coworkings pero cada persona va al suyo, sin coordinación.",
+    "enterprise.fit.three.title":
+      "Valoras la cultura de equipo y sientes que se está diluyendo con la distancia.",
+    "enterprise.fit.four.title":
+      "Quieres flexibilidad real, no un contrato de oficina con otro nombre.",
+    "enterprise.form.eyebrow": "Habla con nosotros",
+    "enterprise.form.title":
+      "Los mejores días de equipo no necesitan una oficina.",
     "enterprise.form.text":
-      "Para empresas que quieren presencia patrocinada dentro de sesiones recurrentes por rol antes de productos de hiring más amplios.",
-    "enterprise.form.companyLabel": "Empresa",
-    "enterprise.form.companyPlaceholder": "Nombre de la empresa",
-    "enterprise.form.focusLabel": "Foco de contratación",
-    "enterprise.form.focusOne": "Producto y diseño",
-    "enterprise.form.focusTwo": "Ingeniería",
-    "enterprise.form.focusThree": "Marketing y contenido",
-    "enterprise.form.focusFour": "Contratación remota cross-functional",
-    "enterprise.form.emailLabel": "Email de trabajo",
+      "Déjanos tu email y te contamos cómo hier. puede funcionar para tu equipo.",
+    "enterprise.form.companyLabel": "Tu empresa",
+    "enterprise.form.companyPlaceholder": "Tu empresa",
+    "enterprise.form.emailLabel": "Tu email de trabajo",
     "enterprise.form.emailPlaceholder": "nombre@empresa.com",
-    "enterprise.form.button": "Hablar con nosotros",
+    "enterprise.form.button": "Quiero saber más",
+    "enterprise.form.note":
+      "Sin compromisos. Te contactamos en menos de 48 horas.",
   },
 };
 
