@@ -22,9 +22,14 @@ const translations = {
     "nav.demand": "Independents",
     "nav.supply": "Partners",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "hier. — Work near people like you",
+    "meta.index.title":
+      "hier. — You think better when you're around people who get what you do.",
     "meta.index.description":
-      "hier. shows who's at each coworking in real time. Choose where to work based on the people, not just the space.",
+      "hier. is a presence layer for independents and partner spaces. See who's working where, choose your room, think better.",
+    "meta.index.descriptionEs":
+      "hier. es una capa de presencia para independientes y espacios partner. Ve quién trabaja dónde, elige tu sala, piensa mejor.",
+    "meta.index.ogDescription":
+      "Every city used to have a place where the best in a craft gathered. hier. is bringing that back.",
     "meta.demand.title": "hier. | Independents",
     "meta.demand.description":
       "hier. shows independents who's at each coworking so they can choose where to go based on people like them, not guesswork.",
@@ -34,75 +39,58 @@ const translations = {
     "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
       "hier. gives companies a way to show up inside recurring role-based work sessions where high-signal independent talent already gathers.",
-    "index.hero.eyebrow": "",
-    "index.hero.title": "Work near people like you.",
+    "index.hero.lead":
+      "Every city used to have a place where the best in a craft gathered.",
     "index.hero.text":
-      "hier. shows who's working at each coworking, in real time. Choose where to go based on the people — not just the space.",
-    "index.hero.ctaDemand": "I work independently",
-    "index.hero.ctaSupply": "I run a space",
-    "index.hero.ctaEnterprise": "I have a remote team",
-    "index.card.today": "now",
-    "index.card.title": "Commitment-first MVP.",
-    "index.card.text":
-      "Scheduled presence and RSVP first. Real-time density next.",
-    "index.statement.one": "See who's hier. Join them.",
-    "index.statement.two": "Don't work alone. Be hier.",
-    "index.problem.eyebrow": "",
-    "index.problem.title": "How it works.",
-    "index.problem.one.title": "Open hier. in the morning.",
-    "index.problem.one.text":
-      "Start the day by checking where your people are.",
-    "index.problem.two.title":
-      "See who's working at coworkings near you.",
-    "index.problem.two.text":
-      "Real-time visibility changes how you choose where to go.",
-    "index.problem.three.title":
-      "Choose where to go. Show up. Work better.",
-    "index.problem.three.text":
-      "The decision gets easier when you know who is already there.",
-    "index.solution.eyebrow": "",
-    "index.solution.title": "",
-    "index.solution.text": "",
-    "index.solution.quote": "",
-    "index.market.eyebrow": "",
-    "index.market.title": "The moment is now.",
-    "index.market.one.title":
-      "55% of independents already use flex spaces",
-    "index.market.one.text":
+      "hier. brings that back. A presence layer for independents: see who's working where, choose your room, think better because of who's in it.",
+    "index.hero.ctaDemand": "For independents →",
+    "index.hero.ctaSupply": "For partners →",
+    "index.hero.ctaEnterprise": "For companies →",
+    "index.problem.quote":
+      "Proximity was the oldest form of professional development. And it worked because it was honest. You didn't perform. You just showed up.",
+    "index.problem.title":
+      "Then work became flexible. And something got lost.",
+    "index.problem.text":
+      "Independents gained freedom. But they lost the thing offices provided without trying: a room full of people who get what you do. Not colleagues. Not clients. Just people working on similar things, close enough to make you better.",
+    "index.solution.quote":
+      "hier. is bringing that back. Not as an event. Not as a platform for connections. As a simple layer of information.",
+    "index.solution.one.title": "Who is working where, today.",
+    "index.solution.one.text":
+      "Real-time presence across partner spaces in your city.",
+    "index.solution.two.title": "Choose your room.",
+    "index.solution.two.text":
+      "Pick the space based on who's already there, not just where it is.",
+    "index.solution.three.title": "Think better.",
+    "index.solution.three.text":
+      "The connections, collaborations, and reputation come on their own.",
+    "index.proof.title": "The moment is now.",
+    "index.proof.one.number": "55%",
+    "index.proof.one.title": "of professionals already use flex spaces",
+    "index.proof.one.text":
       "The demand is there. Coordination is missing.",
-    "index.market.two.title":
-      "Flex grew from 12% to 21% across Europe in one year",
-    "index.market.two.text":
+    "index.proof.two.number": "12% → 21%",
+    "index.proof.two.title": "flex allocation across Europe in one year",
+    "index.proof.two.text":
       "Flexible work isn't a trend. It's the standard.",
-    "index.market.three.title": "Day passes from EUR15-EUR40 in Madrid",
-    "index.market.three.text":
-      "Affordable access already exists. You just need to know who to go with.",
-    "index.market.four.title": "",
-    "index.market.four.text": "",
-    "index.gtm.eyebrow": "",
-    "index.gtm.one.title": "",
-    "index.gtm.one.text": "",
-    "index.gtm.two.title": "",
-    "index.gtm.two.text": "",
-    "index.gtm.three.title": "",
-    "index.gtm.three.text": "",
-    "index.split.eyebrow": "",
-    "index.split.title": "Who are you?",
-    "index.split.demand.label": "Independents",
-    "index.split.demand.title": "I work independently",
-    "index.split.demand.text":
-      "I want to see who's at coworkings in my city and choose where to go based on the people.",
-    "index.split.demand.cta": "See how it works for me →",
-    "index.split.supply.label": "Partners",
-    "index.split.supply.title": "I run a space",
-    "index.split.supply.text":
-      "I want hier. to help my space create recurring, coordinated presence — not random foot traffic.",
-    "index.split.supply.cta": "See how it works for my space →",
-    "index.split.enterprise.label": "Enterprise",
-    "index.split.enterprise.title": "I have a remote or hybrid team",
-    "index.split.enterprise.text":
-      "I want my team to have spaces to overlap without paying for a fixed office.",
-    "index.split.enterprise.cta": "See how it works for my company →",
+    "index.proof.three.number": "€15–40",
+    "index.proof.three.title": "day passes already exist in Madrid",
+    "index.proof.three.text":
+      "Access is solved. Knowing who's there isn't.",
+    "index.paths.quote": "Who is hier. for?",
+    "index.paths.one.title": "I work independently",
+    "index.paths.one.text": "Find your room. Work near people like you.",
+    "index.paths.one.cta": "See how it works →",
+    "index.paths.two.title": "I run a space",
+    "index.paths.two.text": "Fill your room with people who click.",
+    "index.paths.two.cta": "Become a partner →",
+    "index.paths.three.title": "I have a remote team",
+    "index.paths.three.text": "Same place, same day. No fixed office.",
+    "index.paths.three.cta": "See how it works →",
+    "index.closing.quote":
+      "You think better when you're around people who get what you do.",
+    "index.closing.cta": "Find your room →",
+    "index.closing.notePrefix": "Or join as a partner.",
+    "index.closing.noteLink": "Partners",
     "demand.hero.eyebrow": "Independents page",
     "demand.hero.title": "Work near people like you.",
     "demand.hero.text":
@@ -388,9 +376,14 @@ const translations = {
     "nav.demand": "Independientes",
     "nav.supply": "Partners",
     "nav.enterprise": "Enterprise",
-    "meta.index.title": "hier. — Trabaja cerca de gente como tú",
+    "meta.index.title":
+      "hier. — Piensas mejor cuando estás rodeado de gente que hace lo que tú haces.",
     "meta.index.description":
-      "hier. muestra quién está en cada coworking en tiempo real. Elige dónde trabajar basándote en las personas, no solo en el espacio.",
+      "hier. es una capa de presencia para independientes y espacios partner. Ve quién trabaja dónde, elige tu sala, piensa mejor.",
+    "meta.index.descriptionEs":
+      "hier. es una capa de presencia para independientes y espacios partner. Ve quién trabaja dónde, elige tu sala, piensa mejor.",
+    "meta.index.ogDescription":
+      "Every city used to have a place where the best in a craft gathered. hier. is bringing that back.",
     "meta.demand.title": "hier. | Independientes",
     "meta.demand.description":
       "hier. muestra a los independientes quién está en cada coworking para que puedan decidir adónde ir según gente como ellos, no a ciegas.",
@@ -400,75 +393,58 @@ const translations = {
     "meta.enterprise.title": "hier. | Enterprise",
     "meta.enterprise.description":
       "hier. da a las empresas una forma de aparecer dentro de sesiones de trabajo recurrentes donde ya se reúne talento independiente de alta señal.",
-    "index.hero.eyebrow": "",
-    "index.hero.title": "Trabaja cerca de gente como tú.",
+    "index.hero.lead":
+      "Cada ciudad tenía un lugar donde se juntaban los mejores en su oficio.",
     "index.hero.text":
-      "hier. muestra quién está trabajando en cada coworking, en tiempo real. Elige dónde ir basándote en las personas, no solo en el espacio.",
-    "index.hero.ctaDemand": "Trabajo de forma independiente",
-    "index.hero.ctaSupply": "Tengo un espacio",
-    "index.hero.ctaEnterprise": "Tengo un equipo remoto",
-    "index.card.today": "ahora",
-    "index.card.title": "MVP commitment-first.",
-    "index.card.text":
-      "Presencia programada y RSVP primero. Densidad en tiempo real después.",
-    "index.statement.one": "Ve quién está. Únete.",
-    "index.statement.two": "No trabajes solo. Sé hier.",
-    "index.problem.eyebrow": "",
-    "index.problem.title": "Cómo funciona.",
-    "index.problem.one.title": "Abre hier. por la mañana.",
-    "index.problem.one.text":
-      "Empieza el día viendo dónde está tu gente.",
-    "index.problem.two.title":
-      "Ve quién está trabajando en los coworkings cerca de ti.",
-    "index.problem.two.text":
-      "La visibilidad en tiempo real cambia cómo eliges dónde ir.",
-    "index.problem.three.title":
-      "Elige dónde ir. Aparece. Trabaja mejor.",
-    "index.problem.three.text":
-      "Decidir es más fácil cuando sabes quién está ya ahí.",
-    "index.solution.eyebrow": "",
-    "index.solution.title": "",
-    "index.solution.text": "",
-    "index.solution.quote": "",
-    "index.market.eyebrow": "",
-    "index.market.title": "El momento es ahora.",
-    "index.market.one.title":
-      "55% de independientes ya usan espacios flex",
-    "index.market.one.text":
-      "La demanda está ahí. Falta la coordinación.",
-    "index.market.two.title":
-      "El flex creció del 12% al 21% en Europa en un año",
-    "index.market.two.text":
+      "hier. lo devuelve. Una capa de presencia para independientes: ve quién trabaja dónde, elige tu sala, piensa mejor por culpa de quién hay en ella.",
+    "index.hero.ctaDemand": "Para independientes →",
+    "index.hero.ctaSupply": "Para partners →",
+    "index.hero.ctaEnterprise": "Para empresas →",
+    "index.problem.quote":
+      "La proximidad era la forma más antigua de desarrollo profesional. Y funcionaba porque era honesta. No se actuaba. Solo se aparecía.",
+    "index.problem.title":
+      "Después el trabajo se volvió flexible. Y algo se perdió.",
+    "index.problem.text":
+      "Los independientes ganaron libertad. Pero perdieron lo que las oficinas daban sin intentarlo: una sala llena de gente que entiende lo que haces. No compañeros. No clientes. Solo gente trabajando en cosas parecidas, lo suficientemente cerca como para hacerte mejor.",
+    "index.solution.quote":
+      "hier. lo devuelve. No como un evento. No como una plataforma de conexiones. Como una capa simple de información.",
+    "index.solution.one.title": "Quién trabaja dónde, hoy.",
+    "index.solution.one.text":
+      "Presencia en tiempo real en los espacios partner de tu ciudad.",
+    "index.solution.two.title": "Elige tu sala.",
+    "index.solution.two.text":
+      "Escoge el espacio según quién está, no solo según dónde está.",
+    "index.solution.three.title": "Piensa mejor.",
+    "index.solution.three.text":
+      "Las conexiones, colaboraciones y reputación llegan solas.",
+    "index.proof.title": "El momento es ahora.",
+    "index.proof.one.number": "55%",
+    "index.proof.one.title": "de profesionales ya usan espacios flex",
+    "index.proof.one.text":
+      "La demanda está. Falta la coordinación.",
+    "index.proof.two.number": "12% → 21%",
+    "index.proof.two.title": "de espacio flex en Europa en un año",
+    "index.proof.two.text":
       "El trabajo flexible no es una tendencia. Es el estándar.",
-    "index.market.three.title": "Day passes desde EUR15-EUR40 en Madrid",
-    "index.market.three.text":
-      "Acceso asequible ya existe. Solo falta saber con quién ir.",
-    "index.market.four.title": "",
-    "index.market.four.text": "",
-    "index.gtm.eyebrow": "",
-    "index.gtm.one.title": "",
-    "index.gtm.one.text": "",
-    "index.gtm.two.title": "",
-    "index.gtm.two.text": "",
-    "index.gtm.three.title": "",
-    "index.gtm.three.text": "",
-    "index.split.eyebrow": "",
-    "index.split.title": "¿Quién eres tú?",
-    "index.split.demand.label": "Independientes",
-    "index.split.demand.title": "Trabajo de forma independiente",
-    "index.split.demand.text":
-      "Quiero ver quién está en los coworkings de mi ciudad y elegir dónde ir según las personas.",
-    "index.split.demand.cta": "Ver cómo funciona para mí →",
-    "index.split.supply.label": "Partners",
-    "index.split.supply.title": "Tengo un espacio",
-    "index.split.supply.text":
-      "Quiero que hier. ayude a mi espacio a crear presencia recurrente y coordinada, no tráfico aleatorio.",
-    "index.split.supply.cta": "Ver cómo funciona para mi espacio →",
-    "index.split.enterprise.label": "Enterprise",
-    "index.split.enterprise.title": "Tengo un equipo remoto o híbrido",
-    "index.split.enterprise.text":
-      "Quiero que mi equipo tenga espacios donde coincidir sin pagar una oficina fija.",
-    "index.split.enterprise.cta": "Ver cómo funciona para mi empresa →",
+    "index.proof.three.number": "€15–40",
+    "index.proof.three.title": "day passes ya existen en Madrid",
+    "index.proof.three.text":
+      "El acceso está resuelto. Saber quién está, no.",
+    "index.paths.quote": "¿Para quién es hier.?",
+    "index.paths.one.title": "Trabajo de forma independiente",
+    "index.paths.one.text": "Encuentra tu sala. Trabaja cerca de gente como tú.",
+    "index.paths.one.cta": "Ver cómo funciona →",
+    "index.paths.two.title": "Tengo un espacio",
+    "index.paths.two.text": "Llena tu sala con gente que encaja.",
+    "index.paths.two.cta": "Conviértete en partner →",
+    "index.paths.three.title": "Tengo un equipo remoto",
+    "index.paths.three.text": "Mismo sitio, mismo día. Sin oficina fija.",
+    "index.paths.three.cta": "Ver cómo funciona →",
+    "index.closing.quote":
+      "Piensas mejor cuando estás rodeado de gente que hace lo que tú haces.",
+    "index.closing.cta": "Encuentra tu sala →",
+    "index.closing.notePrefix": "O únete como partner.",
+    "index.closing.noteLink": "Partners",
     "demand.hero.eyebrow": "Página Independientes",
     "demand.hero.title": "Trabaja cerca de gente como tú.",
     "demand.hero.text":
