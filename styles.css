@@ -3237,3 +3237,218 @@ body.demand-workers-page {
   text-decoration: underline;
   text-underline-offset: 0.18em;
 }
+
+.index-homepage-page .hero,
+.index-homepage-page .content-grid,
+.index-homepage-page .index-homepage-footer {
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin-inline: auto;
+}
+
+.hero-index-homepage {
+  min-height: auto;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  padding-top: 4.75rem;
+  padding-bottom: 4.75rem;
+}
+
+.index-homepage-page .hero-copy {
+  max-width: 980px;
+}
+
+.index-homepage-page .hero-copy h1 {
+  max-width: 10.5ch;
+  font-size: clamp(3.45rem, 7.8vw, 5.9rem);
+  line-height: 0.92;
+  letter-spacing: -0.07em;
+}
+
+.index-homepage-page .hero-text {
+  max-width: 580px;
+  margin-top: 1.7rem;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.index-homepage-actions .button {
+  min-height: auto;
+  padding: 0.7rem 1rem;
+  border-width: 1px;
+  background: transparent;
+}
+
+.index-homepage-section,
+.index-closing-section {
+  margin-top: 5.75rem;
+}
+
+.index-homepage-intro {
+  max-width: 860px;
+}
+
+.index-homepage-intro h2 {
+  max-width: 840px;
+  font-size: clamp(2.1rem, 4.5vw, 3.15rem);
+  line-height: 1.03;
+  letter-spacing: -0.06em;
+}
+
+.index-homepage-intro p {
+  max-width: 620px;
+  margin: 1.5rem 0 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--muted-strong);
+}
+
+.index-business-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.index-business-grid .feature-card,
+.index-proof-card,
+.index-homepage-paths .selector-card {
+  box-shadow: none;
+}
+
+.index-business-label {
+  margin: 0 0 1rem;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.index-business-grid .feature-card h3 {
+  font-size: 20px;
+  line-height: 1.15;
+}
+
+.index-business-grid .feature-card p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--muted-strong);
+}
+
+.index-business-detail {
+  display: block;
+  margin-top: 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.index-proof-grid .feature-card {
+  gap: 0.95rem;
+}
+
+.index-proof-card strong {
+  font-size: clamp(2.4rem, 4.2vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.08em;
+  font-weight: 800;
+}
+
+.index-proof-card h3 {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted-strong);
+}
+
+.index-proof-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.index-homepage-paths .selector-card {
+  min-height: 208px;
+  justify-content: space-between;
+  box-shadow: none;
+}
+
+.index-homepage-paths .selector-card strong {
+  font-size: 26px;
+  line-height: 1.08;
+}
+
+.index-homepage-paths .selector-card span {
+  display: block;
+}
+
+.index-homepage-paths .selector-card span:nth-of-type(1) {
+  margin-top: 0.95rem;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--muted-strong);
+}
+
+.index-homepage-paths .selector-card span:nth-of-type(2) {
+  margin-top: 1.1rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.index-closing-inner {
+  text-align: center;
+}
+
+.index-closing-quote {
+  margin: 0 auto;
+  max-width: 15ch;
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.index-closing-subtitle {
+  margin: 1.25rem 0 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--muted-strong);
+}
+
+.index-contact-form {
+  width: min(100%, 760px);
+  margin: 2rem auto 0;
+  box-shadow: none;
+}
+
+.index-contact-form label {
+  display: block;
+}
+
+.index-contact-form input {
+  width: 100%;
+}
+
+.index-contact-form .button-solid {
+  margin-top: 0.5rem;
+  padding-inline: 1.75rem;
+}
+
+.index-homepage-footer {
+  padding: 1.25rem 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .index-business-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .index-homepage-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-i18n="meta.index.title">hier. — You think better when you're around people who get what you do.</title>
+    <title data-i18n="meta.index.title">hier. — Presence coordination for independents.</title>
     <meta
       data-i18n-attr="content:meta.index.description"
       name="description"
-      content="hier. is a presence layer for independents and partner spaces. See who's working where, choose your room, think better."
+      content="hier. makes who is working where visible — so independents converge on the right room, at the right time. Launching in Madrid."
     />
     <meta
       name="description"
       lang="es"
       data-i18n-attr="content:meta.index.descriptionEs"
-      content="hier. es una capa de presencia para independientes y espacios partner. Ve quién trabaja dónde, elige tu sala, piensa mejor."
+      content="hier. hace visible quién trabaja dónde — para que los independientes coincidan en la sala correcta, en el momento correcto. Lanzamiento en Madrid."
     />
-    <meta property="og:title" content="hier." />
+    <meta
+      property="og:title"
+      data-i18n-attr="content:meta.index.ogTitle"
+      content="hier. — The best professional connections happen when you're not trying to make them."
+    />
     <meta
       property="og:description"
       data-i18n-attr="content:meta.index.ogDescription"
-      content="Every city used to have a place where the best in a craft gathered. hier. is bringing that back."
+      content="A presence coordination layer for independent professionals. Launching in Madrid."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,9 +34,9 @@
     <link rel="stylesheet" href="./styles.css" />
     <script defer src="./script.js"></script>
   </head>
-  <body class="index-page index-manifesto-page">
+  <body class="index-page index-homepage-page">
     <div class="page-noise" aria-hidden="true"></div>
-    <header class="site-header index-manifesto-header">
+    <header class="site-header">
       <a class="brandmark" href="./index.html" aria-label="hier. home">
         <span class="brandmark-word">hier</span><span class="logo-dot-active" aria-hidden="true"></span>
       </a>
@@ -49,91 +53,89 @@
       </div>
     </header>
 
-    <main class="index-manifesto-main">
-      <section class="hero hero-index-manifesto">
+    <main>
+      <section class="hero hero-index-homepage">
         <div class="hero-copy reveal">
-          <p class="index-manifesto-lead" data-i18n="index.hero.lead">
-            Every city used to have a place where the best in a craft gathered.
+          <h1 data-i18n="index.hero.title">
+            The best professional connections happen when you're not trying to make them.
+          </h1>
+          <p class="hero-text" data-i18n="index.hero.text">
+            hier. is a presence coordination layer for independent professionals. We make who is working where visible — so people converge on the right room, at the right time, without planning it.
           </p>
-          <p class="hero-text index-manifesto-text" data-i18n="index.hero.text">
-            hier. brings that back. A presence layer for independents: see who's working where, choose your room, think better because of who's in it.
-          </p>
-          <div class="hero-actions index-manifesto-actions">
+          <div class="hero-actions index-homepage-actions">
             <a class="button button-ghost" href="./demand.html" data-i18n="index.hero.ctaDemand">For independents →</a>
             <a class="button button-ghost" href="./supply.html" data-i18n="index.hero.ctaSupply">For partners →</a>
-            <a class="button button-ghost" href="./enterprise.html" data-i18n="index.hero.ctaEnterprise">For companies →</a>
+            <a class="button button-ghost" href="#contact" data-i18n="index.hero.ctaEnterprise">For investors →</a>
           </div>
         </div>
       </section>
 
-      <section class="content-grid index-manifesto-section">
-        <div class="section-intro reveal index-manifesto-intro">
-          <p class="index-manifesto-quote" data-i18n="index.problem.quote">
-            Proximity was the oldest form of professional development. And it worked because it was honest. You didn't perform. You just showed up.
+      <section class="content-grid index-homepage-section">
+        <div class="section-intro reveal index-homepage-intro">
+          <h2 data-i18n="index.problem.title">
+            Independent work is the fastest growing segment of the workforce. And the most socially isolated.
+          </h2>
+          <p data-i18n="index.problem.textOne">
+            Offices, for all their flaws, provided one thing without trying: proximity to people doing similar work. That proximity is where ideas spread, reputations form, and careers accelerate — not in networking events, not on LinkedIn, but in the daily friction of working next to someone who gets what you do.
           </p>
-          <h2 data-i18n="index.problem.title">Then work became flexible. And something got lost.</h2>
-          <p data-i18n="index.problem.text">
-            Independents gained freedom. But they lost the thing offices provided without trying: a room full of people who get what you do. Not colleagues. Not clients. Just people working on similar things, close enough to make you better.
+          <p data-i18n="index.problem.textTwo">
+            Independent professionals lost that. hier. gives it back — as infrastructure, not as an event.
           </p>
         </div>
       </section>
 
-      <section class="content-grid index-manifesto-section">
-        <div class="section-intro reveal index-manifesto-intro">
-          <p class="index-manifesto-quote index-manifesto-break" data-i18n="index.solution.quote">
-            hier. is bringing that back. Not as an event. Not as a platform for connections. As a simple layer of information.
-          </p>
+      <section class="content-grid index-homepage-section">
+        <div class="section-intro reveal index-homepage-intro">
+          <h2 data-i18n="index.business.title">How hier. works as a business.</h2>
         </div>
-        <div class="feature-grid index-manifesto-columns">
+        <div class="feature-grid index-business-grid">
           <article class="feature-card reveal">
-            <h3 data-i18n="index.solution.one.title">Who is working where, today.</h3>
-            <p data-i18n="index.solution.one.text">
-              Real-time presence across partner spaces in your city.
+            <p class="index-business-label" data-i18n="index.business.one.label">Subscription — independents</p>
+            <h3 data-i18n="index.business.one.title">Subscription — independents</h3>
+            <p data-i18n="index.business.one.text">
+              Independents pay a monthly subscription to access the hier. network. They see real-time presence across partner spaces and choose where to work based on who's already there.
             </p>
+            <span class="index-business-detail" data-i18n="index.business.one.detail">Plans from €39–119/month · 4 to 12 visits included</span>
           </article>
           <article class="feature-card reveal">
-            <h3 data-i18n="index.solution.two.title">Choose your room.</h3>
-            <p data-i18n="index.solution.two.text">
-              Pick the space based on who's already there, not just where it is.
+            <p class="index-business-label" data-i18n="index.business.two.label">Take rate — partner spaces</p>
+            <h3 data-i18n="index.business.two.title">Take rate — partner spaces</h3>
+            <p data-i18n="index.business.two.text">
+              Partner spaces receive consistent, recurring visits from hier. independents. hier. takes a per-visit fee, aligned with actual usage — not a fixed monthly cost.
             </p>
-          </article>
-          <article class="feature-card reveal">
-            <h3 data-i18n="index.solution.three.title">Think better.</h3>
-            <p data-i18n="index.solution.three.text">
-              The connections, collaborations, and reputation come on their own.
-            </p>
+            <span class="index-business-detail" data-i18n="index.business.two.detail">€5–10 payout per visit · No fixed commitment</span>
           </article>
         </div>
       </section>
 
-      <section class="content-grid index-proof-section">
-        <div class="section-intro reveal">
-          <h2 data-i18n="index.proof.title">The moment is now.</h2>
+      <section class="content-grid index-homepage-section">
+        <div class="section-intro reveal index-homepage-intro">
+          <h2 data-i18n="index.market.title">The market is already there.</h2>
         </div>
         <div class="feature-grid index-proof-grid">
           <article class="feature-card reveal index-proof-card">
-            <strong data-i18n="index.proof.one.number">55%</strong>
-            <h3 data-i18n="index.proof.one.title">of professionals already use flex spaces</h3>
-            <p data-i18n="index.proof.one.text">The demand is there. Coordination is missing.</p>
+            <strong data-i18n="index.market.one.number">55%</strong>
+            <h3 data-i18n="index.market.one.title">of global occupiers already use flexible office solutions</h3>
+            <p data-i18n="index.market.one.text">Demand exists. Coordination is the missing layer.</p>
           </article>
           <article class="feature-card reveal index-proof-card">
-            <strong data-i18n="index.proof.two.number">12% → 21%</strong>
-            <h3 data-i18n="index.proof.two.title">flex allocation across Europe in one year</h3>
-            <p data-i18n="index.proof.two.text">Flexible work isn't a trend. It's the standard.</p>
+            <strong data-i18n="index.market.two.number">12% → 21%</strong>
+            <h3 data-i18n="index.market.two.title">flex space allocation in Europe — one year</h3>
+            <p data-i18n="index.market.two.text">The shift to flexible work is accelerating, not slowing.</p>
           </article>
           <article class="feature-card reveal index-proof-card">
-            <strong data-i18n="index.proof.three.number">€15–40</strong>
-            <h3 data-i18n="index.proof.three.title">day passes already exist in Madrid</h3>
-            <p data-i18n="index.proof.three.text">Access is solved. Knowing who's there isn't.</p>
+            <strong data-i18n="index.market.three.number">437k</strong>
+            <h3 data-i18n="index.market.three.title">self-employed knowledge workers in Madrid alone</h3>
+            <p data-i18n="index.market.three.text">One city. One concentrated starting point.</p>
           </article>
         </div>
       </section>
 
-      <section class="content-grid index-manifesto-section">
-        <div class="section-intro reveal index-manifesto-intro">
-          <p class="index-manifesto-paths-heading" data-i18n="index.paths.quote">Who is hier. for?</p>
+      <section class="content-grid index-homepage-section">
+        <div class="section-intro reveal index-homepage-intro">
+          <h2 data-i18n="index.paths.title">hier. for everyone in the room.</h2>
         </div>
-        <div class="selector-grid index-manifesto-paths">
+        <div class="selector-grid index-homepage-paths">
           <a class="selector-card reveal" href="./demand.html">
             <strong data-i18n="index.paths.one.title">I work independently</strong>
             <span data-i18n="index.paths.one.text">Find your room. Work near people like you.</span>
@@ -152,18 +154,32 @@
         </div>
       </section>
 
-      <section class="content-grid index-closing-section">
+      <section class="content-grid index-closing-section" id="contact">
         <div class="section-intro reveal index-closing-inner">
-          <p class="index-closing-quote" data-i18n="index.closing.quote">
-            You think better when you're around people who get what you do.
+          <h2 class="index-closing-quote" data-i18n="index.closing.title">
+            Every craft had its district. hier. is building the infrastructure for the next one.
+          </h2>
+          <p class="index-closing-subtitle" data-i18n="index.closing.text">
+            Launching in Madrid. Designed to scale city by city.
           </p>
-          <a class="button button-ghost index-closing-cta" href="./demand.html" data-i18n="index.closing.cta">Find your room →</a>
-          <p class="index-closing-note">
-            <span data-i18n="index.closing.notePrefix">Or join as a partner.</span>
-            <a href="./supply.html" data-i18n="index.closing.noteLink">Partners</a>
-          </p>
+          <form class="waitlist-form index-contact-form">
+            <label>
+              <input type="text" data-i18n-attr="placeholder:index.form.namePlaceholder" placeholder="Your name" />
+            </label>
+            <label>
+              <input type="email" data-i18n-attr="placeholder:index.form.emailPlaceholder" placeholder="Your email" />
+            </label>
+            <button class="button button-solid" type="submit" data-i18n="index.form.button">Get in touch</button>
+          </form>
+          <p class="index-closing-note" data-i18n="index.form.note">We respond within 48 hours.</p>
         </div>
       </section>
     </main>
+
+    <footer class="index-homepage-footer">
+      <span>hier.</span>
+      <span data-i18n="index.footer.city">Madrid, 2026</span>
+      <span data-i18n="index.footer.paths">Independents · Partners · Enterprise</span>
+    </footer>
   </body>
 </html>
