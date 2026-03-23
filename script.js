@@ -105,11 +105,11 @@ const translations = {
     "demand.hero.eyebrow": "Independents page",
     "demand.hero.title": "Work near people like you.",
     "demand.hero.text":
-      "See who's working where before you leave. Choose based on people, not just the space.",
+      "See who's working at coworkings near you before you leave. Choose where to go based on the people — not just the space.",
     "demand.hero.subOne": "Access coworkings across the city.",
     "demand.hero.subTwo": "See who's there in real time.",
     "demand.hero.subThree": "Make better decisions every day.",
-    "demand.hero.ctaPrimary": "Join waitlist",
+    "demand.hero.ctaPrimary": "Join the waitlist",
     "demand.card.title": "Spaces near you",
     "demand.card.today": "Today",
     "demand.card.placeOne": "The Workshop",
@@ -149,13 +149,13 @@ const translations = {
       "Today, many independents spend their days alone — at home, in cafés, or in coworkings where they know no one. Surrounded by people, but not by their people.",
     "demand.problem.eyebrow": "Choose better",
     "demand.problem.title": "Choose who, not just where.",
-    "demand.problem.oldLabel": "Without Hier",
+    "demand.problem.oldLabel": "Without hier.",
     "demand.problem.one.title": "You pick a coworking.",
     "demand.problem.two.title": "You hope it's good.",
     "demand.problem.three.title": "You know no one.",
     "demand.problem.four.title": "Another day alone.",
-    "demand.problem.newLabel": "With Hier",
-    "demand.problem.newOne": "You see where interesting people are.",
+    "demand.problem.newLabel": "With hier.",
+    "demand.problem.newOne": "You see where people like you are.",
     "demand.problem.newTwo": "You choose based on that.",
     "demand.problem.newThree": "You arrive with context.",
     "demand.problem.newFour": "A good day of work.",
@@ -166,9 +166,9 @@ const translations = {
     "demand.solution.one.title": "Who's in each space",
     "demand.solution.one.text":
       "Real-time visibility into who is checked in at coworkings near you.",
-    "demand.solution.two.title": "People like you",
+    "demand.solution.two.title": "People in your field",
     "demand.solution.two.text":
-      "Designers, developers, creators, and other independents — filter by what matters to you.",
+      "Designers, developers, creators, and consultants — filter by what matters to you.",
     "demand.solution.three.title": "The decision is yours",
     "demand.solution.three.text":
       "Go or don't go. But always with real information.",
@@ -179,7 +179,7 @@ const translations = {
       "Check real-time activity at spaces near you.",
     "demand.how.two.title": "Choose where to go",
     "demand.how.two.text":
-      "Pick the space with the people you care about today.",
+      "Pick the space with the people that make sense for your day.",
     "demand.how.three.title": "Show up",
     "demand.how.three.text":
       "Walk in and get to work. Connections happen naturally.",
@@ -200,15 +200,15 @@ const translations = {
     "demand.form.roleOne": "Designer",
     "demand.form.roleTwo": "Developer",
     "demand.form.roleThree": "Creator",
-    "demand.form.roleFour": "Independent",
-    "demand.form.roleFive": "Other independent",
+    "demand.form.roleFour": "Remote worker",
+    "demand.form.roleFive": "Freelancer",
     "demand.form.emailPlaceholder": "Your email",
     "demand.form.button": "Join the waitlist",
     "demand.form.note":
       "No spam. We'll let you know when hier. is available in your city.",
     "supply.hero.title": "Fill your space with people who click.",
     "supply.hero.text":
-      "hier. helps make your room click. Not random traffic — coordinated presence.",
+      "hier. coordinates groups of independents to converge at your space. Not random traffic — intentional presence.",
     "supply.hero.ctaPrimary": "Become a partner",
     "supply.hero.ctaSecondary": "Talk to us",
     "supply.problem.title": "Empty seats are not your biggest problem.",
@@ -221,28 +221,26 @@ const translations = {
     "supply.problem.three.title": "The wrong mix",
     "supply.problem.three.text":
       "You can fill seats. But you can't control who shows up — or whether they come back.",
-    "supply.problem.statementOne": "The value of your space is not the space.",
-    "supply.problem.statementTwo": "It's the people inside it.",
     "supply.solution.title": "We don't bring traffic. We bring density.",
-    "supply.solution.one.title": "People who fit",
+    "supply.solution.one.title": "Independents who choose with intention",
     "supply.solution.one.text":
-      "Designers, developers, creators, and independents who come to your space because they know who else will be there.",
+      "Designers, developers, creators, and consultants who come to your space because they know who else will be there.",
     "supply.solution.two.title": "Coordinated presence",
     "supply.solution.two.text":
       "Not discovery — coordination. We help groups converge at your space at the same time.",
-    "supply.solution.three.title": "When the room works",
+    "supply.solution.three.title": "Days that create habit",
     "supply.solution.three.text":
       "A good day at your space is the best reason for someone to come back. And come back again.",
     "supply.features.title": "What changes when you're on hier.",
     "supply.features.one.title": "More consistent occupancy",
     "supply.features.one.text":
       "Fewer dead days. More predictable flow across the week.",
-    "supply.features.two.title": "People who stay and return",
+    "supply.features.two.title": "Higher quality users",
     "supply.features.two.text":
       "People who respect the space and return, not just whoever wants the cheapest desk.",
     "supply.features.three.title": "Better room energy",
     "supply.features.three.text":
-      "The room feels different when people who click overlap.",
+      "The room feels different when the right people overlap.",
     "supply.features.four.title": "More repeat visits",
     "supply.features.four.text":
       "Good days create habit. People choose your space again.",
@@ -252,7 +250,7 @@ const translations = {
     "supply.diff.otherTwo": "Marketing creates one-time spikes.",
     "supply.diff.otherThree": "Events generate temporary activity.",
     "supply.diff.here": "hier.",
-    "supply.diff.hereOne": "hier. builds recurring, coordinated presence.",
+    "supply.diff.hereOne": "Builds recurring, coordinated presence.",
     "supply.diff.hereTwo":
       "Users choose your space because they know who'll be there.",
     "supply.diff.hereThree": "Good days generate repeat behavior.",
@@ -260,11 +258,11 @@ const translations = {
     "supply.mock.title": "How your space shows up on hier.",
     "supply.mock.text":
       "Users see who's at your space before deciding whether to go. That's what sets you apart from any other channel.",
-    "supply.how.title": "How it works",
+    "supply.how.title": "How it works for your space.",
     "supply.how.one.title": "Your space joins hier.",
     "supply.how.one.text":
-      "We add your coworking to the network and make it visible to people who fit.",
-    "supply.how.two.title": "Users see who's working there",
+      "We add your coworking to the network and make it visible to independents who choose with intention.",
+    "supply.how.two.title": "Independents see who's working there",
     "supply.how.two.text":
       "They understand the room before deciding where to go.",
     "supply.how.three.title": "They choose your space",
@@ -284,8 +282,8 @@ const translations = {
     "supply.waitlist.title": "Your space's best days are ahead.",
     "supply.waitlist.text":
       "Join hier. and become a space people genuinely choose.",
-    "supply.form.nameLabel": "Workspace name",
-    "supply.form.namePlaceholder": "Workspace name",
+    "supply.form.nameLabel": "Your space name",
+    "supply.form.namePlaceholder": "Your space name",
     "supply.form.emailLabel": "Your email",
     "supply.form.emailPlaceholder": "Your email",
     "supply.form.buttonPrimary": "Become a partner",
@@ -470,7 +468,7 @@ const translations = {
     "demand.hero.eyebrow": "Página Independientes",
     "demand.hero.title": "Trabaja cerca de gente como tú.",
     "demand.hero.text":
-      "Mira quién está en cada coworking antes de salir. Elige basándote en las personas, no solo en el espacio.",
+      "Mira quién está en los coworkings cerca de ti antes de salir. Elige dónde ir según las personas — no solo según el espacio.",
     "demand.hero.subOne": "Accede a coworkings en tu ciudad.",
     "demand.hero.subTwo": "Ve quién está en tiempo real.",
     "demand.hero.subThree": "Elige mejor cada día.",
@@ -514,13 +512,13 @@ const translations = {
       "Hoy muchos independientes pasan sus días solos — en casa, en cafeterías, o en coworkings donde no conocen a nadie. Están rodeados de gente, pero no de su gente.",
     "demand.problem.eyebrow": "Elegir mejor",
     "demand.problem.title": "Elige con quién, no solo dónde.",
-    "demand.problem.oldLabel": "Sin Hier",
+    "demand.problem.oldLabel": "Sin hier.",
     "demand.problem.one.title": "Eliges un coworking.",
     "demand.problem.two.title": "Esperas que esté bien.",
     "demand.problem.three.title": "No conoces a nadie.",
     "demand.problem.four.title": "Otro día solo.",
-    "demand.problem.newLabel": "Con Hier",
-    "demand.problem.newOne": "Ves dónde hay gente interesante.",
+    "demand.problem.newLabel": "Con hier.",
+    "demand.problem.newOne": "Ves dónde hay gente como tú.",
     "demand.problem.newTwo": "Eliges basándote en eso.",
     "demand.problem.newThree": "Llegas con contexto.",
     "demand.problem.newFour": "Un buen día de trabajo.",
@@ -531,9 +529,9 @@ const translations = {
     "demand.solution.one.title": "Quién está en cada espacio",
     "demand.solution.one.text":
       "Visibilidad en tiempo real de quién hay en los coworkings cerca de ti.",
-    "demand.solution.two.title": "Gente como tú",
+    "demand.solution.two.title": "Gente de tu campo",
     "demand.solution.two.text":
-      "Diseñadores, devs, creativos y otros independientes — filtra por lo que te importa.",
+      "Diseñadores, devs, creativos y consultores — filtra por lo que te importa.",
     "demand.solution.three.title": "La decisión es tuya",
     "demand.solution.three.text":
       "Ir o no ir. Pero siempre con información real.",
@@ -544,7 +542,7 @@ const translations = {
       "Consulta la actividad en tiempo real en espacios cerca de ti.",
     "demand.how.two.title": "Elige adónde ir",
     "demand.how.two.text":
-      "Escoge el espacio con las personas que te interesan hoy.",
+      "Escoge el espacio con las personas que tienen sentido para tu día.",
     "demand.how.three.title": "Aparece",
     "demand.how.three.text":
       "Entra y trabaja. Las conexiones ocurren solas.",
@@ -565,15 +563,15 @@ const translations = {
     "demand.form.roleOne": "Diseñador/a",
     "demand.form.roleTwo": "Developer",
     "demand.form.roleThree": "Creator",
-    "demand.form.roleFour": "Independiente",
-    "demand.form.roleFive": "Otro independiente",
+    "demand.form.roleFour": "Remote worker",
+    "demand.form.roleFive": "Freelancer",
     "demand.form.emailPlaceholder": "Tu email",
     "demand.form.button": "Únete a la lista",
     "demand.form.note":
       "Sin spam. Te avisamos cuando hier. esté disponible en tu ciudad.",
     "supply.hero.title": "Llena tu espacio con gente que encaja.",
     "supply.hero.text":
-      "hier. hace que tu sala funcione. No tráfico aleatorio: presencia coordinada.",
+      "hier. coordina grupos de independientes para que coincidan en tu espacio. No tráfico aleatorio — presencia con intención.",
     "supply.hero.ctaPrimary": "Conviértete en partner",
     "supply.hero.ctaSecondary": "Habla con nosotros",
     "supply.problem.title": "El problema no son las sillas vacías.",
@@ -586,28 +584,26 @@ const translations = {
     "supply.problem.three.title": "La mezcla equivocada",
     "supply.problem.three.text":
       "Puedes llenar sillas. Pero no puedes controlar quién aparece ni si la gente vuelve.",
-    "supply.problem.statementOne": "El valor de tu espacio no es el espacio.",
-    "supply.problem.statementTwo": "Son las personas dentro.",
     "supply.solution.title": "No traemos tráfico. Traemos densidad.",
-    "supply.solution.one.title": "Gente que encaja",
+    "supply.solution.one.title": "Independientes que eligen con intención",
     "supply.solution.one.text":
-      "Diseñadores, devs, creativos e independientes que deciden ir a tu espacio porque saben quién más va a estar.",
+      "Diseñadores, devs, creativos y consultores que vienen a tu espacio porque saben quién más va a estar.",
     "supply.solution.two.title": "Presencia coordinada",
     "supply.solution.two.text":
       "No es descubrimiento — es coordinación. Ayudamos a que grupos coincidan en tu espacio al mismo tiempo.",
-    "supply.solution.three.title": "Cuando la sala funciona",
+    "supply.solution.three.title": "Días que generan hábito",
     "supply.solution.three.text":
       "Un buen día en tu espacio es el mejor argumento para que alguien vuelva. Y vuelva a volver.",
     "supply.features.title": "Qué cambia cuando estás en hier.",
     "supply.features.one.title": "Ocupación más consistente",
     "supply.features.one.text":
       "Menos días muertos. Más flujo predecible a lo largo de la semana.",
-    "supply.features.two.title": "Gente que repite",
+    "supply.features.two.title": "Usuarios de mayor calidad",
     "supply.features.two.text":
       "Gente que cuida el espacio y repite — no solo quien busca el desk más barato.",
     "supply.features.three.title": "Mejor energía en la sala",
     "supply.features.three.text":
-      "La sala se siente diferente cuando coincide gente que encaja.",
+      "La sala se siente diferente cuando la gente correcta coincide.",
     "supply.features.four.title": "Más visitas recurrentes",
     "supply.features.four.text":
       "Los buenos días crean hábito. La gente elige tu espacio de nuevo.",
@@ -617,7 +613,7 @@ const translations = {
     "supply.diff.otherTwo": "El marketing genera picos puntuales.",
     "supply.diff.otherThree": "Los eventos crean actividad temporal.",
     "supply.diff.here": "hier.",
-    "supply.diff.hereOne": "hier. construye presencia recurrente y coordinada.",
+    "supply.diff.hereOne": "Construye presencia recurrente y coordinada.",
     "supply.diff.hereTwo":
       "Los usuarios eligen tu espacio porque saben quién estará.",
     "supply.diff.hereThree": "Los buenos días generan repetición.",
@@ -626,11 +622,11 @@ const translations = {
     "supply.mock.title": "Así aparece tu espacio en hier.",
     "supply.mock.text":
       "Los usuarios ven quién está en tu espacio antes de decidir si van. Eso es lo que te diferencia de cualquier otro canal.",
-    "supply.how.title": "Cómo funciona",
+    "supply.how.title": "Cómo funciona para tu espacio.",
     "supply.how.one.title": "Tu espacio entra en hier.",
     "supply.how.one.text":
-      "Añadimos tu coworking a la red y lo hacemos visible para gente que encaja.",
-    "supply.how.two.title": "Los usuarios ven quién está",
+      "Añadimos tu coworking a la red y lo hacemos visible para los independientes correctos.",
+    "supply.how.two.title": "Los independientes ven quién está",
     "supply.how.two.text":
       "Entienden cómo es la sala antes de decidir adónde van.",
     "supply.how.three.title": "Eligen tu espacio",
